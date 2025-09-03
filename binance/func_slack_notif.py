@@ -7,7 +7,7 @@ import json
 
 def arb_notif(exchange, result):
     # Defining the endpoint
-    url = "https://hooks.slack.com/services/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"
+    url = "URL"
     message = f"ARBITRAGE OPPORTUNITY FOUND for {exchange}!"
 
     if exchange == "Binance":
