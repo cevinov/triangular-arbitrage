@@ -109,6 +109,6 @@ def arb_notif(exchange, result):
     return response.text.encode("utf8")
 
 
-res = {"contract_1": ["ETH", "USDT"], "acquired_coin_t1": 2.995}
-test = arb_notif("Binance", res)
-print(test)
+#res = {"contract_1": ["ETH", "USDT"], "acquired_coin_t1": 2.995}
+#test = arb_notif("Binance", res)
+#print(test)
