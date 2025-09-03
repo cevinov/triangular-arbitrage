@@ -1,0 +1,4406 @@
+{
+    "data": {
+        "pairs": [
+            {
+                "id": "0xe6c78983b07a07e0523b57e18aa23d3ae2519e05",
+                "token0Price": "3.000000602598460910663681445296255",
+                "token1Price": "0.3333332663779622367718928917204297",
+                "reserve0": "3000000.303498494970661021",
+                "reserve1": "999999.900300031379681661",
+                "reserveETH": "3054879.156087123647945100225370331",
+                "token0": {
+                    "id": "0x395c8db957d743a62ac3aaaa4574553bcf2380b3",
+                    "name": "ulock.eth Wrapped Ether",
+                    "symbol": "UETH",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0x598a754c5d678119e67574ff811da61d83c0e629",
+                    "name": "uLock",
+                    "symbol": "ULCK",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x21b8065d10f73ee2e260e5b47d3344d3ced7596e",
+                "token0Price": "14960.5481113764147557718932660244",
+                "token1Price": "0.00006684247078083805827251892526068643",
+                "reserve0": "471450159.979523140314963532",
+                "reserve1": "31512.893543052703611488",
+                "reserveETH": "63025.787086105407222976",
+                "token0": {
+                    "id": "0x66a0f676479cee1d7373f3dc2e2952778bff5bd6",
+                    "name": "Wise Token",
+                    "symbol": "WISE",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xc86881ef494b049fe3e624ae6fdf542f58ab1931",
+                "token0Price": "0.007669613020693725917022643155593122",
+                "token1Price": "130.3846748593254020354100367624276",
+                "reserve0": "730029.41537889",
+                "reserve1": "95184647.96191998",
+                "reserveETH": "34310.25956705854213362556882609169",
+                "token0": {
+                    "id": "0x292e57d8c8a5744e5b013c0f327c162dd1c18d29",
+                    "name": "Diamond Blue",
+                    "symbol": "DBL",
+                    "decimals": "8",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xbd9d26e318d329962694b6e09de628f6104a0606",
+                    "name": "Blue Finance",
+                    "symbol": "BLUE",
+                    "decimals": "8",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852",
+                "token0Price": "0.0002477565669121133827662936832153338",
+                "token1Price": "4036.219957611576521746262978204202",
+                "reserve0": "16345.916995986009624411",
+                "reserve1": "65975716.404661",
+                "reserveETH": "32691.833991972019248822",
+                "token0": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                },
+                "token1": {
+                    "id": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                    "name": "Tether USD",
+                    "symbol": "USDT",
+                    "decimals": "6",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x517f9dd285e75b599234f7221227339478d0fcc8",
+                "token0Price": "2860.756283786002240664646201666186",
+                "token1Price": "0.0003495579143416484794225317200331971",
+                "reserve0": "58856031.41196465064102229",
+                "reserve1": "20573.591586792911556557",
+                "reserveETH": "29263.05439458337829026232804980756",
+                "token0": {
+                    "id": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                    "name": "Dai Stablecoin",
+                    "symbol": "DAI",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2",
+                    "name": "Maker",
+                    "symbol": "MKR",
+                    "decimals": "18",
+                    "totalSupply": "14512"
+                }
+            },
+            {
+                "id": "0x93512394a82d278b9961e3891a59c6dc1c2e4f98",
+                "token0Price": "1000012.419277605354143656413447229",
+                "token1Price": "0.0000009999875808766311865887782937214452",
+                "reserve0": "247505651547918.477043604416",
+                "reserve1": "247502577.7446974249",
+                "reserveETH": "25069.75430246090074524384668082423",
+                "token0": {
+                    "id": "0x72e5390edb7727e3d4e3436451dadaff675dbcc0",
+                    "name": "Hanu Yokia",
+                    "symbol": "HANU",
+                    "decimals": "12",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xec4a1c7a4e9fdc7cc621b548a931c92bc08a679a",
+                    "name": "Goji",
+                    "symbol": "GOJ",
+                    "decimals": "10",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x48918f57fa7210ea7b20f23da8420e68df3578fe",
+                "token0Price": "960.1059782346078732879139525077531",
+                "token1Price": "0.001041551685615734989328699353515719",
+                "reserve0": "242532543952346.921560920293",
+                "reserve1": "252610179970.2392692187",
+                "reserveETH": "24441.33883281308874687177343555865",
+                "token0": {
+                    "id": "0x72e5390edb7727e3d4e3436451dadaff675dbcc0",
+                    "name": "Hanu Yokia",
+                    "symbol": "HANU",
+                    "decimals": "12",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0x8d52061af43c52204c717d0610ea8f52f955ce0b",
+                    "name": "Mia Neko",
+                    "symbol": "MIA",
+                    "decimals": "10",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc",
+                "token0Price": "4044.560290423911249623593724600759",
+                "token1Price": "0.0002472456653366365768880971577490359",
+                "reserve0": "49251761.848958",
+                "reserve1": "12177.284627347194781611",
+                "reserveETH": "24354.569254694389563222",
+                "token0": {
+                    "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                    "name": "USD//C",
+                    "symbol": "USDC",
+                    "decimals": "6",
+                    "totalSupply": "14864"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xa43fe16908251ee70ef74718545e4fe6c5ccec9f",
+                "token0Price": "465309817.2611292430192207255713776",
+                "token1Price": "0.000000002149105741817619215351530566451927",
+                "reserve0": "2486505469431.075250119335603802",
+                "reserve1": "5343.763181415238474718",
+                "reserveETH": "10687.526362830476949436",
+                "token0": {
+                    "id": "0x6982508145454ce325ddbe47a25d4ec3d2311933",
+                    "name": "Pepe",
+                    "symbol": "PEPE",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xf778c77ec3696879cb5ac814984655aefe66d716",
+                "token0Price": "0.01",
+                "token1Price": "100",
+                "reserve0": "10000",
+                "reserve1": "1000000",
+                "reserveETH": "10000.33284170733316530134475894066",
+                "token0": {
+                    "id": "0x395c8db957d743a62ac3aaaa4574553bcf2380b3",
+                    "name": "ulock.eth Wrapped Ether",
+                    "symbol": "UETH",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xb638ab512dd766ca5e9eb9690fc4d66b663f7a06",
+                    "name": "Degen Ape",
+                    "symbol": "DAPE",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x0179d00549b44d3161b9c260815f8a5947a541b3",
+                "token0Price": "100",
+                "token1Price": "0.01",
+                "reserve0": "1000000",
+                "reserve1": "10000",
+                "reserveETH": "10000.33284170733316530134475894066",
+                "token0": {
+                    "id": "0x1cd7605aa2caac4403ff421411c097798ddb03ae",
+                    "name": "uLockS",
+                    "symbol": "ULS",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0x395c8db957d743a62ac3aaaa4574553bcf2380b3",
+                    "name": "ulock.eth Wrapped Ether",
+                    "symbol": "UETH",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x97be09f2523b39b835da9ea3857cfa1d3c660cbb",
+                "token0Price": "0.8692191332606101662502499148049295",
+                "token1Price": "1.150457878496996891370760730318449",
+                "reserve0": "77092896.562967555910589822",
+                "reserve1": "88692130.227020077694306004",
+                "reserveETH": "8933.598977914788476431375178929523",
+                "token0": {
+                    "id": "0x0fc6c0465c9739d4a42daca22eb3b2cb0eb9937a",
+                    "name": "vUSD",
+                    "symbol": "vUSD",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0x1bbf25e71ec48b84d773809b4ba55b6f4be946fb",
+                    "name": "Vow",
+                    "symbol": "VOW",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0xe2f95dae6c5763c357447fe1ffb3f2a884bdc0b5",
+                "token0Price": "0.0001155539825211482278171909762642766",
+                "token1Price": "8653.963958507306303213977496038711",
+                "reserve0": "999.852073741762253444",
+                "reserve1": "8652683.81",
+                "reserveETH": "8331.832689137600871143077762928657",
+                "token0": {
+                    "id": "0x0698dda3c390ff92722f9eed766d8b1727621df9",
+                    "name": "Ethereum2Proof-of-stake",
+                    "symbol": "ETH2POS",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xb4056171aa3ba32da1f527431383619b3802802c",
+                    "name": "Dcoin",
+                    "symbol": "DC",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x0617d5ffb29c03ac35f1863b8a50ce1b52d446f6",
+                "token0Price": "5.412612979776515425084082563607075",
+                "token1Price": "0.1847536492515468177381391950528815",
+                "reserve0": "34265.784528082570480316",
+                "reserve1": "6330.728736030446924878",
+                "reserveETH": "7982.478078272043478204186572706443",
+                "token0": {
+                    "id": "0x1df2099f6abbf0b05c12a61835137d84f10daa96",
+                    "name": "RootKit [Wrapped ETH]",
+                    "symbol": "RK:ETH",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xcb5f72d37685c3d5ad0bb5f982443bc8fcdf570e",
+                    "name": "RootKit",
+                    "symbol": "ROOT",
+                    "decimals": "18",
+                    "totalSupply": "15224"
+                }
+            },
+            {
+                "id": "0x0af81cd5d9c124b4859d65697a4cd10ee223746a",
+                "token0Price": "582.9653475658409746835581314045454",
+                "token1Price": "0.001715367824477866603375705099898929",
+                "reserve0": "2177719.026351",
+                "reserve1": "3735.589148555772724453",
+                "reserveETH": "7471.178297111545448906000000000001",
+                "token0": {
+                    "id": "0x11e003e9ecc5a2320e8b11098acd550b928b6df2",
+                    "name": "Xi Transfer Coin",
+                    "symbol": "XXi",
+                    "decimals": "7",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xca7c2771d248dcbe09eabe0ce57a62e18da178c0",
+                "token0Price": "0.00000006899498183594445614488404197817044",
+                "token1Price": "14493807.71456378533650805330653846",
+                "reserve0": "3417.999021441561869579",
+                "reserve1": "49539820585.341178554",
+                "reserveETH": "6835.998042883123739158",
+                "token0": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                },
+                "token1": {
+                    "id": "0xcf0c122c6b73ff809c693db761e7baebe62b6a2e",
+                    "name": "FLOKI",
+                    "symbol": "FLOKI",
+                    "decimals": "9",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x09d1d767edf8fa23a64c51fa559e0688e526812f",
+                "token0Price": "647.1923230225836493942954191885782",
+                "token1Price": "0.00154513575706475924281917085712334",
+                "reserve0": "1984905.840381123839849477",
+                "reserve1": "3066.948988379549952087",
+                "reserveETH": "6133.897976759099904173999999999999",
+                "token0": {
+                    "id": "0x0001a500a6b18995b03f44bb040a5ffc28e45cb0",
+                    "name": "Autonolas",
+                    "symbol": "OLAS",
+                    "decimals": "18",
+                    "totalSupply": "16240"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x7b73644935b8e68019ac6356c40661e1bc315860",
+                "token0Price": "10941624467.38404435130069577904803",
+                "token1Price": "0.00000000009139410724439557841120155119499846",
+                "reserve0": "29506385679401.697135217131372921",
+                "reserve1": "2696.709777177736598899",
+                "reserveETH": "5393.419554355473197798",
+                "token0": {
+                    "id": "0x761d38e5ddf6ccf6cf7c55759d5210750b5d60f3",
+                    "name": "Dogelon",
+                    "symbol": "ELON",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x603fb61742baed14c6b5922cef1ac0a2320c4cb6",
+                "token0Price": "0.005107",
+                "token1Price": "195.8096729978460935970236929704327",
+                "reserve0": "5107",
+                "reserve1": "1000000",
+                "reserveETH": "4579.663286336729825392808141232164",
+                "token0": {
+                    "id": "0x395c8db957d743a62ac3aaaa4574553bcf2380b3",
+                    "name": "ulock.eth Wrapped Ether",
+                    "symbol": "UETH",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc5cff6f7697ed4921b5415edc2d4174f44afc4db",
+                    "name": "Rootkit",
+                    "symbol": "ROOT",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x180efc1349a69390ade25667487a826164c9c6e4",
+                "token0Price": "100443.3204769044576154474975915501",
+                "token1Price": "0.000009955863617929039593655253112294144",
+                "reserve0": "222662482.804716810851913472",
+                "reserve1": "2216.797311633230475696",
+                "reserveETH": "4433.594623266460951392",
+                "token0": {
+                    "id": "0x62d0a8458ed7719fdaf978fe5929c6d342b0bfce",
+                    "name": "Beam",
+                    "symbol": "BEAM",
+                    "decimals": "18",
+                    "totalSupply": "16240"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x9ec9367b8c4dd45ec8e7b800b1f719251053ad60",
+                "token0Price": "8550.091358375421188057341970427926",
+                "token1Price": "0.0001169578146110016756017623129505813",
+                "reserve0": "18039378.557897796",
+                "reserve1": "2109.846293072289181268",
+                "reserveETH": "4219.692586144578362536",
+                "token0": {
+                    "id": "0x5a3e6a77ba2f983ec0d371ea3b475f8bc0811ad5",
+                    "name": "0x0.ai: AI Smart Contract Auditor",
+                    "symbol": "0x0",
+                    "decimals": "9",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x9c4fe5ffd9a9fc5678cfbd93aa2d4fd684b67c4c",
+                "token0Price": "1.879160079790686106626403765157171",
+                "token1Price": "0.5321526413605949639118712929803046",
+                "reserve0": "3922.583511051820973259",
+                "reserve1": "2087.413176363743078388",
+                "reserveETH": "4174.826352727486156776",
+                "token0": {
+                    "id": "0x45804880de22913dafe09f4980848ece6ecbaf78",
+                    "name": "Paxos Gold",
+                    "symbol": "PAXG",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xa478c2975ab1ea89e8196811f51a7b7ade33eb11",
+                "token0Price": "4023.602189679169109345114393734972",
+                "token1Price": "0.0002485335162022409649202311949246405",
+                "reserve0": "8196108.039320307122204785",
+                "reserve1": "2037.007550185730977744",
+                "reserveETH": "4074.015100371461955488",
+                "token0": {
+                    "id": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                    "name": "Dai Stablecoin",
+                    "symbol": "DAI",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x582e3da39948c6339433008703211ad2c13eb2ac",
+                "token0Price": "0.002854039910663033363561726861932482",
+                "token1Price": "350.3805242049632103812669490615918",
+                "reserve0": "1938.71572355778713683",
+                "reserve1": "679288.231504582",
+                "reserveETH": "3877.43144711557427366",
+                "token0": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                },
+                "token1": {
+                    "id": "0xd233d1f6fd11640081abb8db125f722b5dc729dc",
+                    "name": "Dollars",
+                    "symbol": "USD",
+                    "decimals": "9",
+                    "totalSupply": "15224"
+                }
+            },
+            {
+                "id": "0xbb2b8038a1640196fbe3e38816f3e67cba72d940",
+                "token0Price": "0.05586121432546397020636763920746541",
+                "token1Price": "17.90150844508506365042113407285663",
+                "reserve0": "107.23642638",
+                "reserve1": "1919.693792462312700986",
+                "reserveETH": "3839.387584924625401972",
+                "token0": {
+                    "id": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                    "name": "Wrapped BTC",
+                    "symbol": "WBTC",
+                    "decimals": "8",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xc91ef786fbf6d62858262c82c63de45085dea659",
+                "token0Price": "0.00002228790323450135411535621542082612",
+                "token1Price": "44867.38790448508236864156521465822",
+                "reserve0": "1754.386888430787003337",
+                "reserve1": "78714757.057766712482076633",
+                "reserveETH": "3508.773776861574006674",
+                "token0": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                },
+                "token1": {
+                    "id": "0xccccb68e1a848cbdb5b60a974e07aae143ed40c3",
+                    "name": "TOPIA",
+                    "symbol": "TOPIA",
+                    "decimals": "18",
+                    "totalSupply": "16240"
+                }
+            },
+            {
+                "id": "0x197d7010147df7b99e9025c724f13723b29313f8",
+                "token0Price": "87849.48096953160025156328432294376",
+                "token1Price": "0.00001138310652452033313626660645863987",
+                "reserve0": "139895570.454481118",
+                "reserve1": "1592.446180791897960265",
+                "reserveETH": "3184.89236158379592053",
+                "token0": {
+                    "id": "0xa41d2f8ee4f47d3b860a149765a7df8c3287b7f0",
+                    "name": "Syncus",
+                    "symbol": "SYNC",
+                    "decimals": "9",
+                    "totalSupply": "42624"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x2a6c340bcbb0a79d3deecd3bc5cbc2605ea9259f",
+                "token0Price": "5305.176993513142120853788539105625",
+                "token1Price": "0.0001884951248983287619107473983838615",
+                "reserve0": "8324017.843167551",
+                "reserve1": "1569.036783003784721697",
+                "reserveETH": "3138.073566007569443394",
+                "token0": {
+                    "id": "0x14fee680690900ba0cccfc76ad70fd1b95d10e16",
+                    "name": "PAAL AI",
+                    "symbol": "$PAAL",
+                    "decimals": "9",
+                    "totalSupply": "16240"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x2f0b1417aa42ebf0b4ca1154212847f6094d708d",
+                "token0Price": "6330.036589208200849598517779568363",
+                "token1Price": "0.0001579769699443532016905670614881375",
+                "reserve0": "9714160.957600226562706879",
+                "reserve1": "1534.613713633420308137",
+                "reserveETH": "3069.227427266840616274",
+                "token0": {
+                    "id": "0xaaef88cea01475125522e117bfe45cf32044e238",
+                    "name": "GuildFi Token",
+                    "symbol": "GF",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x25647e01bd0967c1b9599fa3521939871d1d0888",
+                "token0Price": "0.0003510702607117683124131537014239231",
+                "token1Price": "2848.432669781188203202828295609787",
+                "reserve0": "1481.423179308869902458",
+                "reserve1": "4219734.181714500183259528",
+                "reserveETH": "2962.846358617739804916",
+                "token0": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                },
+                "token1": {
+                    "id": "0xe53ec727dbdeb9e2d5456c3be40cff031ab40a55",
+                    "name": "SuperFarm",
+                    "symbol": "SUPER",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x6ada49aeccf6e556bb7a35ef0119cc8ca795294a",
+                "token0Price": "6819.693579517947900639328720866698",
+                "token1Price": "0.0001466341542094161511981929060825824",
+                "reserve0": "9933972.196246938241223847",
+                "reserve1": "1456.65961093652598754",
+                "reserveETH": "2913.31922187305197508",
+                "token0": {
+                    "id": "0x4691937a7508860f876c9c0a2a617e7d9e945d4b",
+                    "name": "Wootrade Network",
+                    "symbol": "WOO",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xda2d09fbbf8ee4b5051a0e9b562c5fcb4b393b18",
+                "token0Price": "0.000000001764749668858702594160558046868787",
+                "token1Price": "566652606.6820112509318883010582505",
+                "reserve0": "1399.136503238381145916",
+                "reserve1": "792824346663.98295235264396935",
+                "reserveETH": "2798.273006476762291832",
+                "token0": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                },
+                "token1": {
+                    "id": "0xf017d3690346eb8234b85f74cee5e15821fee1f4",
+                    "name": "Gekko",
+                    "symbol": "GEKKO",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x9816f26f43c4c02df0daae1a0ba6a4dcd30b8ab7",
+                "token0Price": "1224617.432735595814048340511331065",
+                "token1Price": "0.0000008165815488729104019646004195551523",
+                "reserve0": "13166072078.556523198063156802",
+                "reserve1": "10751.17153048006458896",
+                "reserveETH": "2610.513778335864514509991211014316",
+                "token0": {
+                    "id": "0x965d79f1a1016b574a62986e13ca8ab04dfdd15c",
+                    "name": "M2",
+                    "symbol": "M2",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xd075e95423c5c4ba1e122cae0f4cdfa19b82881b",
+                    "name": "OPES Finance",
+                    "symbol": "wPE",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0xc5be99a02c6857f9eac67bbce58df5572498f40c",
+                "token0Price": "0.0004212445005621275837527221805868321",
+                "token1Price": "2373.918231966364143005341265925092",
+                "reserve0": "1264.370709674319225827",
+                "reserve1": "3001512.679660117",
+                "reserveETH": "2528.741419348638451654",
+                "token0": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                },
+                "token1": {
+                    "id": "0xd46ba6d942050d489dbd938a2c909a5d5039a161",
+                    "name": "Ampleforth",
+                    "symbol": "AMPL",
+                    "decimals": "9",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0xf1603432a96cb371f03d77501d1d7f55070cf8cc",
+                "token0Price": "1.569771753502075993837932862524146",
+                "token1Price": "0.6370352873078866485470895795743681",
+                "reserve0": "691138.620349718",
+                "reserve1": "440279.689584059",
+                "reserveETH": "2521.208661446393133161566935251987",
+                "token0": {
+                    "id": "0x6b583cf4aba7bf9d6f8a51b3f1f7c7b2ce59bf15",
+                    "name": "Seigniorage Shares",
+                    "symbol": "SHARE",
+                    "decimals": "9",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xd233d1f6fd11640081abb8db125f722b5dc729dc",
+                    "name": "Dollars",
+                    "symbol": "USD",
+                    "decimals": "9",
+                    "totalSupply": "15224"
+                }
+            },
+            {
+                "id": "0x4028daac072e492d34a3afdbef0ba7e35d8b55c4",
+                "token0Price": "1.002589267000798313679449392045733",
+                "token1Price": "0.9974174199884026366995829197311214",
+                "reserve0": "1254.190310681334274317",
+                "reserve1": "1250.951263854229573366",
+                "reserveETH": "2501.902527708459146732",
+                "token0": {
+                    "id": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+                    "name": "Liquid staked Ether 2.0",
+                    "symbol": "stETH",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x470e8de2ebaef52014a47cb5e6af86884947f08c",
+                "token0Price": "0.00003025058749549952186323777261085423",
+                "token1Price": "33057.20922440839363456410899017428",
+                "reserve0": "1213.976648445713344724",
+                "reserve1": "40130680.061216020778204805",
+                "reserveETH": "2427.953296891426689448",
+                "token0": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                },
+                "token1": {
+                    "id": "0xc770eefad204b5180df6a14ee197d99d808ee52d",
+                    "name": "FOX",
+                    "symbol": "FOX",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x48d20b3e529fb3dd7d91293f80638df582ab2daa",
+                "token0Price": "0.00000000002908579025226332302168799590665406",
+                "token1Price": "34381049692.20097359128286194175289",
+                "reserve0": "1200.04534375535004211",
+                "reserve1": "41258818596547.089111074991809671",
+                "reserveETH": "2400.09068751070008422",
+                "token0": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                },
+                "token1": {
+                    "id": "0xf3b9569f82b18aef890de263b84189bd33ebe452",
+                    "name": "A Hunters Dream",
+                    "symbol": "CAW",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x43de4318b6eb91a7cf37975dbb574396a7b5b5c6",
+                "token0Price": "117.545361818758702695181649009986",
+                "token1Price": "0.008507353965542969439715526143435326",
+                "reserve0": "134814.753903804128294251",
+                "reserve1": "1146.91683123722757082",
+                "reserveETH": "2293.83366247445514164",
+                "token0": {
+                    "id": "0x38e68a37e401f7271568cecaac63c6b1e19130b4",
+                    "name": "Banana",
+                    "symbol": "BANANA",
+                    "decimals": "18",
+                    "totalSupply": "42624"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x2cc846fff0b08fb3bffad71f53a60b4b6e6d6482",
+                "token0Price": "21991.0649477156553441660577419999",
+                "token1Price": "0.00004547301380708604728462138806297569",
+                "reserve0": "24335989.80503076",
+                "reserve1": "1106.630800413269033381",
+                "reserveETH": "2213.261600826538066762",
+                "token0": {
+                    "id": "0x72e4f9f808c49a2a61de9c5896298920dc4eeea9",
+                    "name": "HarryPotterObamaSonic10Inu",
+                    "symbol": "BITCOIN",
+                    "decimals": "8",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xe4b8583ccb95b25737c016ac88e539d0605949e8",
+                "token0Price": "547.9489692738536827110350655628799",
+                "token1Price": "0.001824987464298377869564739691048765",
+                "reserve0": "597375.46744661",
+                "reserve1": "1090.202739569446958604",
+                "reserveETH": "2180.405479138893917208",
+                "token0": {
+                    "id": "0x576e2bed8f7b46d34016198911cdf9886f78bea7",
+                    "name": "MAGA",
+                    "symbol": "TRUMP",
+                    "decimals": "9",
+                    "totalSupply": "16240"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xa7480aafa8ad2af3ce24ac6853f960ae6ac7f0c4",
+                "token0Price": "1538.168024697078098582503193406028",
+                "token1Price": "0.0006501240332290334850140645066628726",
+                "reserve0": "1676797.659431033092794593",
+                "reserve1": "1090.126457258306531247",
+                "reserveETH": "2180.252914516613062494",
+                "token0": {
+                    "id": "0x0f7b3f5a8fed821c5eb60049538a548db2d479ce",
+                    "name": "AirTor Protocol",
+                    "symbol": "ATOR",
+                    "decimals": "18",
+                    "totalSupply": "57216"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xa5e9c917b4b821e4e0a5bbefce078ab6540d6b5e",
+                "token0Price": "770677242.8703434649649034352314664",
+                "token1Price": "0.000000001297560047673857601866890841871813",
+                "reserve0": "838418913162.959341734543417585",
+                "reserve1": "1087.898884934393400304",
+                "reserveETH": "2175.797769868786800608",
+                "token0": {
+                    "id": "0x8e6cd950ad6ba651f6dd608dc70e5886b1aa6b24",
+                    "name": "StarLink",
+                    "symbol": "STARL",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xc2eab7d33d3cb97692ecb231a5d0e4a649cb539d",
+                "token0Price": "5573736610.507300176786293665030905",
+                "token1Price": "0.0000000001794128553033624290306876404069629",
+                "reserve0": "5970931927534.025707089897039218",
+                "reserve1": "1071.261945940889074866",
+                "reserveETH": "2142.523891881778149732",
+                "token0": {
+                    "id": "0xaaee1a9723aadb7afa2810263653a34ba2c21c7a",
+                    "name": "Mog Coin",
+                    "symbol": "Mog",
+                    "decimals": "18",
+                    "totalSupply": "42624"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x97e1fcb93ae7267dbafad23f7b9afaa08264cfd8",
+                "token0Price": "1934601593.335980675122404170238244",
+                "token1Price": "0.0000000005169022931877275770249344515365333",
+                "reserve0": "2064324708855.891345629570018373",
+                "reserve1": "1067.054175891698318901",
+                "reserveETH": "2134.108351783396637802",
+                "token0": {
+                    "id": "0x249e38ea4102d0cf8264d3701f1a0e39c4f2dc3b",
+                    "name": "THE TRUTH",
+                    "symbol": "UFO",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x8fb8e9921922d2ffb529a95d28a0d06d275d7a59",
+                "token0Price": "833.6046598012671175476429033005019",
+                "token1Price": "0.001199609417056763858864083692068943",
+                "reserve0": "882904.979911044062875119",
+                "reserve1": "1059.141128267601373797",
+                "reserveETH": "2118.282256535202747594",
+                "token0": {
+                    "id": "0x560363bda52bc6a44ca6c8c9b4a5fadbda32fa60",
+                    "name": "SeedifyFund",
+                    "symbol": "SFUND",
+                    "decimals": "18",
+                    "totalSupply": "16240"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x44a7b882b550f3af2e1fbe644316cbd07e90a145",
+                "token0Price": "110129901.2061089765979741529863779",
+                "token1Price": "0.000000009080186117015506370997293491358504",
+                "reserve0": "945905.72145927",
+                "reserve1": "0.008589",
+                "reserveETH": "2118.121664433585323812155611615168",
+                "token0": {
+                    "id": "0x20d5bfba0f5c726aad09956fd7398acdac048858",
+                    "name": "StableCredit",
+                    "symbol": "scUSD",
+                    "decimals": "8",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                    "name": "USD//C",
+                    "symbol": "USDC",
+                    "decimals": "6",
+                    "totalSupply": "14864"
+                }
+            },
+            {
+                "id": "0xa29fe6ef9592b5d408cca961d0fb9b1faf497d6d",
+                "token0Price": "0.0002493268582875531824562412160170916",
+                "token1Price": "4010.799345358460675940358304617869",
+                "reserve0": "1032.671014518938256446",
+                "reserve1": "4141836.229003214998937533",
+                "reserveETH": "2065.342029037876512892",
+                "token0": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                },
+                "token1": {
+                    "id": "0xfb7b4564402e5500db5bb6d63ae671302777c75a",
+                    "name": "DEXTools",
+                    "symbol": "DEXT",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x2af039cccff4e491237a99ed51a009138c8aba9f",
+                "token0Price": "0.000003398673549057857119868589755640348",
+                "token1Price": "294232.4367332099299068924555630607",
+                "reserve0": "2258.265884269",
+                "reserve1": "664455073.91994492",
+                "reserveETH": "2049.2905438051696790717065457781",
+                "token0": {
+                    "id": "0xd431b88e19c5dc3568b5e644b059f456e0866a6a",
+                    "name": "WETH",
+                    "symbol": "WETH",
+                    "decimals": "9",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xdb262f7f15a567483a01538dac10bea5d0005f3e",
+                    "name": "SFTX",
+                    "symbol": "SFTX",
+                    "decimals": "9",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x1b1137dd16faa651e38a9dfb5d9ffff7767fdf62",
+                "token0Price": "2739977.127734338448380395133709352",
+                "token1Price": "0.0000003649665502233190831297995398974145",
+                "reserve0": "2744915696.86994906997753139",
+                "reserve1": "1001.802412540463167439",
+                "reserveETH": "2003.604825080926334878",
+                "token0": {
+                    "id": "0x9b73ff728d7d4a423e2166a8dfaa1e79d30cdde9",
+                    "name": "Wooooo! Coin",
+                    "symbol": "WOOOOO!",
+                    "decimals": "18",
+                    "totalSupply": "59304"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x9ff68f61ca5eb0c6606dc517a9d44001e564bb66",
+                "token0Price": "5707.151892247501182429150130925579",
+                "token1Price": "0.0001752187463870346826026713954204729",
+                "reserve0": "5687235.195777089479356692",
+                "reserve1": "996.510221412283382987",
+                "reserveETH": "1993.020442824566765974",
+                "token0": {
+                    "id": "0x9dfad1b7102d46b1b197b90095b5c4e9f5845bba",
+                    "name": "Botto",
+                    "symbol": "BOTTO",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xd3d2e2692501a5c9ca623199d38826e513033a17",
+                "token0Price": "283.8593183704971430802580574209942",
+                "token1Price": "0.003522871842786524438876122029756846",
+                "reserve0": "280269.948837404604337242",
+                "reserve1": "987.355111138512481224",
+                "reserveETH": "1974.710222277024962448",
+                "token0": {
+                    "id": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+                    "name": "Uniswap",
+                    "symbol": "UNI",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x959873fb4fc11825fba83c80c4c632db1e936e15",
+                "token0Price": "69645998804.34887733879578503356815",
+                "token1Price": "0.00000000001435832663997285366883695593288313",
+                "reserve0": "68200619393540.249880092",
+                "reserve1": "979.246770300918217166",
+                "reserveETH": "1958.493540601836434332",
+                "token0": {
+                    "id": "0x69b14e8d3cebfdd8196bfe530954a0c226e5008e",
+                    "name": "SpacePi Token",
+                    "symbol": "SpacePi",
+                    "decimals": "9",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x23707ccaa36590803397578b4c44d6d0ae16c5b6",
+                "token0Price": "0.000000001558780511877030683724265498869258",
+                "token1Price": "641527137.6441792168674698795180723",
+                "reserve0": "0.001328",
+                "reserve1": "851948.03879147",
+                "reserveETH": "1953.685879882821426380059972701744",
+                "token0": {
+                    "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                    "name": "USD//C",
+                    "symbol": "USDC",
+                    "decimals": "6",
+                    "totalSupply": "14864"
+                },
+                "token1": {
+                    "id": "0xb5a137bb2ab7e317756c399fd94ca215cece81d6",
+                    "name": "StableCredit",
+                    "symbol": "scUSD",
+                    "decimals": "8",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x570febdf89c07f256c75686caca215289bb11cfc",
+                "token0Price": "744.7398370721619766022693170032794",
+                "token1Price": "0.001342750783859443857509741388361355",
+                "reserve0": "705268.210034055620425835",
+                "reserve1": "946.999441854375072003",
+                "reserveETH": "1893.998883708750144006",
+                "token0": {
+                    "id": "0xbbc2ae13b23d715c30720f079fcd9b4a74093505",
+                    "name": "@EthernityChain $ERN Token",
+                    "symbol": "ERN",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xea3643debebe3a635a5e16a9779eb07b3e0d615e",
+                "token0Price": "49.27726109142540356658232903956671",
+                "token1Price": "0.02029333566540302629804058667133081",
+                "reserve0": "999999999999.999999998",
+                "reserve1": "20293335665.403026298",
+                "reserveETH": "1798.819075949963419335847263912695",
+                "token0": {
+                    "id": "0x9358e3a79d428c7708da22a5bd085159f6818d12",
+                    "name": "Tenshi",
+                    "symbol": "TENSHI",
+                    "decimals": "9",
+                    "totalSupply": "57216"
+                },
+                "token1": {
+                    "id": "0xa2b4c0af19cc16a6cfacce81f192b024d625817d",
+                    "name": "Kishu Inu",
+                    "symbol": "KISHU",
+                    "decimals": "9",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x8dbee21e8586ee356130074aaa789c33159921ca",
+                "token0Price": "0.009928021997175356461475970669280235",
+                "token1Price": "100.7249984220937681202570070917282",
+                "reserve0": "870.617962068760344714",
+                "reserve1": "87692.992855622377786579",
+                "reserveETH": "1741.235924137520689428",
+                "token0": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                },
+                "token1": {
+                    "id": "0xf819d9cb1c2a819fd991781a822de3ca8607c3c9",
+                    "name": "Unibot",
+                    "symbol": "UNIBOT",
+                    "decimals": "18",
+                    "totalSupply": "42624"
+                }
+            },
+            {
+                "id": "0xc7e6b676bfc73ae40bcc4577f22aab1682c691c6",
+                "token0Price": "50636.89670655187703577874528147536",
+                "token1Price": "0.00001974844560074730276225908526826661",
+                "reserve0": "41882791.900496128",
+                "reserve1": "827.120037454367522897",
+                "reserveETH": "1654.240074908735045794",
+                "token0": {
+                    "id": "0x4507cef57c46789ef8d1a19ea45f4216bae2b528",
+                    "name": "TokenFi",
+                    "symbol": "TOKEN",
+                    "decimals": "9",
+                    "totalSupply": "16240"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x343fd171caf4f0287ae6b87d75a8964dc44516ab",
+                "token0Price": "90761.54761185638393518724827825677",
+                "token1Price": "0.00001101788176063855221981001649127532",
+                "reserve0": "72531844.561235409257605616",
+                "reserve1": "799.147287256706189077",
+                "reserveETH": "1598.294574513412378154",
+                "token0": {
+                    "id": "0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d",
+                    "name": "Pinakion",
+                    "symbol": "PNK",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xe3d3551bb608e7665472180a20280630d9e938aa",
+                "token0Price": "0.0000006230028465813039290212482781795159",
+                "token1Price": "1605129.102519271872024798475621142",
+                "reserve0": "786.952799665688399264",
+                "reserve1": "1263160841.052414774",
+                "reserveETH": "1573.905599331376798528",
+                "token0": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                },
+                "token1": {
+                    "id": "0xce3f08e664693ca792cace4af1364d5e220827b2",
+                    "name": "SAITAMA",
+                    "symbol": "SAITAMA",
+                    "decimals": "9",
+                    "totalSupply": "57216"
+                }
+            },
+            {
+                "id": "0x5281e311734869c64ca60ef047fd87759397efe6",
+                "token0Price": "0.000000001600823702847470454931174856956806",
+                "token1Price": "624678406.636062855185320321675384",
+                "reserve0": "784.182463227329906296",
+                "reserve1": "489861851640.791398047747564739",
+                "reserveETH": "1568.364926454659812592",
+                "token0": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                },
+                "token1": {
+                    "id": "0xf0f9d895aca5c8678f706fb8216fa22957685a13",
+                    "name": "Cult DAO",
+                    "symbol": "CULT",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0xcaa004418eb42cdf00cb057b7c9e28f0ffd840a5",
+                "token0Price": "5168.205572225152936931080294123982",
+                "token1Price": "0.0001934907553550454993710142522939068",
+                "reserve0": "4030521.433931899467326345",
+                "reserve1": "779.868636726184341753",
+                "reserveETH": "1559.737273452368683506",
+                "token0": {
+                    "id": "0x2a3bff78b79a009976eea096a51a948a3dc00e34",
+                    "name": "Wilder",
+                    "symbol": "WILD",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xb6b0c651c37ec4ca81c0a128420e02001a57fac2",
+                "token0Price": "185.8770706156669770017631671177181",
+                "token1Price": "0.005379899719141115164682523389623277",
+                "reserve0": "133014.642218163",
+                "reserve1": "715.605436311151043538",
+                "reserveETH": "1431.210872622302087076",
+                "token0": {
+                    "id": "0x1bb9b64927e0c5e207c9db4093b3738eef5d8447",
+                    "name": "Vector",
+                    "symbol": "VEC",
+                    "decimals": "9",
+                    "totalSupply": "42920"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xddd23787a6b80a794d952f5fb036d0b31a8e6aff",
+                "token0Price": "2612.515458221170551433007489411472",
+                "token1Price": "0.0003827728547416472039275502776424879",
+                "reserve0": "1827280.422341387491120143",
+                "reserve1": "699.433343673135668317",
+                "reserveETH": "1398.866687346271336634",
+                "token0": {
+                    "id": "0xa9e8acf069c58aec8825542845fd754e41a9489a",
+                    "name": "pepeCoin",
+                    "symbol": "pepecoin",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x2caccf71bdf8fff97c06a46eca29b611b1a74b5e",
+                "token0Price": "40350.33954382041400789565490398116",
+                "token1Price": "0.00002478293891217449004452928265579705",
+                "reserve0": "28200851.90639851599869403",
+                "reserve1": "698.899990067553931828",
+                "reserveETH": "1397.799980135107863656",
+                "token0": {
+                    "id": "0xba21ef4c9f433ede00badefcc2754b8e74bd538a",
+                    "name": "Swapfolio",
+                    "symbol": "SWFL",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xe5af2607cc877f64241aace0c659836ef48669ec",
+                "token0Price": "0.7727997803437316998540387008825636",
+                "token1Price": "1.293996227011364414835458623858229",
+                "reserve0": "3874971.875197284430378554",
+                "reserve1": "5014198.98628043772142117",
+                "reserveETH": "1388.577372085735493806165761192249",
+                "token0": {
+                    "id": "0x2d6234b92a278d314b19e5995b3934f0c0702df0",
+                    "name": "CBTC TOKEN",
+                    "symbol": "CBTC",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0x6ef837e5060fabfe7ff362da0d5cf59e78c60c6e",
+                    "name": "Free link",
+                    "symbol": "FREE",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x8c1c499b1796d7f3c2521ac37186b52de024e58c",
+                "token0Price": "0.3540247402439731954695174127306899",
+                "token1Price": "2.824661347991833409188289726031808",
+                "reserve0": "975368.873824362409366959",
+                "reserve1": "2755086.757926",
+                "reserveETH": "1366.229039922310638650581204051539",
+                "token0": {
+                    "id": "0x31c8eacbffdd875c74b94b077895bd78cf1e64a3",
+                    "name": "Radicle",
+                    "symbol": "RAD",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                    "name": "USD//C",
+                    "symbol": "USDC",
+                    "decimals": "6",
+                    "totalSupply": "14864"
+                }
+            },
+            {
+                "id": "0xfe9e7931e55c514c33d489c88582fa36e84bd8e3",
+                "token0Price": "17913.17839866240841126612901719799",
+                "token1Price": "0.00005582482224788599284431487446021234",
+                "reserve0": "12211756.585700638159088023",
+                "reserve1": "681.719140731189276137",
+                "reserveETH": "1363.438281462378552274",
+                "token0": {
+                    "id": "0x8ab2ff0116a279a99950c66a12298962d152b83c",
+                    "name": "Ordiswap",
+                    "symbol": "ORDS",
+                    "decimals": "18",
+                    "totalSupply": "16536"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xe471f93c2be15b64e9ec63bbf485446cb934e8c4",
+                "token0Price": "84605.52140426603734926090513895621",
+                "token1Price": "0.00001181955956777044715939871498656285",
+                "reserve0": "57667072.273628493",
+                "reserve1": "681.599395837075528266",
+                "reserveETH": "1363.198791674151056532",
+                "token0": {
+                    "id": "0xa735a3af76cc30791c61c10d585833829d36cbe0",
+                    "name": "Image Generation AI | imgnAI.com",
+                    "symbol": "imgnAI",
+                    "decimals": "9",
+                    "totalSupply": "57216"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x8ef79d6c328c25da633559c20c75f638a4863462",
+                "token0Price": "64606551132.45334740925277778789549",
+                "token1Price": "0.00000000001547830649479874715085050616638436",
+                "reserve0": "43766305490106.857330623697482425",
+                "reserve1": "677.428290520867034388",
+                "reserveETH": "1354.856581041734068776",
+                "token0": {
+                    "id": "0xa71d0588eaf47f12b13cf8ec750430d21df04974",
+                    "name": "Shiba Predator",
+                    "symbol": "QOM",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x9928e4046d7c6513326ccea028cd3e7a91c7590a",
+                "token0Price": "0.5492231070767222246602030945920031",
+                "token1Price": "1.820753692106234937022289539880554",
+                "reserve0": "5566420.011863819843393489",
+                "reserve1": "10135079.788415082060481522",
+                "reserveETH": "1335.466382242423514731674782392254",
+                "token0": {
+                    "id": "0x956f47f50a910163d8bf957cf5846d573e7f87ca",
+                    "name": "Fei USD",
+                    "symbol": "FEI",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc7283b66eb1eb5fb86327f08e1b5816b0720212b",
+                    "name": "Tribe",
+                    "symbol": "TRIBE",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x69c66beafb06674db41b22cfc50c34a93b8d82a2",
+                "token0Price": "200507.3128607768646896797871998508",
+                "token1Price": "0.000004987349267876101865478297938226408",
+                "reserve0": "133249064.414107418",
+                "reserve1": "664.559623850874169528",
+                "reserveETH": "1329.119247701748339056",
+                "token0": {
+                    "id": "0x8390a1da07e376ef7add4be859ba74fb83aa02d5",
+                    "name": "GROK",
+                    "symbol": "GROK",
+                    "decimals": "9",
+                    "totalSupply": "16240"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xaf996125e98b5804c00ffdb4f7ff386307c99a00",
+                "token0Price": "40.81876046277792016824177365922954",
+                "token1Price": "0.02449853911933182240703318187929731",
+                "reserve0": "27032.808107611514804948",
+                "reserve1": "662.264306929711148559",
+                "reserveETH": "1324.528613859422297118",
+                "token0": {
+                    "id": "0x5befbb272290dd5b8521d4a938f6c4757742c430",
+                    "name": "Xfinance",
+                    "symbol": "XFI",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x4e34da137f0b317c633838458e0c923a5e088752",
+                "token0Price": "4262.742963341202478816362534275453",
+                "token1Price": "0.0002345907338537214682399232100986469",
+                "reserve0": "2820655.111930921576965654",
+                "reserve1": "661.699552656125761662",
+                "reserveETH": "1323.399105312251523324",
+                "token0": {
+                    "id": "0x89d584a1edb3a70b3b07963f9a3ea5399e38b136",
+                    "name": "AIT Protocol",
+                    "symbol": "AIT",
+                    "decimals": "18",
+                    "totalSupply": "42920"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xcbe856765eeec3fdc505ddebf9dc612da995e593",
+                "token0Price": "14775218707.40255458725072697154419",
+                "token1Price": "0.00000000006768089324451004527219792871208815",
+                "reserve0": "9761158078172.72697619261611351",
+                "reserve1": "660.643897831595173597",
+                "reserveETH": "1321.287795663190347194",
+                "token0": {
+                    "id": "0x12970e6868f88f6557b76120662c1b3e50a646bf",
+                    "name": "Milady",
+                    "symbol": "LADYS",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x149148acc3b06b8cc73af3a10e84189243a35925",
+                "token0Price": "1.532710034985688514619193877008149",
+                "token1Price": "0.6524391288462708949735226913703082",
+                "reserve0": "3891566.733864987228790007",
+                "reserve1": "2539010.40969",
+                "reserveETH": "1275.124270650806595874691199629187",
+                "token0": {
+                    "id": "0x131157c6760f78f7ddf877c0019eba175ba4b6f6",
+                    "name": "BigShortBets",
+                    "symbol": "BigSB",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                    "name": "USD//C",
+                    "symbol": "USDC",
+                    "decimals": "6",
+                    "totalSupply": "14864"
+                }
+            },
+            {
+                "id": "0xf063806d07fe742b031a543145fb46d1bc670fe8",
+                "token0Price": "976.1913630828312582570878022055049",
+                "token1Price": "0.001024389313220289723297674140511906",
+                "reserve0": "596278.866210570762416986",
+                "reserve1": "610.821698245219603096",
+                "reserveETH": "1221.643396490439206192",
+                "token0": {
+                    "id": "0x7afebbb46fdb47ed17b22ed075cde2447694fb9e",
+                    "name": "Ocean Token",
+                    "symbol": "OCEAN",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x0f23d49bc92ec52ff591d091b3e16c937034496e",
+                "token0Price": "6404577.387170124335370416189488233",
+                "token1Price": "0.0000001561383272537599943985352519386992",
+                "reserve0": "3885830237.296071571127375851",
+                "reserve1": "606.727033243489878038",
+                "reserveETH": "1213.454066486979756076",
+                "token0": {
+                    "id": "0x5026f006b85729a8b14553fae6af249ad16c9aab",
+                    "name": "Wojak Coin",
+                    "symbol": "WOJAK",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x96aa22baedc5a605357e0b9ae20ab6b10a472e03",
+                "token0Price": "5006531180.196900884470263790983146",
+                "token1Price": "0.0000000001997390935974698545285738901794453",
+                "reserve0": "2978761367886.607265221",
+                "reserve1": "594.975095664830383149",
+                "reserveETH": "1189.950191329660766298",
+                "token0": {
+                    "id": "0x7f792db54b0e580cdc755178443f0430cf799aca",
+                    "name": "Volt Inu",
+                    "symbol": "VOLT",
+                    "decimals": "9",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xc0067d751fb1172dbab1fa003efe214ee8f419b6",
+                "token0Price": "23462.44364483555628018351924838554",
+                "token1Price": "0.00004262130642219423458402104050648805",
+                "reserve0": "13829529.67026912",
+                "reserve1": "589.432621751366959667",
+                "reserveETH": "1178.865243502733919334",
+                "token0": {
+                    "id": "0x4206931337dc273a630d328da6441786bfad668f",
+                    "name": "Dogecoin",
+                    "symbol": "DOGE",
+                    "decimals": "8",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xffa98a091331df4600f87c9164cd27e8a5cd2405",
+                "token0Price": "3772.919620374154246372476513645767",
+                "token1Price": "0.0002650467278973814028060487582553496",
+                "reserve0": "2222948.605979337434212163",
+                "reserve1": "589.185254298868754966",
+                "reserveETH": "1178.370508597737509932",
+                "token0": {
+                    "id": "0x83e6f1e41cdd28eaceb20cb649155049fac3d5aa",
+                    "name": "PolkastarterToken",
+                    "symbol": "POLS",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xc3d7aa944105d3fafe07fc1822102449c916a8d0",
+                "token0Price": "23441.2307882467723652462850958238",
+                "token1Price": "0.00004265987605486104569829844970103857",
+                "reserve0": "13769971.915532379884430322",
+                "reserve1": "587.425295195528858377",
+                "reserveETH": "1174.850590391057716754",
+                "token0": {
+                    "id": "0x35a532d376ffd9a705d0bb319532837337a398e7",
+                    "name": "Wrapped DogeCoin",
+                    "symbol": "WDOGE",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xa2107fa5b38d9bbd2c461d6edf11b11a50f6b974",
+                "token0Price": "193.1735264147137435145046685711293",
+                "token1Price": "0.005176692782701260819049510285661312",
+                "reserve0": "110052.429903283105933721",
+                "reserve1": "569.707619599062069722",
+                "reserveETH": "1139.415239198124139444",
+                "token0": {
+                    "id": "0x514910771af9ca656af840dff83e8264ecf986ca",
+                    "name": "ChainLink Token",
+                    "symbol": "LINK",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xc730ef0f4973da9cc0ab8ab291890d3e77f58f79",
+                "token0Price": "11541.72355397155898402292966703523",
+                "token1Price": "0.00008664217223049806131274937958796568",
+                "reserve0": "6521152.079655508857058678",
+                "reserve1": "565.006781626783211027",
+                "reserveETH": "1130.013563253566422054",
+                "token0": {
+                    "id": "0x18aaa7115705e8be94bffebde57af9bfc265b998",
+                    "name": "Audius",
+                    "symbol": "AUDIO",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xc8f03fdc7b685357f78230814da6944c71c874e4",
+                "token0Price": "0.000007595383211202479344334557273307189",
+                "token1Price": "131658.9265074991338557453480983318",
+                "reserve0": "561.825147530872939418",
+                "reserve1": "73969295.808832058796531309",
+                "reserveETH": "1123.650295061745878836",
+                "token0": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                },
+                "token1": {
+                    "id": "0xde8cd13b812bcd82218754a740b27e76ec1e86ad",
+                    "name": "Trestle",
+                    "symbol": "TRESTLE",
+                    "decimals": "18",
+                    "totalSupply": "16536"
+                }
+            },
+            {
+                "id": "0xaf21b0ec0197e63a5c6cc30c8e947eb8165c6212",
+                "token0Price": "0.00001112674769064551486069491419032421",
+                "token1Price": "89873.52169769433373043003676459477",
+                "reserve0": "542.783102709950878002",
+                "reserve1": "48781828.958544622348435937",
+                "reserveETH": "1085.566205419901756004",
+                "token0": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                },
+                "token1": {
+                    "id": "0xd379700999f4805ce80aa32db46a94df64561108",
+                    "name": "Dextrust",
+                    "symbol": "DETS",
+                    "decimals": "18",
+                    "totalSupply": "24448"
+                }
+            },
+            {
+                "id": "0xebbc72c68557406d6d0c7ff0aa0a86177f8994ab",
+                "token0Price": "114301.4222758720564308637454456408",
+                "token1Price": "0.000008748797522277992624028113164351458",
+                "reserve0": "60949418.848144640739396887",
+                "reserve1": "533.234124602931416077",
+                "reserveETH": "1066.468249205862832154",
+                "token0": {
+                    "id": "0x1123d17fcf93ed2b41440317503346a0fdfe3ed7",
+                    "name": "Prometheum Prodigy",
+                    "symbol": "PMPY",
+                    "decimals": "18",
+                    "totalSupply": "16240"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x7924a818013f39cf800f5589ff1f1f0def54f31f",
+                "token0Price": "5270.017356547884546457852384499627",
+                "token1Price": "0.0001897526957397059149942382782505983",
+                "reserve0": "2799411.171343355142805066",
+                "reserve1": "531.195816246249410633",
+                "reserveETH": "1062.391632492498821266",
+                "token0": {
+                    "id": "0x0000000000095413afc295d19edeb1ad7b71c952",
+                    "name": "Tokenlon",
+                    "symbol": "LON",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x5016cd7b785a773f7f3a3ff4035a1e7a76543946",
+                "token0Price": "1710.820080411231779389250355988511",
+                "token1Price": "0.0005845150004082421433248610135252864",
+                "reserve0": "3561268035.56647871176278345",
+                "reserve1": "2081614.587263",
+                "reserveETH": "1044.749758189098264474083459307875",
+                "token0": {
+                    "id": "0xbddc20ed7978b7d59ef190962f441cd18c14e19f",
+                    "name": "Crypto Asset Governance Alliance",
+                    "symbol": "CAGA",
+                    "decimals": "18",
+                    "totalSupply": "16240"
+                },
+                "token1": {
+                    "id": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                    "name": "Tether USD",
+                    "symbol": "USDT",
+                    "decimals": "6",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x3041cbd36888becc7bbcbc0045e3b1f144466f5f",
+                "token0Price": "0.9982582794837086851290285111300141",
+                "token1Price": "1.001744759399533474438589292809875",
+                "reserve0": "2085540.490553",
+                "reserve1": "2089179.256927",
+                "reserveETH": "1034.085543298927488192177769679967",
+                "token0": {
+                    "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                    "name": "USD//C",
+                    "symbol": "USDC",
+                    "decimals": "6",
+                    "totalSupply": "14864"
+                },
+                "token1": {
+                    "id": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                    "name": "Tether USD",
+                    "symbol": "USDT",
+                    "decimals": "6",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x11181bd3baf5ce2a478e98361985d42625de35d1",
+                "token0Price": "13.49489124049801000100231139957064",
+                "token1Price": "0.07410211628820036381360565458912241",
+                "reserve0": "28139509.914861041282552369",
+                "reserve1": "2085197.236004",
+                "reserveETH": "1030.953629771237872131844670608401",
+                "token0": {
+                    "id": "0x823556202e86763853b40e9cde725f412e294689",
+                    "name": "Altered State Machine Utility Token",
+                    "symbol": "ASTO",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                    "name": "USD//C",
+                    "symbol": "USDC",
+                    "decimals": "6",
+                    "totalSupply": "14864"
+                }
+            },
+            {
+                "id": "0x9af0f334f9f451ce9e650278e56fec212f35cec1",
+                "token0Price": "1344366383588.368242031720076439551",
+                "token1Price": "0.0000000000007438448418583710732756602880557402",
+                "reserve0": "688576745398331.422362816630184607",
+                "reserve1": "512.194260288173678513",
+                "reserveETH": "1024.388520576347357026",
+                "token0": {
+                    "id": "0x5e9f7e92e742f73b990dca63c88325ed24666e84",
+                    "name": "Morning Always Comes",
+                    "symbol": "KOO",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x41b5d4212dc31e04619384879250198f89b89d89",
+                "token0Price": "0.001",
+                "token1Price": "1000",
+                "reserve0": "1000",
+                "reserve1": "1000000",
+                "reserveETH": "1000.033284170733316530134475894066",
+                "token0": {
+                    "id": "0x395c8db957d743a62ac3aaaa4574553bcf2380b3",
+                    "name": "ulock.eth Wrapped Ether",
+                    "symbol": "UETH",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0x653f81dba181e25751e3c9b6c1f9c1cbe2a709e4",
+                    "name": "uLockXS",
+                    "symbol": "ULXS",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x3016a43b482d0480460f6625115bd372fe90c6bf",
+                "token0Price": "80416857648401764350.55901040160982",
+                "token1Price": "0.00000000000000000001243520362822675384340499576959023",
+                "reserve0": "38700614266515446974627.813559207",
+                "reserve1": "481.250018941576958164",
+                "reserveETH": "962.5000378831539163280000000000001",
+                "token0": {
+                    "id": "0x6adb2e268de2aa1abf6578e4a8119b960e02928f",
+                    "name": "ShibaDoge",
+                    "symbol": "ShibDoge",
+                    "decimals": "9",
+                    "totalSupply": "57216"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x63b9ef096c2d4c6729bda2580a17004950c0f982",
+                "token0Price": "0.001",
+                "token1Price": "1000",
+                "reserve0": "50000",
+                "reserve1": "50000000",
+                "reserveETH": "959.0464355345425404071486671352835",
+                "token0": {
+                    "id": "0x2f343e6ceb43d8456d4cf9f0cc40ee5ce863801f",
+                    "name": "acrcash",
+                    "symbol": "ACH",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0x76306f029f8f99effe509534037ba7030999e3cf",
+                    "name": "Acreage",
+                    "symbol": "ACR",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x9c84f58bb51fabd18698efe95f5bab4f33e96e8f",
+                "token0Price": "2242153.088656397346616551165354209",
+                "token1Price": "0.0000004459998762168584202667716634743014",
+                "reserve0": "1059756532.044702735072942896",
+                "reserve1": "472.651282111944573706",
+                "reserveETH": "945.302564223889147412",
+                "token0": {
+                    "id": "0xb620be8a1949aa9532e6a3510132864ef9bc3f82",
+                    "name": "LendFlare DAO Token",
+                    "symbol": "LFT",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xeedff72a683058f8ff531e8c98575f920430fdc5",
+                "token0Price": "548722.7134679601369068774566963377",
+                "token1Price": "0.00000182241408174985251030299096402407",
+                "reserve0": "252518038.503828529",
+                "reserve1": "460.192429265228568728",
+                "reserveETH": "920.384858530457137456",
+                "token0": {
+                    "id": "0x89b69f2d1adffa9a253d40840b6baa7fc903d697",
+                    "name": "Dione",
+                    "symbol": "Dione",
+                    "decimals": "9",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x1140201364600b0016f35c5dd32e2269229ac3d6",
+                "token0Price": "486.7324147734021496939905611094895",
+                "token1Price": "0.00205451695767077507263501285547329",
+                "reserve0": "1586329.357430039361824947",
+                "reserve1": "3259.140565291",
+                "reserveETH": "919.9962990751827297137981751279306",
+                "token0": {
+                    "id": "0x1bfce574deff725a3f483c334b790e25c8fa9779",
+                    "name": "Tao Ceτi",
+                    "symbol": "CETI",
+                    "decimals": "18",
+                    "totalSupply": "16536"
+                },
+                "token1": {
+                    "id": "0x77e06c9eccf2e797fd462a92b6d7642ef85b0a44",
+                    "name": "Wrapped TAO",
+                    "symbol": "wTAO",
+                    "decimals": "9",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0xbe8bc29765e11894f803906ee1055a344fdf2511",
+                "token0Price": "71530078.73376845691095691464009605",
+                "token1Price": "0.00000001398013280150232083951297961758941",
+                "reserve0": "32357873088.612007932332513861",
+                "reserve1": "452.367362952953945632",
+                "reserveETH": "904.734725905907891264",
+                "token0": {
+                    "id": "0x7d8146cf21e8d7cbe46054e01588207b51198729",
+                    "name": "BOB",
+                    "symbol": "BOB",
+                    "decimals": "18",
+                    "totalSupply": "40832"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xb8a1a865e4405281311c5bc0f90c240498472d3e",
+                "token0Price": "14769.15108330289806780291445730131",
+                "token1Price": "0.00006770869864893853263087962913176189",
+                "reserve0": "6679829.427640050506268738",
+                "reserve1": "452.282557742391739431",
+                "reserveETH": "904.565115484783478862",
+                "token0": {
+                    "id": "0xa8c8cfb141a3bb59fea1e2ea6b79b5ecbcd7b6ca",
+                    "name": "NOIA Token",
+                    "symbol": "NOIA",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xe945683b3462d2603a18bdfbb19261c6a4f03ad1",
+                "token0Price": "2615686209.84465127971941619328907",
+                "token1Price": "0.0000000003823088550286737916398005977605517",
+                "reserve0": "1164110226281.772417128123626557",
+                "reserve1": "445.049647736954774237",
+                "reserveETH": "890.099295473909548474",
+                "token0": {
+                    "id": "0xb90b2a35c65dbc466b04240097ca756ad2005295",
+                    "name": "BOBO",
+                    "symbol": "BOBO",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x515d459555f8c1fcf2791ded819b73b60a80b8e3",
+                "token0Price": "2194.553091705487205095669264498376",
+                "token1Price": "0.0004556736420638857425685241049602086",
+                "reserve0": "962355.86820881068905518",
+                "reserve1": "438.520203428261602426",
+                "reserveETH": "877.040406856523204852",
+                "token0": {
+                    "id": "0x6a7eff1e2c355ad6eb91bebb5ded49257f3fed98",
+                    "name": "OpSec",
+                    "symbol": "OPSEC",
+                    "decimals": "18",
+                    "totalSupply": "59304"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xf82d8ec196fb0d56c6b82a8b1870f09502a49f88",
+                "token0Price": "4260508337253.038362245493229231613",
+                "token1Price": "0.0000000000002347137761135681144650620960625212",
+                "reserve0": "1862708485570262.245649842",
+                "reserve1": "437.203342446982055491",
+                "reserveETH": "874.4066848939641109819999999999999",
+                "token0": {
+                    "id": "0xa2b4c0af19cc16a6cfacce81f192b024d625817d",
+                    "name": "Kishu Inu",
+                    "symbol": "KISHU",
+                    "decimals": "9",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xfcd13ea0b906f2f87229650b8d93a51b2e839ebd",
+                "token0Price": "5.84722943747946062731123005625751",
+                "token1Price": "0.1710211666383773002885956722253681",
+                "reserve0": "10203552.89795699",
+                "reserve1": "1745023.520465",
+                "reserveETH": "867.3211127637267741134926413688448",
+                "token0": {
+                    "id": "0x4206931337dc273a630d328da6441786bfad668f",
+                    "name": "Dogecoin",
+                    "symbol": "DOGE",
+                    "decimals": "8",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                    "name": "Tether USD",
+                    "symbol": "USDT",
+                    "decimals": "6",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0xf4acdac048c14c5e49bbede0c72444d806a75cde",
+                "token0Price": "15433.1981233595434552517082173363",
+                "token1Price": "0.0000647953840809190034217242227076908",
+                "reserve0": "6691612.087023290398962852",
+                "reserve1": "433.585575299194099711",
+                "reserveETH": "867.171150598388199422",
+                "token0": {
+                    "id": "0x8de5b80a0c1b02fe4976851d030b36122dbb8624",
+                    "name": "VANRY",
+                    "symbol": "VANRY",
+                    "decimals": "18",
+                    "totalSupply": "16240"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x8f1b19622a888c53c8ee4f7d7b4dc8f574ff9068",
+                "token0Price": "18083774778.5154556637683759166826",
+                "token1Price": "0.0000000000552981892468632377896875863337156",
+                "reserve0": "7589095079072.494645211235376409",
+                "reserve1": "419.663215894989336706",
+                "reserveETH": "839.326431789978673412",
+                "token0": {
+                    "id": "0xba386a4ca26b85fd057ab1ef86e3dc7bdeb5ce70",
+                    "name": "Jesus Coin",
+                    "symbol": "JESUS",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xb7426bfd2abf64428fa82a71b0d44b056ffcc286",
+                "token0Price": "0.00000000001568118184554138223285629131568319",
+                "token1Price": "63770703627.43922851813342735388146",
+                "reserve0": "418.936374005864883611",
+                "reserve1": "26715867345482.045055310717885062",
+                "reserveETH": "837.8727480117297672220000000000001",
+                "token0": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                },
+                "token1": {
+                    "id": "0xf8ebf4849f1fa4faf0dff2106a173d3a6cb2eb3a",
+                    "name": "TROLL",
+                    "symbol": "TROLL",
+                    "decimals": "18",
+                    "totalSupply": "40832"
+                }
+            },
+            {
+                "id": "0xefdf4dfc4e817197851266acf0082a80dab18b24",
+                "token0Price": "117.4088731466116816750869801506653",
+                "token1Price": "0.008517243826633720939817531402412802",
+                "reserve0": "47865.014449",
+                "reserve1": "407.677998827479103815",
+                "reserveETH": "815.35599765495820763",
+                "token0": {
+                    "id": "0x68a47fe1cf42eba4a030a10cd4d6a1031ca3ca0a",
+                    "name": "Tectum Emission Token",
+                    "symbol": "TET",
+                    "decimals": "8",
+                    "totalSupply": "16240"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xd03dffd02db4b076e3eed9272a6a243a23de16e3",
+                "token0Price": "30.77509338049895768798297515152786",
+                "token1Price": "0.03249380879648810879706072992218387",
+                "reserve0": "12524.01239106865469999",
+                "reserve1": "406.952864000232724553",
+                "reserveETH": "813.9057280004654491059999999999999",
+                "token0": {
+                    "id": "0x9e32b13ce7f2e80a01932b42553652e053d6ed8e",
+                    "name": "Metis Token",
+                    "symbol": "Metis",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x79dd15ad871b0fe18040a52f951d757ef88cfe72",
+                "token0Price": "31430.24260490818140855585493204436",
+                "token1Price": "0.0000318164900147426445643832591081975",
+                "reserve0": "12767179.14822591",
+                "reserve1": "406.206827885960167528",
+                "reserveETH": "812.413655771920335056",
+                "token0": {
+                    "id": "0x7ca5af5ba3472af6049f63c1abc324475d44efc1",
+                    "name": "Kondux",
+                    "symbol": "KNDX",
+                    "decimals": "9",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xf6c4e4f339912541d3f8ed99dba64a1372af5e5b",
+                "token0Price": "4.292130053726870812605441321157722",
+                "token1Price": "0.2329845525374275812915599177669668",
+                "reserve0": "1613281.123436",
+                "reserve1": "375869.58066081493278354",
+                "reserveETH": "807.6607548392921323602915245122837",
+                "token0": {
+                    "id": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                    "name": "Tether USD",
+                    "symbol": "USDT",
+                    "decimals": "6",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xeef9f339514298c6a857efcfc1a762af84438dee",
+                    "name": "Hermez Network Token",
+                    "symbol": "HEZ",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x6a164da2cdae5f1836c8fe6d683c3df4a0a65e5c",
+                "token0Price": "34.87740765405403801565006916213497",
+                "token1Price": "0.02867185571585229921607149755096069",
+                "reserve0": "13812.027164944",
+                "reserve1": "396.01645001670685398",
+                "reserveETH": "792.03290003341370796",
+                "token0": {
+                    "id": "0x5d269fac3b2e0552b0f34cdc253bdb427682a4b9",
+                    "name": "Davincij15 Token",
+                    "symbol": "DJ15",
+                    "decimals": "9",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x67cea36eeb36ace126a3ca6e21405258130cf33c",
+                "token0Price": "0.1205220603310347857110783311727158",
+                "token1Price": "8.297236184424048159274576035281597",
+                "reserve0": "1595783.586953",
+                "reserve1": "13240593.320176431",
+                "reserveETH": "788.7625489653920450761536193996615",
+                "token0": {
+                    "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                    "name": "USD//C",
+                    "symbol": "USDC",
+                    "decimals": "6",
+                    "totalSupply": "14864"
+                },
+                "token1": {
+                    "id": "0xc5fb36dd2fb59d3b98deff88425a3f425ee469ed",
+                    "name": "Dejitaru Tsuka",
+                    "symbol": "TSUKA",
+                    "decimals": "9",
+                    "totalSupply": "40832"
+                }
+            },
+            {
+                "id": "0xe46935ae80e05cdebd4a4008b6ccaa36d2845370",
+                "token0Price": "12365.33875472315453746286582717767",
+                "token1Price": "0.00008087121750854037396059134841683174",
+                "reserve0": "4873721.891401077159293592",
+                "reserve1": "394.143823155631298216",
+                "reserveETH": "788.287646311262596432",
+                "token0": {
+                    "id": "0x3593d125a4f7849a1b059e64f4517a86dd60c95d",
+                    "name": "MANTRA DAO",
+                    "symbol": "OM",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xa7fd8ff8f4cada298286d3006ee8f9c11e2ff84e",
+                "token0Price": "18324.37851980386896402596618847419",
+                "token1Price": "0.0000545721099855725576043579381966834",
+                "reserve0": "7199699.919535",
+                "reserve1": "392.902815871981912995",
+                "reserveETH": "785.80563174396382599",
+                "token0": {
+                    "id": "0x67f4c72a50f8df6487720261e188f2abe83f57d7",
+                    "name": "Wrapped Pocket",
+                    "symbol": "wPOKT",
+                    "decimals": "6",
+                    "totalSupply": "16240"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xccb63225a7b19dcf66717e4d40c9a72b39331d61",
+                "token0Price": "1004.022523845366963644872095543892",
+                "token1Price": "0.0009959935920262417472670844884729345",
+                "reserve0": "394050.553970310064259185",
+                "reserve1": "392.471826688819557303",
+                "reserveETH": "784.943653377639114606",
+                "token0": {
+                    "id": "0x949d48eca67b17269629c7194f4b727d4ef9e5d6",
+                    "name": "Merit Circle",
+                    "symbol": "MC",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x6033368e4a402605294c91cf5c03d72bd96e7d8d",
+                "token0Price": "225540.4162550871860590253038253336",
+                "token1Price": "0.000004433795133502793910926243362385222",
+                "reserve0": "88405837.950693308267037426",
+                "reserve1": "391.973374079020601182",
+                "reserveETH": "783.946748158041202364",
+                "token0": {
+                    "id": "0x1e4ede388cbc9f4b5c79681b7f94d36a11abebc9",
+                    "name": "X2Y2Token",
+                    "symbol": "X2Y2",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x4161fa43eaa1ac3882aeed12c5fc05249e533e67",
+                "token0Price": "1.033512607065465313055694962903723",
+                "token1Price": "0.967574070372861412592780882220018",
+                "reserve0": "619493.014479",
+                "reserve1": "599405.377587",
+                "reserveETH": "778.5302478018056325175118127356502",
+                "token0": {
+                    "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                    "name": "USD//C",
+                    "symbol": "USDC",
+                    "decimals": "6",
+                    "totalSupply": "14864"
+                },
+                "token1": {
+                    "id": "0xc3f7ffb5d5869b3ade9448d094d81b0521e8326f",
+                    "name": "FARM_USDC",
+                    "symbol": "fUSDC",
+                    "decimals": "6",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x419991da56d9ad96a1a38513b7ae7e49caa4b82c",
+                "token0Price": "0.0000006649562131723573358775937505072202",
+                "token1Price": "1503858.41983372665956332823819404",
+                "reserve0": "388.336054663454353039",
+                "reserve1": "584002445.530646162082462218",
+                "reserveETH": "776.672109326908706078",
+                "token0": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                },
+                "token1": {
+                    "id": "0xe2512a2f19f0388ad3d7a5263eaa82acd564827b",
+                    "name": "Shido",
+                    "symbol": "SHIDO",
+                    "decimals": "18",
+                    "totalSupply": "59304"
+                }
+            },
+            {
+                "id": "0xbf519fb74965680b45d528d29e1d77bd1728c9ce",
+                "token0Price": "14485.67731638374195503729455832682",
+                "token1Price": "0.00006903370675453121976795972023533061",
+                "reserve0": "5574814.207309488279406879",
+                "reserve1": "384.850089198397628712",
+                "reserveETH": "769.700178396795257424",
+                "token0": {
+                    "id": "0x7cdbfc86a0bfa20f133748b0cf5cea5b787b182c",
+                    "name": "TokenSight Token",
+                    "symbol": "TKST",
+                    "decimals": "18",
+                    "totalSupply": "42624"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x29f07e631a2f990e1f6117c6285a44e746b1f090",
+                "token0Price": "202.062753070458507655792273645593",
+                "token1Price": "0.004948957612446781976563622094838416",
+                "reserve0": "76278.767297741484346922",
+                "reserve1": "377.50038608621436779",
+                "reserveETH": "755.00077217242873558",
+                "token0": {
+                    "id": "0x9af15d7b8776fa296019979e70a5be53c714a7ec",
+                    "name": "Evn Token",
+                    "symbol": "EVN",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x1921b852f38bc68430780242b2628d0ca14cef83",
+                "token0Price": "0.0003296447210817197259129400669802326",
+                "token1Price": "3033.568979107351075976581034395872",
+                "reserve0": "375.88529010041233895",
+                "reserve1": "1140273.955751378356883602",
+                "reserveETH": "751.7705802008246779",
+                "token0": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                },
+                "token1": {
+                    "id": "0xe0c8b298db4cffe05d1bea0bb1ba414522b33c1b",
+                    "name": "NCDToken",
+                    "symbol": "NCDT",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x68b44c26874998adbd41a964e92315809524c7cb",
+                "token0Price": "28906.95299830493419610466111041442",
+                "token1Price": "0.00003459375327654349070299665294291363",
+                "reserve0": "10847803.274884220099684444",
+                "reserve1": "375.266230083825197822",
+                "reserveETH": "750.532460167650395644",
+                "token0": {
+                    "id": "0x58cb30368ceb2d194740b144eab4c2da8a917dcb",
+                    "name": "ZynCoin",
+                    "symbol": "ZYN",
+                    "decimals": "18",
+                    "totalSupply": "26240"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x9ec96dcb54331626b79d8450a3daa9bcfa02e0b0",
+                "token0Price": "1081.785651256561765694936064190666",
+                "token1Price": "0.0009243975447801857872000298938065583",
+                "reserve0": "3250007.588109800069790628",
+                "reserve1": "3004.299034965672515381",
+                "reserveETH": "730.4969161656796480352951880387631",
+                "token0": {
+                    "id": "0xcc802c45b55581713cecd1eb17be9ab7fccb0844",
+                    "name": "SBU Honey",
+                    "symbol": "BHNY",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xd075e95423c5c4ba1e122cae0f4cdfa19b82881b",
+                    "name": "OPES Finance",
+                    "symbol": "wPE",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x063e913f23d2314d75962871b10eecf48c539046",
+                "token0Price": "1007.712182011625493127132450188975",
+                "token1Price": "0.0009923468405470397286767034321586815",
+                "reserve0": "366736.520274988559368952",
+                "reserve1": "363.929827208100274473",
+                "reserveETH": "727.859654416200548946",
+                "token0": {
+                    "id": "0x38029c62dfa30d9fd3cadf4c64e9b2ab21dbda17",
+                    "name": "Dubbz",
+                    "symbol": "Dubbz",
+                    "decimals": "18",
+                    "totalSupply": "89984"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x3a0ef60e803aae8e94f741e7f61c7cbe9501e569",
+                "token0Price": "0.0001245006664062406641594426373943829",
+                "token1Price": "8032.0855210287810295876259182393",
+                "reserve0": "361.853223439750326139",
+                "reserve1": "2906436.036728010918766287",
+                "reserveETH": "723.7064468795006522780000000000001",
+                "token0": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                },
+                "token1": {
+                    "id": "0xed1167b6dc64e8a366db86f2e952a482d0981ebd",
+                    "name": "Lybra",
+                    "symbol": "LBR",
+                    "decimals": "18",
+                    "totalSupply": "16240"
+                }
+            },
+            {
+                "id": "0xdf4f3749bb4e96bf91a67c7e873d9c04198d924a",
+                "token0Price": "131868365.6116381233761332762614698",
+                "token1Price": "0.000000007583319891482331282509222367167847",
+                "reserve0": "47225068286.641879053196124486",
+                "reserve1": "358.122799714702778771",
+                "reserveETH": "716.245599429405557542",
+                "token0": {
+                    "id": "0x3b604747ad1720c01ded0455728b62c0d2f100f0",
+                    "name": "WAGMI GAMES",
+                    "symbol": "WAGMIGAMES",
+                    "decimals": "18",
+                    "totalSupply": "57216"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xda3a20aad0c34fa742bd9813d45bbf67c787ae0b",
+                "token0Price": "12192140918.333430497705297331311",
+                "token1Price": "0.00000000008202004936608722472428795788816294",
+                "reserve0": "4329874036236.212126092902856776",
+                "reserve1": "355.136482201033463488",
+                "reserveETH": "710.272964402066926976",
+                "token0": {
+                    "id": "0x3301ee63fb29f863f2333bd4466acb46cd8323e6",
+                    "name": "Akita Inu",
+                    "symbol": "AKITA",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x3beeab9d5624e487045e01d12332975204a04a8a",
+                "token0Price": "148032.8290379630729758607928449004",
+                "token1Price": "0.000006755258320055138819409821458911875",
+                "reserve0": "52480318.498461117",
+                "reserve1": "354.518108175873070615",
+                "reserveETH": "709.03621635174614123",
+                "token0": {
+                    "id": "0x2d886570a0da04885bfd6eb48ed8b8ff01a0eb7e",
+                    "name": "Blockchain Bets",
+                    "symbol": "BCB",
+                    "decimals": "9",
+                    "totalSupply": "40832"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x4b3ec6f5290f729e4b9b0ccfbb1dfaa118c078a2",
+                "token0Price": "0.0316396777854154126529841719297138",
+                "token1Price": "31.60588444617343045082795933153281",
+                "reserve0": "354.389086156494362353",
+                "reserve1": "11200.78050604716094796",
+                "reserveETH": "708.778172312988724706",
+                "token0": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                },
+                "token1": {
+                    "id": "0xfcce65a70794bec59e5be38c85ebe71aedaa74ef",
+                    "name": "GainSwap",
+                    "symbol": "GAIN",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x7262a43c94258e6071d3bac00ebec6d7c9b4ef30",
+                "token0Price": "3926609.47333007666276236427079866",
+                "token1Price": "0.0000002546726397906641287627270704871754",
+                "reserve0": "1383674271.914400312635861767",
+                "reserve1": "352.383979438865522416",
+                "reserveETH": "704.767958877731044832",
+                "token0": {
+                    "id": "0x41ea5d41eeacc2d5c4072260945118a13bb7ebce",
+                    "name": "CRESO",
+                    "symbol": "CRE",
+                    "decimals": "18",
+                    "totalSupply": "42624"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x4a7d4be868e0b811ea804faf0d3a325c3a29a9ad",
+                "token0Price": "25554.60524682357935844114529603119",
+                "token1Price": "0.00003913188994082776304874655091541737",
+                "reserve0": "8917297.29639804388561955",
+                "reserve1": "348.95069637228922096",
+                "reserveETH": "697.90139274457844192",
+                "token0": {
+                    "id": "0x8f8221afbb33998d8584a2b05749ba73c37a938a",
+                    "name": "Request Token",
+                    "symbol": "REQ",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x05c024b441d2c288c2729b484bd4bcef3596aa51",
+                "token0Price": "11769661275.8846308495220813961897",
+                "token1Price": "0.00000000008496421235579169517303899368327873",
+                "reserve0": "4094876792188.613463919103923368",
+                "reserve1": "347.917981342316453752",
+                "reserveETH": "695.835962684632907504",
+                "token0": {
+                    "id": "0xa21af1050f7b26e0cff45ee51548254c41ed6b5c",
+                    "name": "Osaka Protocol",
+                    "symbol": "OSAK",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xbf88870abb9b885b8cd84b5988212591c4560bcd",
+                "token0Price": "1751136.322636022731328985726495984",
+                "token1Price": "0.0000005710577680752339957472227030074722",
+                "reserve0": "603149444.954380678624027386",
+                "reserve1": "344.433175851464834934",
+                "reserveETH": "688.866351702929669868",
+                "token0": {
+                    "id": "0x6af53c6ec427525f7240e211941223288a0e7c66",
+                    "name": "WARPED",
+                    "symbol": "WARPED",
+                    "decimals": "18",
+                    "totalSupply": "16240"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xdd8f50f1059c50d7d75fe2f5d7d262964fb2ae98",
+                "token0Price": "383891.2029632027480654593985009543",
+                "token1Price": "0.000002604904702897954487949039214044154",
+                "reserve0": "131829172.355126965368004595",
+                "reserve1": "343.402431047015242853",
+                "reserveETH": "686.804862094030485706",
+                "token0": {
+                    "id": "0x5f190f9082878ca141f858c1c90b4c59fe2782c5",
+                    "name": "Kudoe",
+                    "symbol": "KDOE",
+                    "decimals": "18",
+                    "totalSupply": "57216"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x2854fbda37ac17aa184772bca10d2ca731e06c8c",
+                "token0Price": "0.00006595206692316527748336440252393105",
+                "token1Price": "15162.5270693185182508694429692692",
+                "reserve0": "342.972253415213149635",
+                "reserve1": "5200326.07643334",
+                "reserveETH": "685.94450683042629927",
+                "token0": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                },
+                "token1": {
+                    "id": "0xde67d97b8770dc98c746a3fc0093c538666eb493",
+                    "name": "Bitrock",
+                    "symbol": "BITROCK",
+                    "decimals": "9",
+                    "totalSupply": "16240"
+                }
+            },
+            {
+                "id": "0xa66cdad5facbcbf74d9b60dcc8034c2a485e63ff",
+                "token0Price": "0.0001334936407943401594887983886273477",
+                "token1Price": "7490.993533846279130563742102677501",
+                "reserve0": "333.261947052643314495",
+                "reserve1": "2496463.090448372110239421",
+                "reserveETH": "666.5238941052866289900000000000001",
+                "token0": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                },
+                "token1": {
+                    "id": "0xdc8af07a7861bedd104b8093ae3e9376fc8596d2",
+                    "name": "Rocket Vault",
+                    "symbol": "RVF",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x5ce6c939e6d640cca9d9c865adaa2b1e02c0a76c",
+                "token0Price": "75870493.05925858741516700769417726",
+                "token1Price": "0.00000001318035457103133370294092677682868",
+                "reserve0": "25282331952.125716222809662639",
+                "reserve1": "333.230099511531726063",
+                "reserveETH": "666.4601990230634521260000000000001",
+                "token0": {
+                    "id": "0xb53ecf1345cabee6ea1a65100ebb153cebcac40f",
+                    "name": "Childhoods End",
+                    "symbol": "O",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xc6a45ecdc8bcef94c476647be1303fd83d438cd0",
+                "token0Price": "17372657.15215108618701469976259094",
+                "token1Price": "0.00000005756171846608852132368064434320558",
+                "reserve0": "5769874220.071196438115188503",
+                "reserve1": "332.12387544048029275",
+                "reserveETH": "664.2477508809605855",
+                "token0": {
+                    "id": "0x6bc40d4099f9057b23af309c08d935b890d7adc0",
+                    "name": "SnailBrook",
+                    "symbol": "SNAIL",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x4d136871d5617019dfdb339a2cd7cb5a0b75e7f3",
+                "token0Price": "0.05652128703368413888866898623709111",
+                "token1Price": "17.69244920774796022612677126449773",
+                "reserve0": "18.72984599",
+                "reserve1": "331.376848847016809772",
+                "reserveETH": "662.753697694033619544",
+                "token0": {
+                    "id": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                    "name": "The Tokenized Bitcoin",
+                    "symbol": "imBTC",
+                    "decimals": "8",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x672fefac7f6e3017d9a2f1c14fe048191a24ce14",
+                "token0Price": "0.00001512100508008234985708710978406115",
+                "token1Price": "66133.1700309536529101697408429509",
+                "reserve0": "330.075668798588299081",
+                "reserve1": "21828950.327737783429218263",
+                "reserveETH": "660.1513375971765981619999999999999",
+                "token0": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                },
+                "token1": {
+                    "id": "0xeaa63125dd63f10874f99cdbbb18410e7fc79dd3",
+                    "name": "Hemule",
+                    "symbol": "HEMULE",
+                    "decimals": "18",
+                    "totalSupply": "42920"
+                }
+            },
+            {
+                "id": "0x051ef36e55875c08e4efaea6072c6d0f66fb0b9f",
+                "token0Price": "0.0003875187337110818035282263746943959",
+                "token1Price": "2580.520405874259750301001956067405",
+                "reserve0": "326.445619316260254245",
+                "reserve1": "842399.58205387",
+                "reserveETH": "652.89123863252050849",
+                "token0": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                },
+                "token1": {
+                    "id": "0xf1df7305e4bab3885cab5b1e4dfc338452a67891",
+                    "name": "PaLM AI",
+                    "symbol": "PALM",
+                    "decimals": "9",
+                    "totalSupply": "59304"
+                }
+            },
+            {
+                "id": "0x7054b0f980a7eb5b3a6b3446f3c947d80162775c",
+                "token0Price": "115764913458.5302508219075146123743",
+                "token1Price": "0.000000000008638195893077947292183404840582443",
+                "reserve0": "37702016174238.913760573031293407",
+                "reserve1": "325.677401277068927318",
+                "reserveETH": "651.354802554137854636",
+                "token0": {
+                    "id": "0x1ce270557c1f68cfb577b856766310bf8b47fd9c",
+                    "name": "MongCoin",
+                    "symbol": "$MONG",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x3478b3ecc153ce61ea3c6788611fdbb374d4305d",
+                "token0Price": "68797.96602565903297862499270404",
+                "token1Price": "0.00001453531343683965763129509148412048",
+                "reserve0": "22228011.383256987334327622",
+                "reserve1": "323.091112533280152828",
+                "reserveETH": "646.182225066560305656",
+                "token0": {
+                    "id": "0x94e9eb8b5ab9fd6b9ea3169d55ffade62a01702e",
+                    "name": "BreederDAO",
+                    "symbol": "BREED",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x3fdfd866fa9e1ab4b6f6762cbdce0bf787583dc3",
+                "token0Price": "5663.737927639514415249154872484114",
+                "token1Price": "0.0001765618418041407651069994734317928",
+                "reserve0": "1829365.974809775573374063",
+                "reserve1": "322.996225846241354676",
+                "reserveETH": "645.992451692482709352",
+                "token0": {
+                    "id": "0x40e9187078032afe1a30cfcf76e4fe3d7ab5c6c5",
+                    "name": "AIgentX",
+                    "symbol": "AIX",
+                    "decimals": "18",
+                    "totalSupply": "16240"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x8c07e1dfede38b1908698988b4202a87e0d7a0f7",
+                "token0Price": "574387.9700378485511062415834172317",
+                "token1Price": "0.000001740983537545374245223291567776786",
+                "reserve0": "185188289.569235374631796934",
+                "reserve1": "322.40976348622453256",
+                "reserveETH": "644.81952697244906512",
+                "token0": {
+                    "id": "0x549020a9cb845220d66d3e9c6d9f9ef61c981102",
+                    "name": "SIDUS",
+                    "symbol": "SIDUS",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x0e85fb1be698e777f2185350b4a52e5ee8df51a6",
+                "token0Price": "7854.367814285331163311413371943449",
+                "token1Price": "0.0001273176942619397801206809976144092",
+                "reserve0": "2515914.575580910587808163",
+                "reserve1": "320.32044272296835719",
+                "reserveETH": "640.6408854459367143800000000000001",
+                "token0": {
+                    "id": "0x509a38b7a1cc0dcd83aa9d06214663d9ec7c7f4a",
+                    "name": "BlocksquareToken",
+                    "symbol": "BST",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x769f539486b31ef310125c44d7f405c6d470cd1f",
+                "token0Price": "3276.852721443112605864615023821722",
+                "token1Price": "0.0003051708712619845998874012398276884",
+                "reserve0": "1042028.276848009038354831",
+                "reserve1": "317.996677125331414032",
+                "reserveETH": "635.993354250662828064",
+                "token0": {
+                    "id": "0x1258d60b224c0c5cd888d37bbf31aa5fcfb7e870",
+                    "name": "NodeAI",
+                    "symbol": "GPU",
+                    "decimals": "18",
+                    "totalSupply": "59008"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x2a6c361b43a2edcae08e2bd5448e90e9369cced9",
+                "token0Price": "28941.01004897223506783511594600183",
+                "token1Price": "0.0000345530442202210702438523132088525",
+                "reserve0": "9137442.127857408281857261",
+                "reserve1": "315.726441903567938777",
+                "reserveETH": "631.452883807135877554",
+                "token0": {
+                    "id": "0x3b78dc5736a49bd297dd2e4d62daa83d35a22749",
+                    "name": "Finswap",
+                    "symbol": "FNSP",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x450e653a0a125a1dc36d3901d3cce2e2287df0c2",
+                "token0Price": "148049972010894965454.776176524671",
+                "token1Price": "0.000000000000000000006754476116526453757420052345823348",
+                "reserve0": "46648685194917394693091.334726021",
+                "reserve1": "315.087430016430722647",
+                "reserveETH": "630.174860032861445294",
+                "token0": {
+                    "id": "0xa1817b6d8d890f3943b61648992730373b71f156",
+                    "name": "Mongoose",
+                    "symbol": "MONGOOSE",
+                    "decimals": "9",
+                    "totalSupply": "40832"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xb777d386a9f6bf14ff85d92b27dc70209141e787",
+                "token0Price": "157513.3932249240663428900999984594",
+                "token1Price": "0.000006348666481789469921844059218484828",
+                "reserve0": "49376413.203767417118801671",
+                "reserve1": "313.474379497745217055",
+                "reserveETH": "626.94875899549043411",
+                "token0": {
+                    "id": "0x6ff2241756549b5816a177659e766eaf14b34429",
+                    "name": "AQTIS Token",
+                    "symbol": "AQTIS",
+                    "decimals": "18",
+                    "totalSupply": "57216"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xf7ef5352de45a20d8c8565cd94a4bd6c8831f749",
+                "token0Price": "125871327348.8853290922281870504464",
+                "token1Price": "0.00000000000794462107504625149236280681553454",
+                "reserve0": "39414032823512.657490322895881364",
+                "reserve1": "313.129555822243372065",
+                "reserveETH": "626.25911164448674413",
+                "token0": {
+                    "id": "0x78132543d8e20d2417d8a07d9ae199d458a0d581",
+                    "name": "Luna Inu",
+                    "symbol": "LINU",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x99dfde431b40321a35deb6aeb55cf338ddd6eccd",
+                "token0Price": "8037.205620902347793966718037751422",
+                "token1Price": "0.000124421353287180011992645704450767",
+                "reserve0": "2513286.772469161479005524",
+                "reserve1": "312.706541429381947452",
+                "reserveETH": "625.413082858763894904",
+                "token0": {
+                    "id": "0x0202be363b8a4820f3f4de7faf5224ff05943ab1",
+                    "name": "UniLend Finance Token",
+                    "symbol": "UFT",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x9b7dad79fc16106b47a3dab791f389c167e15eb0",
+                "token0Price": "3381.375539422445497794152423501867",
+                "token1Price": "0.0002957376334989412627320940559177097",
+                "reserve0": "1052636.836174979626520982",
+                "reserve1": "311.30432686420120081",
+                "reserveETH": "622.60865372840240162",
+                "token0": {
+                    "id": "0x967da4048cd07ab37855c090aaf366e4ce1b9f48",
+                    "name": "Ocean Token",
+                    "symbol": "OCEAN",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xcc0fcd959871e69f84fe9464c629f327941b655b",
+                "token0Price": "0.0002368627411069540928986882765937111",
+                "token1Price": "4221.854375773078615554957821059651",
+                "reserve0": "309.393797420313501796",
+                "reserve1": "1306215.557476",
+                "reserveETH": "618.787594840627003592",
+                "token0": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                },
+                "token1": {
+                    "id": "0xea7b7dc089c9a4a916b5a7a37617f59fd54e37e4",
+                    "name": "HyperCycle Token",
+                    "symbol": "HyPC",
+                    "decimals": "6",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x4cbcff3e46a106793a972ea7051dfd028f34517a",
+                "token0Price": "0.000002175229110235781394962314537279945",
+                "token1Price": "459721.6887611467184389904700614234",
+                "reserve0": "306.056092599444690994",
+                "reserve1": "140700623.745454611746727201",
+                "reserveETH": "612.112185198889381988",
+                "token0": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                },
+                "token1": {
+                    "id": "0xe5a733681bbe6cd8c764bb8078ef8e13a576dd78",
+                    "name": "Devour",
+                    "symbol": "DPAY",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0xc2adda861f89bbb333c90c492cb837741916a225",
+                "token0Price": "1.405745704734543176747798833681763",
+                "token1Price": "0.7113662141253613258385616267388682",
+                "reserve0": "425.576024350235387619",
+                "reserve1": "302.740405264549532357",
+                "reserveETH": "605.480810529099064714",
+                "token0": {
+                    "id": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2",
+                    "name": "Maker",
+                    "symbol": "MKR",
+                    "decimals": "18",
+                    "totalSupply": "14512"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x7bc703a48c90da793f57b55808ae14cdd75458d6",
+                "token0Price": "95722.32271134195658631396064482289",
+                "token1Price": "0.00001044688398353618194637136584204719",
+                "reserve0": "28397221.933573027952053325",
+                "reserve1": "296.662482994766433401",
+                "reserveETH": "593.3249659895328668020000000000001",
+                "token0": {
+                    "id": "0x50b0696468f42cab1ddc76413a1312aff3cabdf6",
+                    "name": "ClosedAI",
+                    "symbol": "CLOSEDAI",
+                    "decimals": "18",
+                    "totalSupply": "16536"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x07840b4825b74cc6ce264bf2743dee647194f49b",
+                "token0Price": "104841.5064306954081551739997078982",
+                "token1Price": "0.000009538207090347767459140597313098688",
+                "reserve0": "31076395.699745508",
+                "reserve1": "296.413097805765474773",
+                "reserveETH": "592.826195611530949546",
+                "token0": {
+                    "id": "0x1e0b2992079b620aa13a7c2e7c88d2e1e18e46e9",
+                    "name": "KOMPETE Token",
+                    "symbol": "KOMPETE",
+                    "decimals": "10",
+                    "totalSupply": "40832"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x811beed0119b4afce20d2583eb608c6f7af1954f",
+                "token0Price": "123601801.7383857668226103548019767",
+                "token1Price": "0.000000008090496950170590196111287736560869",
+                "reserve0": "36114619833.098737878046797202",
+                "reserve1": "292.185221616255647931",
+                "reserveETH": "584.370443232511295862",
+                "token0": {
+                    "id": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
+                    "name": "SHIBA INU",
+                    "symbol": "SHIB",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x29c830864930c897efa2b9e9851342187b82010e",
+                "token0Price": "94425025931.79370729775691966318538",
+                "token1Price": "0.00000000001059041276538629486756518555725309",
+                "reserve0": "27451186914989.920666719812588523",
+                "reserve1": "290.719400329514478289",
+                "reserveETH": "581.4388006590289565780000000000001",
+                "token0": {
+                    "id": "0x32b86b99441480a7e5bd3a26c124ec2373e3f015",
+                    "name": "BAD IDEA AI",
+                    "symbol": "BAD",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x700fc86c46299cf2a8fd86edadae3f57014351b0",
+                "token0Price": "1907.389756196244830764045482470324",
+                "token1Price": "0.0005242766963340624172118019157099712",
+                "reserve0": "2208791771.174062792606092351",
+                "reserve1": "1158018.052681",
+                "reserveETH": "580.8002724237098441930414962768947",
+                "token0": {
+                    "id": "0x12bb890508c125661e03b09ec06e404bc9289040",
+                    "name": "Radio Caca V2",
+                    "symbol": "RACA",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                    "name": "Tether USD",
+                    "symbol": "USDT",
+                    "decimals": "6",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x9b20e07394cd1fd767a302b502bb49d4da76bcab",
+                "token0Price": "40322593.011514830416519022936574",
+                "token1Price": "0.00000002479999239420025128963860334021117",
+                "reserve0": "11625174459.181787854957803172",
+                "reserve1": "288.304238168959358444",
+                "reserveETH": "576.608476337918716888",
+                "token0": {
+                    "id": "0x2ad9addd0d97ec3cdba27f92bf6077893b76ab0b",
+                    "name": "PLANET",
+                    "symbol": "PLANET",
+                    "decimals": "18",
+                    "totalSupply": "42624"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x8a982c9430c5ba14f3ecfa4a910704d0ab474d04",
+                "token0Price": "702.5027731121710078330025863665368",
+                "token1Price": "0.001423481925302416703495012415292507",
+                "reserve0": "40955246.892818359041701581",
+                "reserve1": "58299.053698224897160173",
+                "reserveETH": "575.6923113649756636221431690149527",
+                "token0": {
+                    "id": "0x4d13d624a87baa278733c068a174412afa9ca6c8",
+                    "name": "Eterbase Coin",
+                    "symbol": "XBASE",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0x86fadb80d8d2cff3c3680819e4da99c10232ba0f",
+                    "name": "EURBASE Stablecoin",
+                    "symbol": "EBASE",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x4502988e070f96cf3bea50b4811cd5844e13a81b",
+                "token0Price": "0.9054983297753691120056430171100084",
+                "token1Price": "1.104364267848041559785034035541809",
+                "reserve0": "971262.722451888773668785",
+                "reserve1": "1072627.845368675742407415",
+                "reserveETH": "569.6400351281268494107683883011547",
+                "token0": {
+                    "id": "0x1a76bffd6d1fc1660e1d0e0552fde51ddbb120cf",
+                    "name": "Realio Security Token",
+                    "symbol": "RST",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xf21661d0d1d76d3ecb8e1b9f1c923dbfffae4097",
+                    "name": "Realio Network",
+                    "symbol": "RIO",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0xdf60e6416fcf8c955fddf01148753a911f7a5905",
+                "token0Price": "323668303212.1543217271313923365369",
+                "token1Price": "0.000000000003089582730455171173806366038096568",
+                "reserve0": "90999853471575.206567178021401569",
+                "reserve1": "281.151575759729814227",
+                "reserveETH": "562.303151519459628454",
+                "token0": {
+                    "id": "0x48c276e8d03813224bb1e55f953adb6d02fd3e02",
+                    "name": "Kuma Inu",
+                    "symbol": "KUMA",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x4d5ef58aac27d99935e5b6b4a6778ff292059991",
+                "token0Price": "26.02645711098941922100250198594261",
+                "token1Price": "0.03842244050872985296779172464058552",
+                "reserve0": "7292.718018773414139129",
+                "reserve1": "280.204024223263743782",
+                "reserveETH": "560.408048446527487564",
+                "token0": {
+                    "id": "0x1494ca1f11d487c2bbe4543e90080aeba4ba3c2b",
+                    "name": "DefiPulse Index",
+                    "symbol": "DPI",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xc2b7888a8d7b62e2a518bbc79fbbd6b75da524b6",
+                "token0Price": "72401.2040693549104041753293762522",
+                "token1Price": "0.00001381192499287822864948130527966295",
+                "reserve0": "20231957.663647308843906302",
+                "reserve1": "279.44228170938447975",
+                "reserveETH": "558.8845634187689594999999999999999",
+                "token0": {
+                    "id": "0x6e10aacb89a28d6fa0fe68790777fec7e7f01890",
+                    "name": "Sav3Token",
+                    "symbol": "SAV3",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x32ce7e48debdccbfe0cd037cc89526e4382cb81b",
+                "token0Price": "0.5376987704327029130711257971334573",
+                "token1Price": "1.859777360463868865579801797500605",
+                "reserve0": "149.504975463875209324",
+                "reserve1": "278.045968644421315533",
+                "reserveETH": "556.091937288842631066",
+                "token0": {
+                    "id": "0x62359ed7505efc61ff1d56fef82158ccaffa23d7",
+                    "name": "cVault.finance",
+                    "symbol": "CORE",
+                    "decimals": "18",
+                    "totalSupply": "57216"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x6490828bd87be38279a36f029f3b9af8b4e14b49",
+                "token0Price": "16246.8564585264160956032754704062",
+                "token1Price": "0.00006155036837758211056115246392114578",
+                "reserve0": "4486025.928023013661429577",
+                "reserve1": "276.116548421201141265",
+                "reserveETH": "552.23309684240228253",
+                "token0": {
+                    "id": "0x120a3879da835a5af037bb2d1456bebd6b54d4ba",
+                    "name": "Revest",
+                    "symbol": "RVST",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x8fbd26a7cb1ab65834c5ea245aa1f1e78d03ed30",
+                "token0Price": "0.00000001425614123961834670322373582339762",
+                "token1Price": "70145208.52395617469950279347618672",
+                "reserve0": "271.275886314868991268",
+                "reserve1": "19028703613.077514567",
+                "reserveETH": "542.5517726297379825360000000000001",
+                "token0": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                },
+                "token1": {
+                    "id": "0xde342a3e269056fc3305f9e315f4c40d917ba521",
+                    "name": "Byte",
+                    "symbol": "BYTE",
+                    "decimals": "9",
+                    "totalSupply": "59008"
+                }
+            },
+            {
+                "id": "0x70258aa9830c2c84d855df1d61e12c256f6448b4",
+                "token0Price": "38.58213851080912096462158669388153",
+                "token1Price": "0.02591872919951913294886772707351488",
+                "reserve0": "10374.107366098533804129",
+                "reserve1": "268.883679508644591769",
+                "reserveETH": "537.767359017289183538",
+                "token0": {
+                    "id": "0x0ba45a8b5d5575935b8158a88c631e9f9c95a2e5",
+                    "name": "Tellor Tributes",
+                    "symbol": "TRB",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x977c5fcf7a552d38adcde4f41025956855497c6d",
+                "token0Price": "0.00000006148729393598050685616755702730391",
+                "token1Price": "16263522.68878806862551848740530294",
+                "reserve0": "268.837506017664240711",
+                "reserve1": "4372244878.715481311424800496",
+                "reserveETH": "537.675012035328481422",
+                "token0": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                },
+                "token1": {
+                    "id": "0xff836a5821e69066c87e268bc51b849fab94240c",
+                    "name": "Real Smurf Cat",
+                    "symbol": "шайлушай",
+                    "decimals": "18",
+                    "totalSupply": "16240"
+                }
+            },
+            {
+                "id": "0x0b1899184620333ec3ae298fc8dff204c6eb0e30",
+                "token0Price": "7704076.946259495764892016482915189",
+                "token1Price": "0.0000001298014034615169179184748541571254",
+                "reserve0": "2069655270.844646301281138926",
+                "reserve1": "268.644158837161006699",
+                "reserveETH": "537.2883176743220133979999999999999",
+                "token0": {
+                    "id": "0xb7cfe05915ef0c040c6dde2007c9ddab26259e04",
+                    "name": "Molly",
+                    "symbol": "MOLLY",
+                    "decimals": "18",
+                    "totalSupply": "16536"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x9eb51eb22813ee077e7ef4739a68d8e0b8e67cc6",
+                "token0Price": "16802.73739437333820523000944670579",
+                "token1Price": "0.00005951411228594608529970742419313165",
+                "reserve0": "4512988.186100883877283169",
+                "reserve1": "268.586485652756151191",
+                "reserveETH": "537.172971305512302382",
+                "token0": {
+                    "id": "0x3ee4b152824b657644c7a9b50694787e80eb8f4a",
+                    "name": "Bazed Games",
+                    "symbol": "BAZED",
+                    "decimals": "18",
+                    "totalSupply": "42624"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x78359500f08157eac9ef566040242abca8f4d9ab",
+                "token0Price": "150210.4749116247639121790359125468",
+                "token1Price": "0.000006657325333591699900220659946405376",
+                "reserve0": "40037050.735824692058576166",
+                "reserve1": "266.539672145901932014",
+                "reserveETH": "533.079344291803864028",
+                "token0": {
+                    "id": "0x5aef5bba19e6a1644805bd4f5c93c8557b87c62c",
+                    "name": "DeepFakeAI",
+                    "symbol": "FakeAI",
+                    "decimals": "18",
+                    "totalSupply": "59008"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x8fd3a04cb30a1fd9ffaf1548972b2e5117d0a52d",
+                "token0Price": "765.1577403233398201007755168821868",
+                "token1Price": "0.001306920060140044721848103137872424",
+                "reserve0": "203083.67596500305447725",
+                "reserve1": "265.41413000564314677",
+                "reserveETH": "530.8282600112862935399999999999999",
+                "token0": {
+                    "id": "0x985dd3d42de1e256d09e1c10f112bccb8015ad41",
+                    "name": "OceanToken",
+                    "symbol": "OCEAN",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xbc6d37be25b06471d9e094dbb800c1d006e5a9ed",
+                "token0Price": "712738.6031446708595033465563866983",
+                "token1Price": "0.000001403038920002234190094274561048653",
+                "reserve0": "188973393.924286095690212867",
+                "reserve1": "265.137026520687127953",
+                "reserveETH": "530.274053041374255906",
+                "token0": {
+                    "id": "0x4e0fca55a6c3a94720ded91153a27f60e26b9aa8",
+                    "name": "Boost",
+                    "symbol": "BOOST",
+                    "decimals": "18",
+                    "totalSupply": "57216"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x85aa97537837514a9229fcaeb66eeef7242122bf",
+                "token0Price": "9566.818318402303491493948302265087",
+                "token1Price": "0.0001045279597372979020169729748661173",
+                "reserve0": "2495579.580459342719156403",
+                "reserve1": "260.857841907476965904",
+                "reserveETH": "521.7156838149539318080000000000001",
+                "token0": {
+                    "id": "0x25b4f5d4c314bcd5d7962734936c957b947cb7cf",
+                    "name": "TG.Casino",
+                    "symbol": "TGC",
+                    "decimals": "18",
+                    "totalSupply": "16536"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xf07c735011c311f55425bf8c534471a0410d85ad",
+                "token0Price": "17332192.70155548716035035669626315",
+                "token1Price": "0.00000005769610442366328239396728767847137",
+                "reserve0": "4501414225.730911516173487641",
+                "reserve1": "259.71406522193407314",
+                "reserveETH": "519.42813044386814628",
+                "token0": {
+                    "id": "0x85614a474dbeed440d5bbdb8ac50b0f22367f997",
+                    "name": "XVG ERC-20",
+                    "symbol": "XVG",
+                    "decimals": "18",
+                    "totalSupply": "16240"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x0be902716176d66364f1c2ecf25829a6d95c5bee",
+                "token0Price": "2157308.397337195579521034964238524",
+                "token1Price": "0.0000004635405866098319197644958806299827",
+                "reserve0": "558787678.532810651502671435",
+                "reserve1": "259.020768297445232365",
+                "reserveETH": "518.04153659489046473",
+                "token0": {
+                    "id": "0x3c48ca59bf2699e51d4974d4b6d284ae52076e5e",
+                    "name": "Capital DAO Starter Token",
+                    "symbol": "CDS",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x82b8ee01e63af40bec3cb555795d2a12c495ee23",
+                "token0Price": "0.00001874189295770570920671674152801081",
+                "token1Price": "53356.40333965577748902479887832825",
+                "reserve0": "257.629245709215943225",
+                "reserve1": "13746169.946152208436012967",
+                "reserveETH": "515.25849141843188645",
+                "token0": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                },
+                "token1": {
+                    "id": "0xd4f4d0a10bcae123bb6655e8fe93a30d01eebd04",
+                    "name": "LinqAI",
+                    "symbol": "LNQ",
+                    "decimals": "18",
+                    "totalSupply": "16536"
+                }
+            },
+            {
+                "id": "0x5aea97b6b539f8649edc53497444c07b3a7e365f",
+                "token0Price": "5223.248828325871359607908168205123",
+                "token1Price": "0.000191451725327915273112489838607814",
+                "reserve0": "1345565.861115495028924236",
+                "reserve1": "257.610905652903544355",
+                "reserveETH": "515.22181130580708871",
+                "token0": {
+                    "id": "0x1cc7047e15825f639e0752eb1b89e4225f5327f2",
+                    "name": "Pullix",
+                    "symbol": "PLX",
+                    "decimals": "18",
+                    "totalSupply": "16536"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x47082a75bc16313ef92cfaca1feb885659c3c9b5",
+                "token0Price": "0.000027224495146299871062567423632462",
+                "token1Price": "36731.62696410595352578529386395725",
+                "reserve0": "257.191717170223169617",
+                "reserve1": "9447070.213354481524238302",
+                "reserveETH": "514.383434340446339234",
+                "token0": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                },
+                "token1": {
+                    "id": "0xc82e3db60a52cf7529253b4ec688f631aad9e7c2",
+                    "name": "ARC",
+                    "symbol": "ARC",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0xaf06e7c7170eb22d52eb09b5ec5d1373c34164e9",
+                "token0Price": "62528649971.82962867358689398404838",
+                "token1Price": "0.00000000001599266896775349257215723789899117",
+                "reserve0": "16028236603583.556487955725180046",
+                "reserve1": "256.334282137941382062",
+                "reserveETH": "512.668564275882764124",
+                "token0": {
+                    "id": "0xb69753c06bb5c366be51e73bfc0cc2e3dc07e371",
+                    "name": "POOH",
+                    "symbol": "POOH",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xcd6bcca48069f8588780dfa274960f15685aee0e",
+                "token0Price": "2706.777543607477231182483701243018",
+                "token1Price": "0.0003694429940730344654262362801857172",
+                "reserve0": "688145.50544067915124051",
+                "reserve1": "254.230535887906134153",
+                "reserveETH": "508.461071775812268306",
+                "token0": {
+                    "id": "0x88acdd2a6425c3faae4bc9650fd7e27e0bebb7ab",
+                    "name": "Alchemist",
+                    "symbol": "⚗️",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xe1525583c72de1a3dada24f761007ba8a560e220",
+                "token0Price": "0.00001618671706888125052490289482953614",
+                "token1Price": "61779.04980636788751524598007797778",
+                "reserve0": "253.063968072944070244",
+                "reserve1": "15634051.487775504631069082",
+                "reserveETH": "506.1279361458881404879999999999999",
+                "token0": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                },
+                "token1": {
+                    "id": "0xe453c3409f8ad2b1fe1ed08e189634d359705a5b",
+                    "name": "DGI Game",
+                    "symbol": "DGI",
+                    "decimals": "18",
+                    "totalSupply": "42920"
+                }
+            },
+            {
+                "id": "0xf827fa9b46745a876637406e2a3bf0a2766b89ba",
+                "token0Price": "25100564723.31235666796727786266767",
+                "token1Price": "0.00000000003983974109838420272492885504919126",
+                "reserve0": "6297418146718.183718655009556521",
+                "reserve1": "250.887508553518902932",
+                "reserveETH": "501.775017107037805864",
+                "token0": {
+                    "id": "0x445bd590a01fe6709d4f13a8f579c1e4846921db",
+                    "name": "DUMMY",
+                    "symbol": "DUMMY",
+                    "decimals": "18",
+                    "totalSupply": "16240"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x345e394f136912d473497ff5dbed120b73a31ab6",
+                "token0Price": "12050.55965703883965725123096089883",
+                "token1Price": "0.00008298369772526631636946809249094278",
+                "reserve0": "3020305.987463194868407945",
+                "reserve1": "250.636159101457759448",
+                "reserveETH": "501.272318202915518896",
+                "token0": {
+                    "id": "0x72f713d11480dcf08b37e1898670e736688d218d",
+                    "name": "Nettensor",
+                    "symbol": "NAO",
+                    "decimals": "18",
+                    "totalSupply": "59304"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x9345c3e50f31f18a68c5bd210cce6f2083ec6943",
+                "token0Price": "370826961446084.4641172801595693992",
+                "token1Price": "0.000000000000002696675549427095007354770727750198",
+                "reserve0": "92811995874836151.776976676",
+                "reserve1": "250.283839969199054939",
+                "reserveETH": "500.567679938398109878",
+                "token0": {
+                    "id": "0x4c6e2c495b974b8d4220e370f23c7e0e1da9b644",
+                    "name": "Smiley",
+                    "symbol": "SMILEY",
+                    "decimals": "9",
+                    "totalSupply": "16240"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x68e4af213c49f320175116bff189c9ca452ce29c",
+                "token0Price": "1.193831971283892465919052325096732",
+                "token1Price": "0.8376388168969556359130255787600998",
+                "reserve0": "297.585464960523344466",
+                "reserve1": "249.269136795263220961",
+                "reserveETH": "498.538273590526441922",
+                "token0": {
+                    "id": "0x0000000000ca73a6df4c58b84c5b4b847fe8ff39",
+                    "name": "Asterix",
+                    "symbol": "ASTX",
+                    "decimals": "18",
+                    "totalSupply": "16536"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x7a922aea89288d8c91777beecc68df4a17151df1",
+                "token0Price": "0.2722627421301199864499435603770999",
+                "token1Price": "3.67292267820500886191866030253935",
+                "reserve0": "1005568.953924",
+                "reserve1": "3693377.015366347235296697",
+                "reserveETH": "497.0669696083845131583177971138998",
+                "token0": {
+                    "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                    "name": "USD//C",
+                    "symbol": "USDC",
+                    "decimals": "6",
+                    "totalSupply": "14864"
+                },
+                "token1": {
+                    "id": "0xe485e2f1bab389c08721b291f6b59780fec83fd7",
+                    "name": "Shutter Token",
+                    "symbol": "SHU",
+                    "decimals": "18",
+                    "totalSupply": "16536"
+                }
+            },
+            {
+                "id": "0x7a9c6941594562fbd3ecafecedbdf3424e87b909",
+                "token0Price": "0.000139213203008373635789056386643057",
+                "token1Price": "7183.226722682691782000289124603912",
+                "reserve0": "7001.94503001779129639",
+                "reserve1": "50296558.650379060905658584",
+                "reserveETH": "488.659048801532516889897114393553",
+                "token0": {
+                    "id": "0x107721d9aa07d9de8f2cc9545e0c9346a9bb503b",
+                    "name": "Cap Coin GLD",
+                    "symbol": "CAPg",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0x79a91ccaaa6069a571f0a3fa6ed257796ddd0eb4",
+                    "name": "Cap Coin",
+                    "symbol": "CAPC",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0xb36ec83d844c0579ec2493f10b2087e96bb65460",
+                "token0Price": "33593.28652525574006511980721080365",
+                "token1Price": "0.00002976785255137781335165252393500655",
+                "reserve0": "8196690.062834596726328817",
+                "reserve1": "243.997861199804019396",
+                "reserveETH": "487.995722399608038792",
+                "token0": {
+                    "id": "0xb2617246d0c6c0087f18703d576831899ca94f01",
+                    "name": "ZigCoin",
+                    "symbol": "ZIG",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0xcd8733d1ac7233370350e3d18b09211bdf38051d",
+                "token0Price": "3.228511398415363068126147590342902",
+                "token1Price": "0.3097402724025771985620962068855807",
+                "reserve0": "774582289.777927881682702284",
+                "reserve1": "239919329.434027369943396039",
+                "reserveETH": "484.59493311628235005783679576177",
+                "token0": {
+                    "id": "0xdc9470972c794de00a0dfa8e35159a0ced3e5e64",
+                    "name": "RONPROTOCOL",
+                    "symbol": "RON",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xf16d45806bfb0abe59087cd8f388e0042ec7d0d3",
+                    "name": "FOMOPROTOCOL",
+                    "symbol": "FOM",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                }
+            },
+            {
+                "id": "0x44ee37ba8c98493f2590811c197ddd474c911d46",
+                "token0Price": "1.433314215716172638333443698232083",
+                "token1Price": "0.6976837242211666801213049589822037",
+                "reserve0": "1092.741624879881776802",
+                "reserve1": "762.388046457685008124",
+                "reserveETH": "484.1078603732497464714093078481469",
+                "token0": {
+                    "id": "0x93747501f46ae40b8a4b8f1a1529696ae24ea04e",
+                    "name": "RootKit ETH",
+                    "symbol": "KETH",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xcb5f72d37685c3d5ad0bb5f982443bc8fcdf570e",
+                    "name": "RootKit",
+                    "symbol": "ROOT",
+                    "decimals": "18",
+                    "totalSupply": "15224"
+                }
+            },
+            {
+                "id": "0x4581ce7a1b68f32fce97cf9f516f3550053b32a6",
+                "token0Price": "167568634629.7577282423398508950288",
+                "token1Price": "0.000000000005967703933432985603131235556300692",
+                "reserve0": "40488917064954.007298354409403913",
+                "reserve1": "241.625869628967963994",
+                "reserveETH": "483.251739257935927988",
+                "token0": {
+                    "id": "0x15d94ec1c8e98812dac23bf6a341bd6c83e4cb11",
+                    "name": "Simple Grain",
+                    "symbol": "RICE",
+                    "decimals": "18",
+                    "totalSupply": "16536"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x60ef1e0bf9218cdc1769a43c4b0b111ed38bb418",
+                "token0Price": "4880634.723964091537934095313126846",
+                "token1Price": "0.0000002048913833051189295404936351771562",
+                "reserve0": "1178909162.173691682593030197",
+                "reserve1": "241.54832902884647665",
+                "reserveETH": "483.0966580576929533",
+                "token0": {
+                    "id": "0xbededdf2ef49e87037c4fb2ca34d1ff3d3992a11",
+                    "name": "FEG Token",
+                    "symbol": "FEG",
+                    "decimals": "18",
+                    "totalSupply": "14448"
+                },
+                "token1": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                }
+            },
+            {
+                "id": "0x2e73ff42886796a7673f863135e663335c951595",
+                "token0Price": "0.00002680578381404355806026071509932144",
+                "token1Price": "37305.3818137598985088534766913404",
+                "reserve0": "241.279615731033061169",
+                "reserve1": "9001028.188723457480046481",
+                "reserveETH": "482.559231462066122338",
+                "token0": {
+                    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "name": "Wrapped Ether",
+                    "symbol": "WETH",
+                    "decimals": "18",
+                    "totalSupply": "15640"
+                },
+                "token1": {
+                    "id": "0xce6e54daa1ea95fb3530859d69d4bdb978dd821b",
+                    "name": "Ordibank",
+                    "symbol": "ORBK",
+                    "decimals": "18",
+                    "totalSupply": "16536"
+                }
+            },
+            {
+                "id": "0x68b6309695db6e3b98b5ccdd804c4715e821211c",
+                "token0Price": "0.1168852493544192081804632379325867",
+                "token1Price": "8.555399466769344823999574139755221",
+                "reserve0": "4378396.675374404717990613",
+                "reserve1": "37458932.581802854293981013",
+                "reserveETH": "481.7128551305793667633230200208836",
+                "token0": {
+                    "id": "0xaf20f01d515bd95fef560b8dd49b493af180bda6",
+                    "name": "Nerd",
+                    "symbol": "NERD",
+                    "decimals": "18",
+                    "totalSupply": "42624"
+                },
+                "token1": {
+                    "id": "0xea577e0dd93569e8b6634b1f7c8ca0daf6eaf306",
+                    "name": "Nerd Sale Right",
+                    "symbol": "NERDs",
+                    "decimals": "18",
+                    "totalSupply": "42624"
+                }
+            }
+        ]
+    }
+}

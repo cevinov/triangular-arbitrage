@@ -1,0 +1,57 @@
+
+
+Start Time: Mon Aug 25 2025 12:58:29 GMT+0700 (Western Indonesia Time)
+End Time: Mon Aug 25 2025 12:58:36 GMT+0700 (Western Indonesia Time)
+Difference: 0.0017205555555555555 hours
+
+Start Time: Mon Aug 25 2025 12:59:43 GMT+0700 (Western Indonesia Time)
+End Time: Mon Aug 25 2025 12:59:59 GMT+0700 (Western Indonesia Time)
+Difference: 0.004470833333333334 hours
+
+Start Time: Mon Aug 25 2025 13:04:59 GMT+0700 (Western Indonesia Time)
+End Time: Mon Aug 25 2025 13:05:14 GMT+0700 (Western Indonesia Time)
+Difference: 0.0042575 hours
+
+Start Time: Mon Aug 25 2025 13:04:59 GMT+0700 (Western Indonesia Time)
+End Time: Mon Aug 25 2025 13:05:29 GMT+0700 (Western Indonesia Time)
+Difference: 0.008274722222222222 hours
+
+Start Time: Mon Aug 25 2025 13:04:59 GMT+0700 (Western Indonesia Time)
+End Time: Mon Aug 25 2025 13:05:43 GMT+0700 (Western Indonesia Time)
+Difference: 0.012316111111111111 hours
+
+Start Time: Mon Aug 25 2025 13:04:59 GMT+0700 (Western Indonesia Time)
+End Time: Mon Aug 25 2025 13:05:57 GMT+0700 (Western Indonesia Time)
+Difference: 0.016215833333333332 hours
+
+Start Time: Mon Aug 25 2025 13:04:59 GMT+0700 (Western Indonesia Time)
+End Time: Mon Aug 25 2025 13:06:12 GMT+0700 (Western Indonesia Time)
+Difference: 0.0201375 hours
+
+Start Time: Mon Aug 25 2025 13:04:59 GMT+0700 (Western Indonesia Time)
+End Time: Mon Aug 25 2025 13:06:26 GMT+0700 (Western Indonesia Time)
+Difference: 0.024052777777777777 hours
+
+Start Time: Mon Aug 25 2025 13:12:34 GMT+0700 (Western Indonesia Time)
+End Time: Mon Aug 25 2025 13:12:48 GMT+0700 (Western Indonesia Time)
+Difference: 0.0041225 hours
+
+Start Time: Mon Aug 25 2025 13:12:34 GMT+0700 (Western Indonesia Time)
+End Time: Mon Aug 25 2025 13:13:02 GMT+0700 (Western Indonesia Time)
+Difference: 0.007968888888888888 hours
+
+Start Time: Mon Aug 25 2025 13:12:34 GMT+0700 (Western Indonesia Time)
+End Time: Mon Aug 25 2025 13:13:17 GMT+0700 (Western Indonesia Time)
+Difference: 0.01196638888888889 hours
+
+Start Time: Mon Aug 25 2025 13:12:34 GMT+0700 (Western Indonesia Time)
+End Time: Mon Aug 25 2025 13:13:31 GMT+0700 (Western Indonesia Time)
+Difference: 0.015855277777777777 hours
+
+Start Time: Mon Aug 25 2025 13:12:34 GMT+0700 (Western Indonesia Time)
+End Time: Mon Aug 25 2025 13:13:45 GMT+0700 (Western Indonesia Time)
+Difference: 0.01987027777777778 hours
+
+Start Time: Mon Aug 25 2025 13:12:34 GMT+0700 (Western Indonesia Time)
+End Time: Mon Aug 25 2025 13:13:59 GMT+0700 (Western Indonesia Time)
+Difference: 0.02386138888888889 hours
