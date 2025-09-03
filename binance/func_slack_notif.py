@@ -106,7 +106,7 @@ def arb_notif(exchange, result):
     response = requests.request("POST", url, headers=headers, json=payload)
 
     # Return response
-    return response.text.encode("utf8")
+    return response.text
 
 
 #res = {"contract_1": ["ETH", "USDT"], "acquired_coin_t1": 2.995}
