@@ -7,7 +7,7 @@ import json
 
 def arb_notif(exchange, result):
     # Defining the endpoint
-    url = "https://hooks.slack.com/services/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"
+    url = "https://hooks.slack.com/services/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"
     message = f"ARBITRAGE OPPORTUNITY FOUND for {exchange}!"
 
     if exchange == "Binance":
@@ -20,6 +20,7 @@ def arb_notif(exchange, result):
                 },
                 {
                     "type": "section",
+                    # Test notification with only contract 1 info
                     # "text": {
                     #     "type": "plain_text",
                     #     "text": "Contract 1:"
@@ -106,9 +107,9 @@ def arb_notif(exchange, result):
     response = requests.request("POST", url, headers=headers, json=payload)
 
     # Return response
-    return response.text 
+    return response.text.encode("utf8")
 
 
-#res = {"contract_1": ["ETH", "USDT"], "acquired_coin_t1": 2.995}
-#test = arb_notif("Binance", res)
-#print(test)
+# res = {"contract_1": ["ETH", "USDT"], "acquired_coin_t1": 2.995}
+# test = arb_notif("Binance", res)
+# print(test)
