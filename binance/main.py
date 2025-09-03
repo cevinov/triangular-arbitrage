@@ -98,7 +98,7 @@ if __name__ == "__main__":
                     notif = slack.arb_notif("Binance", result_dict)
 
                     if notif != b"ok":
-                        print("Error: " + notif)
+                        print(f"Error: {notif.decode('utf-8')}")
                         with open("error_notif.txt", "w") as fp:
                             json.dump(notif, fp)
 
