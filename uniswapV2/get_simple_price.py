@@ -56,7 +56,7 @@ def func_converter():
         json.dump(list_convert, f)
 
 
-# func_converter()
+func_converter()
 
 # g = "WETH"
 # with open("converter_usd.json", "r") as f:
