@@ -5,7 +5,7 @@
 function sendNotif(exchange, messages) {
   const { IncomingWebhook } = require("@slack/webhook");
   const url =
-    "https://hooks.slack.com/services/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";
+    "https://hooks.slack.com/services/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";
 
   const webhook = new IncomingWebhook(url);
   const data = `ARBITRAGE OPPORTUNITY FOUND for ${exchange}\n ${messages}`;
