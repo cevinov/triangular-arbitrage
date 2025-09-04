@@ -2,8 +2,8 @@ import time
 from binance import ThreadedWebsocketManager
 
 # https://python-binance.readthedocs.io/en/latest/
-api_key = "VfuFUsgEP6CQhkbcJyeHdi1ur0AzTdvo6OcHLcVWgoI7Wwl5WTYC2tkUXIGz73tu"
-api_secret = "sixvTYV8sGMdcQWeB59tMG2LLXNVbUeg6Xqu9zVtHUUvkmhQNut5h6MQsyURRDp9"
+api_key = "KEY"
+api_secret = "SECRET"
 
 
 def main():
