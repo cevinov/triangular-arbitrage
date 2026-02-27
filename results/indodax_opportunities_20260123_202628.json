@@ -1,0 +1,89 @@
+[
+    {
+        "contract_1": [
+            "USDT",
+            "IDR"
+        ],
+        "contract_direction_1": "buy",
+        "acquired_coin_t1": 2.968416053194016,
+        "trade_desc_1": "1. Start with IDR of 50000.0. Swap at rate 0.00005937 (1 / Avg Ask = 16844.00000000) for USDT acquiring 2.968416053194016 (50000.0 * 0.00005937 = 2.968416053194016) -- Quote to Base.",
+        "contract_2": [
+            "ETH",
+            "USDT"
+        ],
+        "contract_direction_2": "buy",
+        "acquired_coin_t2": 0.001013111280953589,
+        "trade_desc_2": "2. Start with USDT of 2.968416053194016. Swap at rate 0.00034130 (1 / Avg Ask = 2930.00000000) for ETH acquiring 0.001013111280953589 (2.968416053194016 * 0.00034130 = 0.001013111280953589) -- Quote to Base.",
+        "contract_3": [
+            "ETH",
+            "IDR"
+        ],
+        "contract_direction_3": "sell",
+        "acquired_coin_t3": 50182.44107947413,
+        "trade_desc_3": "3. Start with ETH of 0.001013111280953589. Swap at rate 49533000.00000000 (Avg Bid = 49533000.00000000) for IDR acquiring 50182.44107947413 (0.001013111280953589 * 49533000.00000000 = 50182.44107947413) -- Base to Quote.",
+        "starting_amount": 50000.0,
+        "final_balance": 50182.44107947413,
+        "profit_loss": 182.44107947412704,
+        "real_rate_percentage": 0.3648821589482541,
+        "fee": 0.0,
+        "foundAt": "2026-01-23 20:38:03"
+    },
+    {
+        "contract_1": [
+            "USDT",
+            "IDR"
+        ],
+        "contract_direction_1": "buy",
+        "acquired_coin_t1": 2.968416053194016,
+        "trade_desc_1": "1. Start with IDR of 50000.0. Swap at rate 0.00005937 (1 / Avg Ask = 16844.00000000) for USDT acquiring 2.968416053194016 (50000.0 * 0.00005937 = 2.968416053194016) -- Quote to Base.",
+        "contract_2": [
+            "ETH",
+            "USDT"
+        ],
+        "contract_direction_2": "buy",
+        "acquired_coin_t2": 0.001013111280953589,
+        "trade_desc_2": "2. Start with USDT of 2.968416053194016. Swap at rate 0.00034130 (1 / Avg Ask = 2930.00000000) for ETH acquiring 0.001013111280953589 (2.968416053194016 * 0.00034130 = 0.001013111280953589) -- Quote to Base.",
+        "contract_3": [
+            "ETH",
+            "IDR"
+        ],
+        "contract_direction_3": "sell",
+        "acquired_coin_t3": 50182.44107947413,
+        "trade_desc_3": "3. Start with ETH of 0.001013111280953589. Swap at rate 49533000.00000000 (Avg Bid = 49533000.00000000) for IDR acquiring 50182.44107947413 (0.001013111280953589 * 49533000.00000000 = 50182.44107947413) -- Base to Quote.",
+        "starting_amount": 50000.0,
+        "final_balance": 50182.44107947413,
+        "profit_loss": 182.44107947412704,
+        "real_rate_percentage": 0.3648821589482541,
+        "fee": 0.0,
+        "foundAt": "2026-01-23 20:38:37"
+    },
+    {
+        "contract_1": [
+            "USDT",
+            "IDR"
+        ],
+        "contract_direction_1": "buy",
+        "acquired_coin_t1": 2.968416053194016,
+        "trade_desc_1": "1. Start with IDR of 50000.0. Swap at rate 0.00005937 (1 / Avg Ask = 16844.00000000) for USDT acquiring 2.968416053194016 (50000.0 * 0.00005937 = 2.968416053194016) -- Quote to Base.",
+        "contract_2": [
+            "ETH",
+            "USDT"
+        ],
+        "contract_direction_2": "buy",
+        "acquired_coin_t2": 0.001013111280953589,
+        "trade_desc_2": "2. Start with USDT of 2.968416053194016. Swap at rate 0.00034130 (1 / Avg Ask = 2930.00000000) for ETH acquiring 0.001013111280953589 (2.968416053194016 * 0.00034130 = 0.001013111280953589) -- Quote to Base.",
+        "contract_3": [
+            "ETH",
+            "IDR"
+        ],
+        "contract_direction_3": "sell",
+        "acquired_coin_t3": 50098.35284315498,
+        "trade_desc_3": "3. Start with ETH of 0.001013111280953589. Swap at rate 49450000.00000000 (Avg Bid = 49450000.00000000) for IDR acquiring 50098.35284315498 (0.001013111280953589 * 49450000.00000000 = 50098.35284315498) -- Base to Quote.",
+        "starting_amount": 50000.0,
+        "final_balance": 50098.35284315498,
+        "profit_loss": 98.35284315497847,
+        "real_rate_percentage": 0.19670568630995694,
+        "fee": 0.0,
+        "foundAt": "2026-01-23 20:39:14"
+    }
+]

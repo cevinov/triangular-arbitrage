@@ -1,0 +1,402 @@
+[
+  {
+    "step1": {
+      "from": "idr",
+      "to": "btc",
+      "pair": "btc_idr",
+      "action": "buy"
+    },
+    "step2": {
+      "from": "btc",
+      "to": "usdt",
+      "pair": "btc_usdt",
+      "action": "sell"
+    },
+    "step3": {
+      "from": "usdt",
+      "to": "idr",
+      "pair": "usdt_idr",
+      "action": "sell"
+    }
+  },
+  {
+    "step1": {
+      "from": "idr",
+      "to": "bonk",
+      "pair": "bonk_idr",
+      "action": "buy"
+    },
+    "step2": {
+      "from": "bonk",
+      "to": "usdt",
+      "pair": "bonk_usdt",
+      "action": "sell"
+    },
+    "step3": {
+      "from": "usdt",
+      "to": "idr",
+      "pair": "usdt_idr",
+      "action": "sell"
+    }
+  },
+  {
+    "step1": {
+      "from": "idr",
+      "to": "eth",
+      "pair": "eth_idr",
+      "action": "buy"
+    },
+    "step2": {
+      "from": "eth",
+      "to": "usdt",
+      "pair": "eth_usdt",
+      "action": "sell"
+    },
+    "step3": {
+      "from": "usdt",
+      "to": "idr",
+      "pair": "usdt_idr",
+      "action": "sell"
+    }
+  },
+  {
+    "step1": {
+      "from": "idr",
+      "to": "floki",
+      "pair": "floki_idr",
+      "action": "buy"
+    },
+    "step2": {
+      "from": "floki",
+      "to": "usdt",
+      "pair": "floki_usdt",
+      "action": "sell"
+    },
+    "step3": {
+      "from": "usdt",
+      "to": "idr",
+      "pair": "usdt_idr",
+      "action": "sell"
+    }
+  },
+  {
+    "step1": {
+      "from": "idr",
+      "to": "gict",
+      "pair": "gict_idr",
+      "action": "buy"
+    },
+    "step2": {
+      "from": "gict",
+      "to": "usdt",
+      "pair": "gict_usdt",
+      "action": "sell"
+    },
+    "step3": {
+      "from": "usdt",
+      "to": "idr",
+      "pair": "usdt_idr",
+      "action": "sell"
+    }
+  },
+  {
+    "step1": {
+      "from": "idr",
+      "to": "idx",
+      "pair": "idx_idr",
+      "action": "buy"
+    },
+    "step2": {
+      "from": "idx",
+      "to": "usdt",
+      "pair": "idx_usdt",
+      "action": "sell"
+    },
+    "step3": {
+      "from": "usdt",
+      "to": "idr",
+      "pair": "usdt_idr",
+      "action": "sell"
+    }
+  },
+  {
+    "step1": {
+      "from": "idr",
+      "to": "lunc",
+      "pair": "lunc_idr",
+      "action": "buy"
+    },
+    "step2": {
+      "from": "lunc",
+      "to": "usdt",
+      "pair": "lunc_usdt",
+      "action": "sell"
+    },
+    "step3": {
+      "from": "usdt",
+      "to": "idr",
+      "pair": "usdt_idr",
+      "action": "sell"
+    }
+  },
+  {
+    "step1": {
+      "from": "idr",
+      "to": "pepe",
+      "pair": "pepe_idr",
+      "action": "buy"
+    },
+    "step2": {
+      "from": "pepe",
+      "to": "usdt",
+      "pair": "pepe_usdt",
+      "action": "sell"
+    },
+    "step3": {
+      "from": "usdt",
+      "to": "idr",
+      "pair": "usdt_idr",
+      "action": "sell"
+    }
+  },
+  {
+    "step1": {
+      "from": "idr",
+      "to": "shib",
+      "pair": "shib_idr",
+      "action": "buy"
+    },
+    "step2": {
+      "from": "shib",
+      "to": "usdt",
+      "pair": "shib_usdt",
+      "action": "sell"
+    },
+    "step3": {
+      "from": "usdt",
+      "to": "idr",
+      "pair": "usdt_idr",
+      "action": "sell"
+    }
+  },
+  {
+    "step1": {
+      "from": "idr",
+      "to": "usdt",
+      "pair": "usdt_idr",
+      "action": "buy"
+    },
+    "step2": {
+      "from": "usdt",
+      "to": "btc",
+      "pair": "btc_usdt",
+      "action": "buy"
+    },
+    "step3": {
+      "from": "btc",
+      "to": "idr",
+      "pair": "btc_idr",
+      "action": "sell"
+    }
+  },
+  {
+    "step1": {
+      "from": "idr",
+      "to": "usdt",
+      "pair": "usdt_idr",
+      "action": "buy"
+    },
+    "step2": {
+      "from": "usdt",
+      "to": "bonk",
+      "pair": "bonk_usdt",
+      "action": "buy"
+    },
+    "step3": {
+      "from": "bonk",
+      "to": "idr",
+      "pair": "bonk_idr",
+      "action": "sell"
+    }
+  },
+  {
+    "step1": {
+      "from": "idr",
+      "to": "usdt",
+      "pair": "usdt_idr",
+      "action": "buy"
+    },
+    "step2": {
+      "from": "usdt",
+      "to": "eth",
+      "pair": "eth_usdt",
+      "action": "buy"
+    },
+    "step3": {
+      "from": "eth",
+      "to": "idr",
+      "pair": "eth_idr",
+      "action": "sell"
+    }
+  },
+  {
+    "step1": {
+      "from": "idr",
+      "to": "usdt",
+      "pair": "usdt_idr",
+      "action": "buy"
+    },
+    "step2": {
+      "from": "usdt",
+      "to": "floki",
+      "pair": "floki_usdt",
+      "action": "buy"
+    },
+    "step3": {
+      "from": "floki",
+      "to": "idr",
+      "pair": "floki_idr",
+      "action": "sell"
+    }
+  },
+  {
+    "step1": {
+      "from": "idr",
+      "to": "usdt",
+      "pair": "usdt_idr",
+      "action": "buy"
+    },
+    "step2": {
+      "from": "usdt",
+      "to": "gict",
+      "pair": "gict_usdt",
+      "action": "buy"
+    },
+    "step3": {
+      "from": "gict",
+      "to": "idr",
+      "pair": "gict_idr",
+      "action": "sell"
+    }
+  },
+  {
+    "step1": {
+      "from": "idr",
+      "to": "usdt",
+      "pair": "usdt_idr",
+      "action": "buy"
+    },
+    "step2": {
+      "from": "usdt",
+      "to": "idx",
+      "pair": "idx_usdt",
+      "action": "buy"
+    },
+    "step3": {
+      "from": "idx",
+      "to": "idr",
+      "pair": "idx_idr",
+      "action": "sell"
+    }
+  },
+  {
+    "step1": {
+      "from": "idr",
+      "to": "usdt",
+      "pair": "usdt_idr",
+      "action": "buy"
+    },
+    "step2": {
+      "from": "usdt",
+      "to": "lunc",
+      "pair": "lunc_usdt",
+      "action": "buy"
+    },
+    "step3": {
+      "from": "lunc",
+      "to": "idr",
+      "pair": "lunc_idr",
+      "action": "sell"
+    }
+  },
+  {
+    "step1": {
+      "from": "idr",
+      "to": "usdt",
+      "pair": "usdt_idr",
+      "action": "buy"
+    },
+    "step2": {
+      "from": "usdt",
+      "to": "pepe",
+      "pair": "pepe_usdt",
+      "action": "buy"
+    },
+    "step3": {
+      "from": "pepe",
+      "to": "idr",
+      "pair": "pepe_idr",
+      "action": "sell"
+    }
+  },
+  {
+    "step1": {
+      "from": "idr",
+      "to": "usdt",
+      "pair": "usdt_idr",
+      "action": "buy"
+    },
+    "step2": {
+      "from": "usdt",
+      "to": "shib",
+      "pair": "shib_usdt",
+      "action": "buy"
+    },
+    "step3": {
+      "from": "shib",
+      "to": "idr",
+      "pair": "shib_idr",
+      "action": "sell"
+    }
+  },
+  {
+    "step1": {
+      "from": "idr",
+      "to": "usdt",
+      "pair": "usdt_idr",
+      "action": "buy"
+    },
+    "step2": {
+      "from": "usdt",
+      "to": "vcg",
+      "pair": "vcg_usdt",
+      "action": "buy"
+    },
+    "step3": {
+      "from": "vcg",
+      "to": "idr",
+      "pair": "vcg_idr",
+      "action": "sell"
+    }
+  },
+  {
+    "step1": {
+      "from": "idr",
+      "to": "vcg",
+      "pair": "vcg_idr",
+      "action": "buy"
+    },
+    "step2": {
+      "from": "vcg",
+      "to": "usdt",
+      "pair": "vcg_usdt",
+      "action": "sell"
+    },
+    "step3": {
+      "from": "usdt",
+      "to": "idr",
+      "pair": "usdt_idr",
+      "action": "sell"
+    }
+  }
+]

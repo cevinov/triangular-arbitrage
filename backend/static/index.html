@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangular Arbitrage Bot</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        /* Custom scrollbar for raw data */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #0f172a;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #334155;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #475569;
+        }
+
+        /* Triangle Animation */
+        .dash-line {
+            stroke-dasharray: 5;
+            animation: dash 20s linear infinite;
+        }
+
+        @keyframes dash {
+            to {
+                stroke-dashoffset: -1000;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-gray-900 text-gray-100 h-screen flex overflow-hidden">
+    <!-- Sidebar -->
+    <aside class="w-64 bg-gray-800 border-r border-gray-700 flex flex-col flex-shrink-0">
+        <div class="p-6 border-b border-gray-700">
+            <h1 class="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
+                Triangular Bot
+            </h1>
+            <p class="text-xs text-gray-400 mt-1">Arbitrage Control Panel</p>
+        </div>
+
+        <nav class="flex-1 p-4 space-y-2 overflow-y-auto">
+            <a href="#" onclick="switchView('dashboard')" id="nav-dashboard"
+                class="flex items-center gap-3 px-4 py-3 bg-gray-700 text-white rounded-lg transition-colors">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z">
+                    </path>
+                </svg>
+                <span class="font-medium">Dashboard</span>
+            </a>
+            <a href="#" onclick="switchView('logs')" id="nav-logs"
+                class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-gray-700 hover:text-white rounded-lg transition-colors">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z">
+                    </path>
+                </svg>
+                <span class="font-medium">Live Logs</span>
+            </a>
+            <a href="#" onclick="switchView('data')" id="nav-data"
+                class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-gray-700 hover:text-white rounded-lg transition-colors">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4">
+                    </path>
+                </svg>
+                <span class="font-medium">Data Viewer</span>
+            </a>
+            <a href="#" onclick="switchView('analysis')" id="nav-analysis"
+                class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-gray-700 hover:text-white rounded-lg transition-colors">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z">
+                    </path>
+                </svg>
+                <span class="font-medium">Analysis</span>
+            </a>
+        </nav>
+
+        <div class="p-4 border-t border-gray-700">
+            <div id="status-indicator"
+                class="flex items-center gap-2 px-3 py-2 bg-gray-900 rounded-lg border border-gray-700">
+                <div class="w-2 h-2 rounded-full bg-red-500 animate-pulse"></div>
+                <span class="text-xs font-medium text-gray-400">System Offline</span>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 flex flex-col overflow-hidden bg-gray-900 relative h-full">
+        <!-- Dashboard View -->
+        <div id="view-dashboard" class="flex-1 overflow-y-auto p-8">
+            <header class="mb-8">
+                <h2 class="text-2xl font-bold text-white">Dashboard</h2>
+                <p class="text-gray-400">Manage your arbitrage bots</p>
+            </header>
+
+            <div class="grid grid-cols-1 xl:grid-cols-2 gap-8">
+                <!-- Binance Card -->
+                <div
+                    class="bg-gray-800 rounded-xl border border-gray-700 p-6 shadow-lg hover:border-blue-500/50 transition-colors">
+                    <div class="flex justify-between items-start mb-6">
+                        <div>
+                            <h2 class="text-xl font-bold text-white flex items-center gap-2">
+                                <img src="https://cryptologos.cc/logos/binance-coin-bnb-logo.svg?v=029" class="w-6 h-6"
+                                    alt="Binance">
+                                Binance Bot
+                            </h2>
+                            <span id="binance-status" class="text-xs font-mono text-red-400 mt-1 block">STOPPED</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <button onclick="controlBot('binance', 'start')"
+                                class="px-4 py-2 bg-green-600 hover:bg-green-500 text-white rounded-lg text-sm font-medium transition-colors">Start</button>
+                            <button onclick="controlBot('binance', 'stop')"
+                                class="px-4 py-2 bg-red-600 hover:bg-red-500 text-white rounded-lg text-sm font-medium transition-colors">Stop</button>
+                        </div>
+                    </div>
+
+                    <div class="space-y-4">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-400 mb-1">Investment Amount (USD)</label>
+                            <div class="flex gap-2">
+                                <input type="number" id="binance-amount" value="5"
+                                    class="bg-gray-900 border border-gray-700 rounded-lg px-3 py-2 text-white w-full focus:outline-none focus:border-blue-500">
+                                <button onclick="updateConfig('binance')"
+                                    class="px-3 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg text-sm">Save</button>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-400 mb-1">Trading Fee (%)</label>
+                            <div class="flex gap-2">
+                                <input type="number" id="binance-fee" value="0" step="0.01"
+                                    class="bg-gray-900 border border-gray-700 rounded-lg px-3 py-2 text-white w-full focus:outline-none focus:border-blue-500">
+                                <button onclick="updateConfig('binance')"
+                                    class="px-3 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg text-sm">Save</button>
+                            </div>
+                        </div>
+                        <div class="bg-gray-900 rounded-lg p-3 border border-gray-700">
+                            <p class="text-xs text-gray-500 uppercase mb-1">Last Message</p>
+                            <p id="binance-msg" class="text-sm text-gray-300 font-mono truncate">Waiting for status...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Indodax Card -->
+                <div
+                    class="bg-gray-800 rounded-xl border border-gray-700 p-6 shadow-lg hover:border-blue-500/50 transition-colors">
+                    <div class="flex justify-between items-start mb-6">
+                        <div>
+                            <h2 class="text-xl font-bold text-white flex items-center gap-2">
+                                <!-- Placeholder logo -->
+                                <span
+                                    class="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center text-xs font-bold">I</span>
+                                Indodax Bot
+                            </h2>
+                            <span id="indodax-status" class="text-xs font-mono text-red-400 mt-1 block">STOPPED</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <button onclick="controlBot('indodax', 'start')"
+                                class="px-4 py-2 bg-green-600 hover:bg-green-500 text-white rounded-lg text-sm font-medium transition-colors">Start</button>
+                            <button onclick="controlBot('indodax', 'stop')"
+                                class="px-4 py-2 bg-red-600 hover:bg-red-500 text-white rounded-lg text-sm font-medium transition-colors">Stop</button>
+                        </div>
+                    </div>
+
+                    <div class="space-y-4">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-400 mb-1">Initial Amount (IDR)</label>
+                            <div class="flex gap-2">
+                                <input type="number" id="indodax-amount" value="50000"
+                                    class="bg-gray-900 border border-gray-700 rounded-lg px-3 py-2 text-white w-full focus:outline-none focus:border-blue-500">
+                                <button onclick="updateConfig('indodax')"
+                                    class="px-3 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg text-sm">Save</button>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-400 mb-1">Trading Fee (%)</label>
+                            <div class="flex gap-2">
+                                <input type="number" id="indodax-fee" value="0.3" step="0.01"
+                                    class="bg-gray-900 border border-gray-700 rounded-lg px-3 py-2 text-white w-full focus:outline-none focus:border-blue-500">
+                                <button onclick="updateConfig('indodax')"
+                                    class="px-3 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg text-sm">Save</button>
+                            </div>
+                        </div>
+                        <div class="bg-gray-900 rounded-lg p-3 border border-gray-700">
+                            <p class="text-xs text-gray-500 uppercase mb-1">Last Message</p>
+                            <p id="indodax-msg" class="text-sm text-gray-300 font-mono truncate">Waiting for status...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Logs View -->
+        <div id="view-logs" class="hidden flex-1 flex flex-col overflow-hidden p-8 min-h-0">
+            <header class="mb-4 flex justify-between items-center">
+                <div>
+                    <h2 class="text-2xl font-bold text-white">Live Logs</h2>
+                    <p class="text-gray-400">Real-time activity stream</p>
+                </div>
+                <button onclick="clearLogs()"
+                    class="px-3 py-1 text-xs bg-gray-800 hover:bg-gray-700 text-gray-300 rounded border border-gray-700 transition-colors">Clear
+                    Logs</button>
+            </header>
+
+            <div id="logs-container"
+                class="flex-1 bg-gray-950 rounded-xl border border-gray-800 p-4 overflow-y-auto font-mono text-sm text-gray-400 space-y-1">
+                <p class="text-green-500">[SYSTEM] Dashboard loaded successfully.</p>
+                <p class="text-blue-500">[SYSTEM] Connecting to real-time logs...</p>
+            </div>
+        </div>
+
+        <!-- Data Viewer View -->
+        <div id="view-data" class="hidden flex-1 flex flex-col overflow-hidden p-8 min-h-0">
+            <header class="mb-4 flex justify-between items-center">
+                <div>
+                    <h2 class="text-2xl font-bold text-white">Data Viewer</h2>
+                    <p class="text-gray-400">Inspect bot configuration and results</p>
+                </div>
+                <div class="flex gap-2">
+                    <select id="data-file-select" onchange="loadFileContent()"
+                        class="bg-gray-800 border border-gray-700 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5">
+                        <option value="" disabled selected>Select a file...</option>
+                    </select>
+                    <button onclick="loadFileContent()"
+                        class="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-lg text-sm font-medium transition-colors">Refresh</button>
+                </div>
+            </header>
+
+            <div class="flex-1 bg-gray-950 rounded-xl border border-gray-800 p-4 overflow-y-auto">
+                <pre id="data-content" class="font-mono text-sm text-green-400 whitespace-pre-wrap"></pre>
+            </div>
+        </div>
+
+        <!-- Analysis View -->
+        <div id="view-analysis" class="hidden flex-1 flex flex-col overflow-hidden p-8 min-h-0">
+            <header class="mb-8 flex justify-between items-center">
+                <div>
+                    <h2 class="text-2xl font-bold text-white">Performance Analysis</h2>
+                    <p class="text-gray-400">Insights from historical arbitrage opportunities</p>
+                </div>
+                <div class="flex gap-2">
+                    <select id="analysis-file-select" onchange="loadAnalysis()"
+                        class="bg-gray-800 border border-gray-700 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 min-w-[200px]">
+                        <option value="">All Files</option>
+                    </select>
+                    <button onclick="loadAnalysis()"
+                        class="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-lg text-sm font-medium transition-colors">Refresh</button>
+                </div>
+            </header>
+
+            <!-- Stats Grid -->
+            <div id="stats-grid" class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+                <!-- Populated by JS -->
+            </div>
+
+            <!-- Trade Cards Container -->
+            <div id="trade-cards-container" class="space-y-6 overflow-y-auto flex-1 pr-2">
+            </div>
+        </div>
+    </main>
+    <!-- Confirmation Modal -->
+    <div id="confirm-modal"
+        class="hidden fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center">
+        <div
+            class="bg-gray-800 rounded-xl border border-gray-700 p-6 w-full max-w-md shadow-2xl transform transition-all scale-100">
+            <h3 class="text-xl font-bold text-white mb-4">Confirm Configuration</h3>
+            <div class="space-y-4 mb-6">
+                <div class="bg-gray-900/50 p-4 rounded-lg border border-gray-700/50">
+                    <p class="text-sm text-gray-400 mb-1">Investment Amount</p>
+                    <p id="modal-amount" class="text-lg font-mono text-white font-bold">--</p>
+                </div>
+                <div class="bg-gray-900/50 p-4 rounded-lg border border-gray-700/50">
+                    <p class="text-sm text-gray-400 mb-1">Trading Fee</p>
+                    <p id="modal-fee" class="text-lg font-mono text-white font-bold">--</p>
+                </div>
+                <p class="text-xs text-yellow-500/80 flex items-center gap-2">
+                    <i data-lucide="alert-triangle" class="w-3 h-3"></i>
+                    These values will be applied immediately.
+                </p>
+            </div>
+            <div class="flex justify-end gap-3">
+                <button onclick="closeModal()"
+                    class="px-4 py-2 bg-gray-700 hover:bg-gray-600 text-white rounded-lg text-sm font-medium transition-colors">
+                    Cancel
+                </button>
+                <button id="modal-confirm-btn"
+                    class="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-lg text-sm font-medium transition-colors">
+                    Confirm & Save
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

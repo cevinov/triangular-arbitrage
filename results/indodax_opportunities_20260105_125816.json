@@ -1,0 +1,524 @@
+[
+    {
+        "contract_1": [
+            "BTC",
+            "IDR"
+        ],
+        "contract_direction_1": "buy",
+        "acquired_coin_t1": 3.2195687967119185e-05,
+        "trade_desc_1": "1. Start with IDR of 50000.0. Swap at rate 0.00000000 (1 / Avg Ask = 1553003000.00000024) for BTC acquiring 3.2195687967119185e-05 (50000.0 * 0.00000000 = 3.2195687967119185e-05) -- Quote to Base.",
+        "contract_2": [
+            "BTC",
+            "USDT"
+        ],
+        "contract_direction_2": "sell",
+        "acquired_coin_t2": 2.9813207057552367,
+        "trade_desc_2": "2. Start with BTC of 3.2195687967119185e-05. Swap at rate 92600.00000000 (Avg Bid = 92600.00000000) for USDT acquiring 2.9813207057552367 (3.2195687967119185e-05 * 92600.00000000 = 2.9813207057552367) -- Base to Quote.",
+        "contract_3": [
+            "USDT",
+            "IDR"
+        ],
+        "contract_direction_3": "sell",
+        "acquired_coin_t3": 50053.39332892467,
+        "trade_desc_3": "3. Start with USDT of 2.9813207057552367. Swap at rate 16789.00000000 (Avg Bid = 16789.00000000) for IDR acquiring 50053.39332892467 (2.9813207057552367 * 16789.00000000 = 50053.39332892467) -- Base to Quote.",
+        "starting_amount": 50000.0,
+        "final_balance": 50053.39332892467,
+        "profit_loss": 53.39332892467064,
+        "real_rate_percentage": 0.10678665784934128,
+        "fee": 0.0,
+        "foundAt": "2026-01-05 12:58:19"
+    },
+    {
+        "contract_1": [
+            "BTC",
+            "IDR"
+        ],
+        "contract_direction_1": "buy",
+        "acquired_coin_t1": 3.2195687967119185e-05,
+        "trade_desc_1": "1. Start with IDR of 50000.0. Swap at rate 0.00000000 (1 / Avg Ask = 1553003000.00000024) for BTC acquiring 3.2195687967119185e-05 (50000.0 * 0.00000000 = 3.2195687967119185e-05) -- Quote to Base.",
+        "contract_2": [
+            "BTC",
+            "USDT"
+        ],
+        "contract_direction_2": "sell",
+        "acquired_coin_t2": 2.9813207057552367,
+        "trade_desc_2": "2. Start with BTC of 3.2195687967119185e-05. Swap at rate 92600.00000000 (Avg Bid = 92600.00000000) for USDT acquiring 2.9813207057552367 (3.2195687967119185e-05 * 92600.00000000 = 2.9813207057552367) -- Base to Quote.",
+        "contract_3": [
+            "USDT",
+            "IDR"
+        ],
+        "contract_direction_3": "sell",
+        "acquired_coin_t3": 50041.46804610165,
+        "trade_desc_3": "3. Start with USDT of 2.9813207057552367. Swap at rate 16785.00000000 (Avg Bid = 16785.00000000) for IDR acquiring 50041.46804610165 (2.9813207057552367 * 16785.00000000 = 50041.46804610165) -- Base to Quote.",
+        "starting_amount": 50000.0,
+        "final_balance": 50041.46804610165,
+        "profit_loss": 41.468046101646905,
+        "real_rate_percentage": 0.0829360922032938,
+        "fee": 0.0,
+        "foundAt": "2026-01-05 12:58:50"
+    },
+    {
+        "contract_1": [
+            "BTC",
+            "IDR"
+        ],
+        "contract_direction_1": "buy",
+        "acquired_coin_t1": 3.2195687967119185e-05,
+        "trade_desc_1": "1. Start with IDR of 50000.0. Swap at rate 0.00000000 (1 / Avg Ask = 1553003000.00000024) for BTC acquiring 3.2195687967119185e-05 (50000.0 * 0.00000000 = 3.2195687967119185e-05) -- Quote to Base.",
+        "contract_2": [
+            "BTC",
+            "USDT"
+        ],
+        "contract_direction_2": "sell",
+        "acquired_coin_t2": 2.9813207057552367,
+        "trade_desc_2": "2. Start with BTC of 3.2195687967119185e-05. Swap at rate 92600.00000000 (Avg Bid = 92600.00000000) for USDT acquiring 2.9813207057552367 (3.2195687967119185e-05 * 92600.00000000 = 2.9813207057552367) -- Base to Quote.",
+        "contract_3": [
+            "USDT",
+            "IDR"
+        ],
+        "contract_direction_3": "sell",
+        "acquired_coin_t3": 50047.43068751316,
+        "trade_desc_3": "3. Start with USDT of 2.9813207057552367. Swap at rate 16787.00000000 (Avg Bid = 16787.00000000) for IDR acquiring 50047.43068751316 (2.9813207057552367 * 16787.00000000 = 50047.43068751316) -- Base to Quote.",
+        "starting_amount": 50000.0,
+        "final_balance": 50047.43068751316,
+        "profit_loss": 47.43068751315877,
+        "real_rate_percentage": 0.09486137502631754,
+        "fee": 0.0,
+        "foundAt": "2026-01-05 12:59:43"
+    },
+    {
+        "contract_1": [
+            "BTC",
+            "IDR"
+        ],
+        "contract_direction_1": "buy",
+        "acquired_coin_t1": 3.2195687967119185e-05,
+        "trade_desc_1": "1. Start with IDR of 50000.0. Swap at rate 0.00000000 (1 / Avg Ask = 1553003000.00000024) for BTC acquiring 3.2195687967119185e-05 (50000.0 * 0.00000000 = 3.2195687967119185e-05) -- Quote to Base.",
+        "contract_2": [
+            "BTC",
+            "USDT"
+        ],
+        "contract_direction_2": "sell",
+        "acquired_coin_t2": 2.980902161811664,
+        "trade_desc_2": "2. Start with BTC of 3.2195687967119185e-05. Swap at rate 92587.00000000 (Avg Bid = 92587.00000000) for USDT acquiring 2.980902161811664 (3.2195687967119185e-05 * 92587.00000000 = 2.980902161811664) -- Base to Quote.",
+        "contract_3": [
+            "USDT",
+            "IDR"
+        ],
+        "contract_direction_3": "sell",
+        "acquired_coin_t3": 50019.538275199724,
+        "trade_desc_3": "3. Start with USDT of 2.980902161811664. Swap at rate 16780.00000000 (Avg Bid = 16780.00000000) for IDR acquiring 50019.538275199724 (2.980902161811664 * 16780.00000000 = 50019.538275199724) -- Base to Quote.",
+        "starting_amount": 50000.0,
+        "final_balance": 50019.538275199724,
+        "profit_loss": 19.538275199724012,
+        "real_rate_percentage": 0.039076550399448025,
+        "fee": 0.0,
+        "foundAt": "2026-01-05 13:00:24"
+    },
+    {
+        "contract_1": [
+            "ETH",
+            "IDR"
+        ],
+        "contract_direction_1": "buy",
+        "acquired_coin_t1": 0.000946073793755913,
+        "trade_desc_1": "1. Start with IDR of 50000.0. Swap at rate 0.00000002 (1 / Avg Ask = 52849999.99999999) for ETH acquiring 0.000946073793755913 (50000.0 * 0.00000002 = 0.000946073793755913) -- Quote to Base.",
+        "contract_2": [
+            "ETH",
+            "USDT"
+        ],
+        "contract_direction_2": "sell",
+        "acquired_coin_t2": 2.980564450331126,
+        "trade_desc_2": "2. Start with ETH of 0.000946073793755913. Swap at rate 3150.45662400 (Avg Bid = 3150.45662400) for USDT acquiring 2.980564450331126 (0.000946073793755913 * 3150.45662400 = 2.980564450331126) -- Base to Quote.",
+        "contract_3": [
+            "USDT",
+            "IDR"
+        ],
+        "contract_direction_3": "sell",
+        "acquired_coin_t3": 50019.832605456955,
+        "trade_desc_3": "3. Start with USDT of 2.980564450331126. Swap at rate 16782.00000000 (Avg Bid = 16782.00000000) for IDR acquiring 50019.832605456955 (2.980564450331126 * 16782.00000000 = 50019.832605456955) -- Base to Quote.",
+        "starting_amount": 50000.0,
+        "final_balance": 50019.832605456955,
+        "profit_loss": 19.832605456955207,
+        "real_rate_percentage": 0.03966521091391042,
+        "fee": 0.0,
+        "foundAt": "2026-01-05 13:00:26"
+    },
+    {
+        "contract_1": [
+            "BTC",
+            "IDR"
+        ],
+        "contract_direction_1": "buy",
+        "acquired_coin_t1": 3.2195687967119185e-05,
+        "trade_desc_1": "1. Start with IDR of 50000.0. Swap at rate 0.00000000 (1 / Avg Ask = 1553003000.00000024) for BTC acquiring 3.2195687967119185e-05 (50000.0 * 0.00000000 = 3.2195687967119185e-05) -- Quote to Base.",
+        "contract_2": [
+            "BTC",
+            "USDT"
+        ],
+        "contract_direction_2": "sell",
+        "acquired_coin_t2": 2.980902161811664,
+        "trade_desc_2": "2. Start with BTC of 3.2195687967119185e-05. Swap at rate 92587.00000000 (Avg Bid = 92587.00000000) for USDT acquiring 2.980902161811664 (3.2195687967119185e-05 * 92587.00000000 = 2.980902161811664) -- Base to Quote.",
+        "contract_3": [
+            "USDT",
+            "IDR"
+        ],
+        "contract_direction_3": "sell",
+        "acquired_coin_t3": 50034.44278600878,
+        "trade_desc_3": "3. Start with USDT of 2.980902161811664. Swap at rate 16785.00000000 (Avg Bid = 16785.00000000) for IDR acquiring 50034.44278600878 (2.980902161811664 * 16785.00000000 = 50034.44278600878) -- Base to Quote.",
+        "starting_amount": 50000.0,
+        "final_balance": 50034.44278600878,
+        "profit_loss": 34.442786008781695,
+        "real_rate_percentage": 0.06888557201756339,
+        "fee": 0.0,
+        "foundAt": "2026-01-05 13:01:09"
+    },
+    {
+        "contract_1": [
+            "BTC",
+            "IDR"
+        ],
+        "contract_direction_1": "buy",
+        "acquired_coin_t1": 3.2195687967119185e-05,
+        "trade_desc_1": "1. Start with IDR of 50000.0. Swap at rate 0.00000000 (1 / Avg Ask = 1553003000.00000024) for BTC acquiring 3.2195687967119185e-05 (50000.0 * 0.00000000 = 3.2195687967119185e-05) -- Quote to Base.",
+        "contract_2": [
+            "BTC",
+            "USDT"
+        ],
+        "contract_direction_2": "sell",
+        "acquired_coin_t2": 2.980902161811664,
+        "trade_desc_2": "2. Start with BTC of 3.2195687967119185e-05. Swap at rate 92587.00000000 (Avg Bid = 92587.00000000) for USDT acquiring 2.980902161811664 (3.2195687967119185e-05 * 92587.00000000 = 2.980902161811664) -- Base to Quote.",
+        "contract_3": [
+            "USDT",
+            "IDR"
+        ],
+        "contract_direction_3": "sell",
+        "acquired_coin_t3": 50040.4045903324,
+        "trade_desc_3": "3. Start with USDT of 2.980902161811664. Swap at rate 16787.00000000 (Avg Bid = 16787.00000000) for IDR acquiring 50040.4045903324 (2.980902161811664 * 16787.00000000 = 50040.4045903324) -- Base to Quote.",
+        "starting_amount": 50000.0,
+        "final_balance": 50040.4045903324,
+        "profit_loss": 40.4045903324004,
+        "real_rate_percentage": 0.0808091806648008,
+        "fee": 0.0,
+        "foundAt": "2026-01-05 13:01:49"
+    },
+    {
+        "contract_1": [
+            "BTC",
+            "IDR"
+        ],
+        "contract_direction_1": "buy",
+        "acquired_coin_t1": 3.2195687967119185e-05,
+        "trade_desc_1": "1. Start with IDR of 50000.0. Swap at rate 0.00000000 (1 / Avg Ask = 1553003000.00000024) for BTC acquiring 3.2195687967119185e-05 (50000.0 * 0.00000000 = 3.2195687967119185e-05) -- Quote to Base.",
+        "contract_2": [
+            "BTC",
+            "USDT"
+        ],
+        "contract_direction_2": "sell",
+        "acquired_coin_t2": 2.980902161811664,
+        "trade_desc_2": "2. Start with BTC of 3.2195687967119185e-05. Swap at rate 92587.00000000 (Avg Bid = 92587.00000000) for USDT acquiring 2.980902161811664 (3.2195687967119185e-05 * 92587.00000000 = 2.980902161811664) -- Base to Quote.",
+        "contract_3": [
+            "USDT",
+            "IDR"
+        ],
+        "contract_direction_3": "sell",
+        "acquired_coin_t3": 50040.4045903324,
+        "trade_desc_3": "3. Start with USDT of 2.980902161811664. Swap at rate 16787.00000000 (Avg Bid = 16787.00000000) for IDR acquiring 50040.4045903324 (2.980902161811664 * 16787.00000000 = 50040.4045903324) -- Base to Quote.",
+        "starting_amount": 50000.0,
+        "final_balance": 50040.4045903324,
+        "profit_loss": 40.4045903324004,
+        "real_rate_percentage": 0.0808091806648008,
+        "fee": 0.0,
+        "foundAt": "2026-01-05 13:02:33"
+    },
+    {
+        "contract_1": [
+            "BTC",
+            "IDR"
+        ],
+        "contract_direction_1": "buy",
+        "acquired_coin_t1": 3.219572942966553e-05,
+        "trade_desc_1": "1. Start with IDR of 50000.0. Swap at rate 0.00000000 (1 / Avg Ask = 1553000999.99999976) for BTC acquiring 3.219572942966553e-05 (50000.0 * 0.00000000 = 3.219572942966553e-05) -- Quote to Base.",
+        "contract_2": [
+            "BTC",
+            "USDT"
+        ],
+        "contract_direction_2": "sell",
+        "acquired_coin_t2": 2.980906000704443,
+        "trade_desc_2": "2. Start with BTC of 3.219572942966553e-05. Swap at rate 92587.00000000 (Avg Bid = 92587.00000000) for USDT acquiring 2.980906000704443 (3.219572942966553e-05 * 92587.00000000 = 2.980906000704443) -- Base to Quote.",
+        "contract_3": [
+            "USDT",
+            "IDR"
+        ],
+        "contract_direction_3": "sell",
+        "acquired_coin_t3": 50043.44993982618,
+        "trade_desc_3": "3. Start with USDT of 2.980906000704443. Swap at rate 16788.00000000 (Avg Bid = 16788.00000000) for IDR acquiring 50043.44993982618 (2.980906000704443 * 16788.00000000 = 50043.44993982618) -- Base to Quote.",
+        "starting_amount": 50000.0,
+        "final_balance": 50043.44993982618,
+        "profit_loss": 43.449939826183254,
+        "real_rate_percentage": 0.08689987965236651,
+        "fee": 0.0,
+        "foundAt": "2026-01-05 13:03:11"
+    },
+    {
+        "contract_1": [
+            "BTC",
+            "IDR"
+        ],
+        "contract_direction_1": "buy",
+        "acquired_coin_t1": 3.219572942966553e-05,
+        "trade_desc_1": "1. Start with IDR of 50000.0. Swap at rate 0.00000000 (1 / Avg Ask = 1553000999.99999976) for BTC acquiring 3.219572942966553e-05 (50000.0 * 0.00000000 = 3.219572942966553e-05) -- Quote to Base.",
+        "contract_2": [
+            "BTC",
+            "USDT"
+        ],
+        "contract_direction_2": "sell",
+        "acquired_coin_t2": 2.980906000704443,
+        "trade_desc_2": "2. Start with BTC of 3.219572942966553e-05. Swap at rate 92587.00000000 (Avg Bid = 92587.00000000) for USDT acquiring 2.980906000704443 (3.219572942966553e-05 * 92587.00000000 = 2.980906000704443) -- Base to Quote.",
+        "contract_3": [
+            "USDT",
+            "IDR"
+        ],
+        "contract_direction_3": "sell",
+        "acquired_coin_t3": 50040.46903382548,
+        "trade_desc_3": "3. Start with USDT of 2.980906000704443. Swap at rate 16787.00000000 (Avg Bid = 16787.00000000) for IDR acquiring 50040.46903382548 (2.980906000704443 * 16787.00000000 = 50040.46903382548) -- Base to Quote.",
+        "starting_amount": 50000.0,
+        "final_balance": 50040.46903382548,
+        "profit_loss": 40.46903382548044,
+        "real_rate_percentage": 0.08093806765096087,
+        "fee": 0.0,
+        "foundAt": "2026-01-05 13:03:49"
+    },
+    {
+        "contract_1": [
+            "BTC",
+            "IDR"
+        ],
+        "contract_direction_1": "buy",
+        "acquired_coin_t1": 3.219572942966553e-05,
+        "trade_desc_1": "1. Start with IDR of 50000.0. Swap at rate 0.00000000 (1 / Avg Ask = 1553000999.99999976) for BTC acquiring 3.219572942966553e-05 (50000.0 * 0.00000000 = 3.219572942966553e-05) -- Quote to Base.",
+        "contract_2": [
+            "BTC",
+            "USDT"
+        ],
+        "contract_direction_2": "sell",
+        "acquired_coin_t2": 2.980906000704443,
+        "trade_desc_2": "2. Start with BTC of 3.219572942966553e-05. Swap at rate 92587.00000000 (Avg Bid = 92587.00000000) for USDT acquiring 2.980906000704443 (3.219572942966553e-05 * 92587.00000000 = 2.980906000704443) -- Base to Quote.",
+        "contract_3": [
+            "USDT",
+            "IDR"
+        ],
+        "contract_direction_3": "sell",
+        "acquired_coin_t3": 50040.46903382548,
+        "trade_desc_3": "3. Start with USDT of 2.980906000704443. Swap at rate 16787.00000000 (Avg Bid = 16787.00000000) for IDR acquiring 50040.46903382548 (2.980906000704443 * 16787.00000000 = 50040.46903382548) -- Base to Quote.",
+        "starting_amount": 50000.0,
+        "final_balance": 50040.46903382548,
+        "profit_loss": 40.46903382548044,
+        "real_rate_percentage": 0.08093806765096087,
+        "fee": 0.0,
+        "foundAt": "2026-01-05 13:04:24"
+    },
+    {
+        "contract_1": [
+            "USDT",
+            "IDR"
+        ],
+        "contract_direction_1": "buy",
+        "acquired_coin_t1": 2.977785718539694,
+        "trade_desc_1": "1. Start with IDR of 50000.0. Swap at rate 0.00005956 (1 / Avg Ask = 16791.00000000) for USDT acquiring 2.977785718539694 (50000.0 * 0.00005956 = 2.977785718539694) -- Quote to Base.",
+        "contract_2": [
+            "SHIB",
+            "USDT"
+        ],
+        "contract_direction_2": "buy",
+        "acquired_coin_t2": 342668.09189179447,
+        "trade_desc_2": "2. Start with USDT of 2.977785718539694. Swap at rate 115074.79861910 (1 / Avg Ask = 0.00000869) for SHIB acquiring 342668.09189179447 (2.977785718539694 * 115074.79861910 = 342668.09189179447) -- Quote to Base.",
+        "contract_3": [
+            "SHIB",
+            "IDR"
+        ],
+        "contract_direction_3": "sell",
+        "acquired_coin_t3": 50187.854074656,
+        "trade_desc_3": "3. Start with SHIB of 342668.09189179447. Swap at rate 0.14646200 (Avg Bid = 0.14646200) for IDR acquiring 50187.854074656 (342668.09189179447 * 0.14646200 = 50187.854074656) -- Base to Quote.",
+        "starting_amount": 50000.0,
+        "final_balance": 50187.854074656,
+        "profit_loss": 187.85407465600292,
+        "real_rate_percentage": 0.37570814931200586,
+        "fee": 0.0,
+        "foundAt": "2026-01-05 13:04:52"
+    },
+    {
+        "contract_1": [
+            "BTC",
+            "IDR"
+        ],
+        "contract_direction_1": "buy",
+        "acquired_coin_t1": 3.219572942966553e-05,
+        "trade_desc_1": "1. Start with IDR of 50000.0. Swap at rate 0.00000000 (1 / Avg Ask = 1553000999.99999976) for BTC acquiring 3.219572942966553e-05 (50000.0 * 0.00000000 = 3.219572942966553e-05) -- Quote to Base.",
+        "contract_2": [
+            "BTC",
+            "USDT"
+        ],
+        "contract_direction_2": "sell",
+        "acquired_coin_t2": 2.980906000704443,
+        "trade_desc_2": "2. Start with BTC of 3.219572942966553e-05. Swap at rate 92587.00000000 (Avg Bid = 92587.00000000) for USDT acquiring 2.980906000704443 (3.219572942966553e-05 * 92587.00000000 = 2.980906000704443) -- Base to Quote.",
+        "contract_3": [
+            "USDT",
+            "IDR"
+        ],
+        "contract_direction_3": "sell",
+        "acquired_coin_t3": 50049.411751827596,
+        "trade_desc_3": "3. Start with USDT of 2.980906000704443. Swap at rate 16790.00000000 (Avg Bid = 16790.00000000) for IDR acquiring 50049.411751827596 (2.980906000704443 * 16790.00000000 = 50049.411751827596) -- Base to Quote.",
+        "starting_amount": 50000.0,
+        "final_balance": 50049.411751827596,
+        "profit_loss": 49.41175182759616,
+        "real_rate_percentage": 0.09882350365519232,
+        "fee": 0.0,
+        "foundAt": "2026-01-05 13:05:04"
+    },
+    {
+        "contract_1": [
+            "BTC",
+            "IDR"
+        ],
+        "contract_direction_1": "buy",
+        "acquired_coin_t1": 3.219572942966553e-05,
+        "trade_desc_1": "1. Start with IDR of 50000.0. Swap at rate 0.00000000 (1 / Avg Ask = 1553000999.99999976) for BTC acquiring 3.219572942966553e-05 (50000.0 * 0.00000000 = 3.219572942966553e-05) -- Quote to Base.",
+        "contract_2": [
+            "BTC",
+            "USDT"
+        ],
+        "contract_direction_2": "sell",
+        "acquired_coin_t2": 2.980906000704443,
+        "trade_desc_2": "2. Start with BTC of 3.219572942966553e-05. Swap at rate 92587.00000000 (Avg Bid = 92587.00000000) for USDT acquiring 2.980906000704443 (3.219572942966553e-05 * 92587.00000000 = 2.980906000704443) -- Base to Quote.",
+        "contract_3": [
+            "USDT",
+            "IDR"
+        ],
+        "contract_direction_3": "sell",
+        "acquired_coin_t3": 50022.583597821256,
+        "trade_desc_3": "3. Start with USDT of 2.980906000704443. Swap at rate 16781.00000000 (Avg Bid = 16781.00000000) for IDR acquiring 50022.583597821256 (2.980906000704443 * 16781.00000000 = 50022.583597821256) -- Base to Quote.",
+        "starting_amount": 50000.0,
+        "final_balance": 50022.583597821256,
+        "profit_loss": 22.583597821256262,
+        "real_rate_percentage": 0.04516719564251252,
+        "fee": 0.0,
+        "foundAt": "2026-01-05 13:05:56"
+    },
+    {
+        "contract_1": [
+            "BTC",
+            "IDR"
+        ],
+        "contract_direction_1": "buy",
+        "acquired_coin_t1": 3.2258064516129034e-05,
+        "trade_desc_1": "1. Start with IDR of 50000.0. Swap at rate 0.00000000 (1 / Avg Ask = 1549999999.99999976) for BTC acquiring 3.2258064516129034e-05 (50000.0 * 0.00000000 = 3.2258064516129034e-05) -- Quote to Base.",
+        "contract_2": [
+            "BTC",
+            "USDT"
+        ],
+        "contract_direction_2": "sell",
+        "acquired_coin_t2": 2.9866774193548387,
+        "trade_desc_2": "2. Start with BTC of 3.2258064516129034e-05. Swap at rate 92587.00000000 (Avg Bid = 92587.00000000) for USDT acquiring 2.9866774193548387 (3.2258064516129034e-05 * 92587.00000000 = 2.9866774193548387) -- Base to Quote.",
+        "contract_3": [
+            "USDT",
+            "IDR"
+        ],
+        "contract_direction_3": "sell",
+        "acquired_coin_t3": 50131.38048387097,
+        "trade_desc_3": "3. Start with USDT of 2.9866774193548387. Swap at rate 16785.00000000 (Avg Bid = 16785.00000000) for IDR acquiring 50131.38048387097 (2.9866774193548387 * 16785.00000000 = 50131.38048387097) -- Base to Quote.",
+        "starting_amount": 50000.0,
+        "final_balance": 50131.38048387097,
+        "profit_loss": 131.38048387096933,
+        "real_rate_percentage": 0.26276096774193863,
+        "fee": 0.0,
+        "foundAt": "2026-01-05 13:06:38"
+    },
+    {
+        "contract_1": [
+            "BTC",
+            "IDR"
+        ],
+        "contract_direction_1": "buy",
+        "acquired_coin_t1": 3.2258064516129034e-05,
+        "trade_desc_1": "1. Start with IDR of 50000.0. Swap at rate 0.00000000 (1 / Avg Ask = 1549999999.99999976) for BTC acquiring 3.2258064516129034e-05 (50000.0 * 0.00000000 = 3.2258064516129034e-05) -- Quote to Base.",
+        "contract_2": [
+            "BTC",
+            "USDT"
+        ],
+        "contract_direction_2": "sell",
+        "acquired_coin_t2": 2.9866774193548387,
+        "trade_desc_2": "2. Start with BTC of 3.2258064516129034e-05. Swap at rate 92587.00000000 (Avg Bid = 92587.00000000) for USDT acquiring 2.9866774193548387 (3.2258064516129034e-05 * 92587.00000000 = 2.9866774193548387) -- Base to Quote.",
+        "contract_3": [
+            "USDT",
+            "IDR"
+        ],
+        "contract_direction_3": "sell",
+        "acquired_coin_t3": 50131.38048387097,
+        "trade_desc_3": "3. Start with USDT of 2.9866774193548387. Swap at rate 16785.00000000 (Avg Bid = 16785.00000000) for IDR acquiring 50131.38048387097 (2.9866774193548387 * 16785.00000000 = 50131.38048387097) -- Base to Quote.",
+        "starting_amount": 50000.0,
+        "final_balance": 50131.38048387097,
+        "profit_loss": 131.38048387096933,
+        "real_rate_percentage": 0.26276096774193863,
+        "fee": 0.0,
+        "foundAt": "2026-01-05 13:07:18"
+    },
+    {
+        "contract_1": [
+            "BTC",
+            "IDR"
+        ],
+        "contract_direction_1": "buy",
+        "acquired_coin_t1": 3.2258064516129034e-05,
+        "trade_desc_1": "1. Start with IDR of 50000.0. Swap at rate 0.00000000 (1 / Avg Ask = 1549999999.99999976) for BTC acquiring 3.2258064516129034e-05 (50000.0 * 0.00000000 = 3.2258064516129034e-05) -- Quote to Base.",
+        "contract_2": [
+            "BTC",
+            "USDT"
+        ],
+        "contract_direction_2": "sell",
+        "acquired_coin_t2": 2.9866774193548387,
+        "trade_desc_2": "2. Start with BTC of 3.2258064516129034e-05. Swap at rate 92587.00000000 (Avg Bid = 92587.00000000) for USDT acquiring 2.9866774193548387 (3.2258064516129034e-05 * 92587.00000000 = 2.9866774193548387) -- Base to Quote.",
+        "contract_3": [
+            "USDT",
+            "IDR"
+        ],
+        "contract_direction_3": "sell",
+        "acquired_coin_t3": 50134.36716129032,
+        "trade_desc_3": "3. Start with USDT of 2.9866774193548387. Swap at rate 16786.00000000 (Avg Bid = 16786.00000000) for IDR acquiring 50134.36716129032 (2.9866774193548387 * 16786.00000000 = 50134.36716129032) -- Base to Quote.",
+        "starting_amount": 50000.0,
+        "final_balance": 50134.36716129032,
+        "profit_loss": 134.36716129031993,
+        "real_rate_percentage": 0.26873432258063984,
+        "fee": 0.0,
+        "foundAt": "2026-01-05 13:08:14"
+    },
+    {
+        "contract_1": [
+            "BTC",
+            "IDR"
+        ],
+        "contract_direction_1": "buy",
+        "acquired_coin_t1": 3.225808532779699e-05,
+        "trade_desc_1": "1. Start with IDR of 50000.0. Swap at rate 0.00000000 (1 / Avg Ask = 1549998999.99999976) for BTC acquiring 3.225808532779699e-05 (50000.0 * 0.00000000 = 3.225808532779699e-05) -- Quote to Base.",
+        "contract_2": [
+            "BTC",
+            "USDT"
+        ],
+        "contract_direction_2": "sell",
+        "acquired_coin_t2": 2.9866793462447396,
+        "trade_desc_2": "2. Start with BTC of 3.225808532779699e-05. Swap at rate 92587.00000000 (Avg Bid = 92587.00000000) for USDT acquiring 2.9866793462447396 (3.225808532779699e-05 * 92587.00000000 = 2.9866793462447396) -- Base to Quote.",
+        "contract_3": [
+            "USDT",
+            "IDR"
+        ],
+        "contract_direction_3": "sell",
+        "acquired_coin_t3": 50134.3995060642,
+        "trade_desc_3": "3. Start with USDT of 2.9866793462447396. Swap at rate 16786.00000000 (Avg Bid = 16786.00000000) for IDR acquiring 50134.3995060642 (2.9866793462447396 * 16786.00000000 = 50134.3995060642) -- Base to Quote.",
+        "starting_amount": 50000.0,
+        "final_balance": 50134.3995060642,
+        "profit_loss": 134.39950606419734,
+        "real_rate_percentage": 0.2687990121283947,
+        "fee": 0.0,
+        "foundAt": "2026-01-05 13:09:03"
+    }
+]
