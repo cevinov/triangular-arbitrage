@@ -50,6 +50,19 @@ def arb_notif(exchange, result):
                     "type": "section",
                     "text": {
                         "type": "mrkdwn",
+                        "text": (
+                            f"*🔬 Hypothesis Metrics (Compared to Start)*\n"
+                            f"• *Ideal Surface Profit* (No fees/slippage): `{result.get('ideal_surface_profit', 0):.6f}`\n"
+                            f"• *Gross Depth Profit* (With slippage, no fees): `{result.get('gross_depth_profit', 0):.6f}`\n"
+                            f"• *Net Depth Profit* (Real): `{result.get('net_surface_profit', result['profit_loss']):.6f}`"
+                        )
+                    }
+                },
+                {"type": "divider"},
+                {
+                    "type": "section",
+                    "text": {
+                        "type": "mrkdwn",
                         "text": f"*Detailed Execution Path:*\n{result.get('trade_desc_1', 'N/A')}\n{result.get('trade_desc_2', 'N/A')}\n{result.get('trade_desc_3', 'N/A')}"
                     }
                 }

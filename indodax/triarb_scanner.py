@@ -69,8 +69,41 @@ def calculate_profit(triangle, tickers, initial_amount, fee_percent=None):
     Returns (final_balance, details)
     """
     balance = initial_amount
+    gross_depth_balance = initial_amount
+    ideal_surface_balance = initial_amount
+    net_surface_balance = initial_amount
+    
     steps = [triangle['step1'], triangle['step2'], triangle['step3']]
     details = {}
+
+    def _simulate_depth(action_type, input_amount, depth_data):
+        if input_amount <= 0: return 0.0
+        acquired = 0.0
+        remaining = input_amount
+        if action_type == 'buy':
+            for p, v in depth_data['sell']:
+                p, v = float(p), float(v)
+                cost = p * v
+                if remaining <= cost:
+                    acquired += remaining / p
+                    remaining = 0
+                    break
+                else:
+                    acquired += v
+                    remaining -= cost
+            if remaining > 0: return 0.0
+        elif action_type == 'sell':
+            for p, v in depth_data['buy']:
+                p, v = float(p), float(v)
+                if remaining <= v:
+                    acquired += remaining * p
+                    remaining = 0
+                    break
+                else:
+                    acquired += v * p
+                    remaining -= v
+            if remaining > 0: return 0.0
+        return acquired
 
     for i, step in enumerate(steps):
         input_balance = balance
@@ -88,61 +121,35 @@ def calculate_profit(triangle, tickers, initial_amount, fee_percent=None):
             fee = fee_percent
         else:
             fee = get_fee(pair_id, action)
-        
-        # Calculate acquired amount based on depth
-        acquired_amount = 0
-        remaining_balance = balance
-        
-        if action == 'buy':
-            # Buying: Look at 'sell' orders (asks)
-            orders = depth['sell']
-            for price, volume in orders:
-                price = float(price)
-                volume = float(volume)
-                
-                # Calculate cost for this order level
-                cost = price * volume
-                
-                if remaining_balance <= cost:
-                    # Can fill remaining balance at this price
-                    amount = remaining_balance / price
-                    acquired_amount += amount
-                    remaining_balance = 0
-                    break
-                else:
-                    # Fill entire level and continue
-                    acquired_amount += volume
-                    remaining_balance -= cost
             
-            if remaining_balance > 0:
-                # Not enough liquidity to fill the order
-                return 0.0, {}
-                
-        elif action == 'sell':
-            # Selling: Look at 'buy' orders (bids)
-            orders = depth['buy']
-            for price, volume in orders:
-                price = float(price)
-                volume = float(volume)
-                
-                if remaining_balance <= volume:
-                    # Can sell remaining balance at this price
-                    amount = remaining_balance * price
-                    acquired_amount += amount
-                    remaining_balance = 0
-                    break
-                else:
-                    # Fill entire level and continue
-                    amount = volume * price
-                    acquired_amount += amount
-                    remaining_balance -= volume
-            
-            if remaining_balance > 0:
-                # Not enough liquidity to fill the order
-                return 0.0, {}
-
-        # Apply fee to the acquired amount
+        # 1. Real Net Depth (This simulates the real execution with depth and fees)
+        acquired_amount = _simulate_depth(action, balance, depth)
+        if acquired_amount == 0.0: return 0.0, {}
         balance = acquired_amount * (1 - fee)
+        
+        # 2. Gross Depth (Simulation without any fees across steps)
+        gross_acquired = _simulate_depth(action, gross_depth_balance, depth)
+        gross_depth_balance = gross_acquired
+        
+        # 3. Ideal Surface (Simulation strictly at top-of-book, no fees vs with fees)
+        if action == 'buy':
+            if len(depth['sell']) > 0:
+                top_price = float(depth['sell'][0][0])
+                if ideal_surface_balance > 0: ideal_surface_balance = ideal_surface_balance / top_price
+                if net_surface_balance > 0: net_surface_balance = net_surface_balance / top_price
+            else:
+                ideal_surface_balance = 0.0
+                net_surface_balance = 0.0
+        else:
+            if len(depth['buy']) > 0:
+                top_price = float(depth['buy'][0][0])
+                if ideal_surface_balance > 0: ideal_surface_balance = ideal_surface_balance * top_price
+                if net_surface_balance > 0: net_surface_balance = net_surface_balance * top_price
+            else:
+                ideal_surface_balance = 0.0
+                net_surface_balance = 0.0
+            
+        net_surface_balance = net_surface_balance * (1 - fee)
 
         # Store details for notification
         parts = pair_id.split('_')
@@ -173,6 +180,10 @@ def calculate_profit(triangle, tickers, initial_amount, fee_percent=None):
         details[f'contract_direction_{i+1}'] = action
         details[f'acquired_coin_t{i+1}'] = balance
         details[f'trade_desc_{i+1}'] = f"{i+1}. Start with {input_coin} of {input_balance}. Swap at rate {rate:.8f} ({rate_desc}) for {output_coin} acquiring {balance} ({input_balance} * {rate:.8f} = {balance}) -- {direction_desc}."
+
+    details['gross_depth_balance'] = gross_depth_balance
+    details['ideal_surface_balance'] = ideal_surface_balance
+    details['net_surface_balance'] = net_surface_balance
 
     return balance, details
 
@@ -223,6 +234,15 @@ def main():
                     result['final_balance'] = final_balance
                     result['profit_loss'] = profit_amount
                     result['real_rate_percentage'] = profit_pct
+                    
+                    # Store hypothesis metrics
+                    result['gross_depth_profit'] = details['gross_depth_balance'] - initial_amount
+                    result['ideal_surface_profit'] = details['ideal_surface_balance'] - initial_amount
+                    result['net_surface_profit'] = details['net_surface_balance'] - initial_amount
+                    result['gross_depth_balance'] = details['gross_depth_balance']
+                    result['ideal_surface_balance'] = details['ideal_surface_balance']
+                    result['net_surface_balance'] = details['net_surface_balance']
+                    
                     result['foundAt'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
                     try:

@@ -100,6 +100,15 @@ class IndodaxBot:
                         result['final_balance'] = final_balance
                         result['profit_loss'] = profit_amount
                         result['real_rate_percentage'] = profit_pct
+                        
+                        # Store hypothesis metrics
+                        result['gross_depth_profit'] = details['gross_depth_balance'] - self.initial_amount
+                        result['ideal_surface_profit'] = details['ideal_surface_balance'] - self.initial_amount
+                        result['net_surface_profit'] = details['net_surface_balance'] - self.initial_amount
+                        result['gross_depth_balance'] = details['gross_depth_balance']
+                        result['ideal_surface_balance'] = details['ideal_surface_balance']
+                        result['net_surface_balance'] = details['net_surface_balance']
+
                         result['fee'] = self.fee
                         result['foundAt'] = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 

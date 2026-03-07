@@ -194,6 +194,21 @@ def get_depth_from_orderbook(pair, fee=0):
     real_rate_percentage = profit_loss / starting_amount if profit_loss != 0 else 0
     print(f"\nStarting amount: {starting_amount}, End amount: {acquired_coin_t3}")
 
+    # Hypothesis Testing Balances
+    gross_t1 = calculate_acquired_coin(
+        list_contract[0], starting_amount, real_rate[0], 0
+    )
+    gross_t2 = calculate_acquired_coin(
+        list_contract[1], gross_t1, real_rate[1], 0
+    )
+    gross_t3 = calculate_acquired_coin(
+        list_contract[2], gross_t2, real_rate[2], 0
+    )
+
+    gross_depth_balance = gross_t3
+    ideal_surface_balance = pair.get("acquired_coin_t3", 0)
+    net_surface_balance = ideal_surface_balance * ((1 - fee) ** 3)
+
     # Take +x% profit
     if profit_loss > 0 and real_rate_percentage > 0:
         return_dict = {
@@ -208,6 +223,9 @@ def get_depth_from_orderbook(pair, fee=0):
             "contract_direction_1": direction_trade_1,
             "contract_direction_2": direction_trade_2,
             "contract_direction_3": direction_trade_3,
+            "gross_depth_balance": gross_depth_balance,
+            "ideal_surface_balance": ideal_surface_balance,
+            "net_surface_balance": net_surface_balance,
         }
         return return_dict
     else:

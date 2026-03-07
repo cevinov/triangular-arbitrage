@@ -70,6 +70,21 @@ def arb_notif(exchange, result):
                         "text": f"*📊 Summary*\n• *Starting Amount:* `{start_amt:,.0f}` IDR\n• *Final Balance:* `{final_bal:,.0f}` IDR\n• *Profit:* `+{profit:,.0f}` IDR\n• *Rate:* `{rate_pct:.2f}%`\n• *Fee:* `{result.get('fee', 'N/A')}`\n• *Found At:* {timestamp}"
                     }
                 },
+                {
+                    "type": "divider"
+                },
+                {
+                    "type": "section",
+                    "text": {
+                        "type": "mrkdwn",
+                        "text": (
+                            f"*🔬 Hypothesis Metrics (Compared to Start)*\n"
+                            f"• *Ideal Surface Profit* (No fees/slippage): `{result.get('ideal_surface_profit', 0):,.0f}` IDR\n"
+                            f"• *Gross Depth Profit* (With slippage, no fees): `{result.get('gross_depth_profit', 0):,.0f}` IDR\n"
+                            f"• *Net Depth Profit* (Real): `{result.get('net_surface_profit', profit):,.0f}` IDR"
+                        )
+                    }
+                },
             ]
         }
         

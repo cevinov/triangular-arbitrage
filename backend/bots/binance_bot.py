@@ -99,6 +99,12 @@ class BinanceBot:
                                 "investment_amount_usd": result_surface["investment_amount_usd"],
                                 "profit_loss": result_depth["profit_loss"],
                                 "real_rate_percentage": result_depth["real_rate_percentage"],
+                                "gross_depth_balance": result_depth.get("gross_depth_balance", 0),
+                                "ideal_surface_balance": result_depth.get("ideal_surface_balance", 0),
+                                "net_surface_balance": result_depth.get("net_surface_balance", 0),
+                                "gross_depth_profit": result_depth.get("gross_depth_balance", 0) - result_surface["starting_amount"],
+                                "ideal_surface_profit": result_depth.get("ideal_surface_balance", 0) - result_surface["starting_amount"],
+                                "net_surface_profit": result_depth.get("net_surface_balance", 0) - result_surface["starting_amount"],
                                 "foundAt": foundAt.strftime("%Y-%m-%d %H:%M:%S"),
                                 "fee": self.fee
                             }
