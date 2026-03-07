@@ -11,11 +11,17 @@ def get_coins():
     coin_lists = []
 
     for i, data in enumerate(result["symbols"]):
-        if len(coin_lists) >= 100:
-            break
+        # if len(coin_lists) >= 100:
+        #     break
         
-        # List all coins that are ready for trade.
-        if (len(coin_lists) <= 100 and data["status"] == "TRADING"):
+        # # List all coins that are ready for trade.
+        # if (len(coin_lists) <= 100 and data["status"] == "TRADING"):
+        #     # Format [base, quote]
+        #     base_quote = [data["baseAsset"], data["quoteAsset"]]
+        #     coin_lists.append(base_quote)
+
+        # Collect all coins that are ready for trade.
+        if (data["status"] == "TRADING"):
             # Format [base, quote]
             base_quote = [data["baseAsset"], data["quoteAsset"]]
             coin_lists.append(base_quote)
