@@ -13,7 +13,7 @@ sys.path.append(os.path.join(root_path, 'indodax'))
 
 try:
     from binance.func_slack_notif import arb_notif
-    from triarb_scanner import get_ticker_summaries, calculate_profit, get_depth
+    from triarb_scanner import get_ticker_summaries, calculate_profit
 except ImportError as e:
     print(f"Error importing Indodax modules: {e}")
 
