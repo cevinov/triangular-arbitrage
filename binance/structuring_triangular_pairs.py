@@ -116,7 +116,7 @@ def save_triarb_groups():
     print("\n\nStructuring Complete !!!")
 
 
-# save_triarb_groups()
+save_triarb_groups()
 """
 # Testing logic for checking for duplication
 all_pairs = []
