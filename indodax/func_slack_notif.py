@@ -109,4 +109,4 @@ def arb_notif(exchange, result):
 
 
 # Testing notification with CURL
-# curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' $url
+# curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' $SLACK_WEBHOOK_URL

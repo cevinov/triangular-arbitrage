@@ -126,3 +126,6 @@ def arb_notif(exchange, result):
 # res = {"contract_1": ["ETH", "USDT"], "acquired_coin_t1": 2.995}
 # test = arb_notif("Binance", res)
 # print(test)
+
+# Testing notification with CURL
+# curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' $SLACK_WEBHOOK_URL
