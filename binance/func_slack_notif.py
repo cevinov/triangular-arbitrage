@@ -52,9 +52,9 @@ def arb_notif(exchange, result):
                         "type": "mrkdwn",
                         "text": (
                             f"*🔬 Hypothesis Metrics (Compared to Start)*\n"
-                            f"• *Ideal Surface Profit* (No fees/slippage): `{result.get('ideal_surface_profit', 0):.6f}`\n"
-                            f"• *Gross Depth Profit* (With slippage, no fees): `{result.get('gross_depth_profit', 0):.6f}`\n"
-                            f"• *Net Depth Profit* (Real): `{result.get('net_surface_profit', result['profit_loss']):.6f}`"
+                            f"• *Ideal Surface Profit* (No fees/slippage): `{result.get('ideal_surface_profit', 0)}`\n"
+                            f"• *Gross Depth Profit* (With slippage, no fees): `{result.get('gross_depth_profit', 0)}`\n"
+                            f"• *Net Depth Profit* (Real): `{result.get('net_surface_profit', result['profit_loss'])}`"
                         )
                     }
                 },
