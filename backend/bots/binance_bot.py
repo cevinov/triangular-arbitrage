@@ -19,7 +19,7 @@ class BinanceBot:
     def __init__(self):
         self.is_running = False
         self.thread = None
-        self.initial_amount = 10000000000 # Default 10M
+        self.initial_amount = 100000 # Default 100K
         self.fee = 0.00001 # Default 0.001%
         self.status_message = "Stopped"
         self.session_file = None
