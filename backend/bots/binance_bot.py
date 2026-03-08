@@ -34,6 +34,7 @@ class BinanceBot:
         # Generate a unique filename
         timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
         self.session_file = f"binance_opportunities_{timestamp}.json"
+        self.loss_session_file = f"binance_loss_{timestamp}.json"
 
         self.thread = threading.Thread(target=self._loop, daemon=True)
         self.thread.start()
@@ -109,44 +110,69 @@ class BinanceBot:
                                 "fee": self.fee
                             }
 
-                            print(f"\n[OPPORTUNITY] Profit: {result_depth['real_rate_percentage']:.2f}% | Gain: ${result_depth['profit_loss']:.4f}")
-                            print(f"Path: {result_dict['contract_1'][0]} -> {result_dict['contract_2'][0]} -> {result_dict['contract_3'][0]}")
-                            print(f"Start: ${result_dict['starting_amount']:.2f} -> End: ${result_dict['starting_amount'] + result_dict['profit_loss']:.2f}")
-                            print("-" * 30)
-                            print(f"Execution Path:\n{result_dict['trade_desc_1']}\n{result_dict['trade_desc_2']}\n{result_dict['trade_desc_3']}")
-                            print("-" * 30)
+                            if result_dict['profit_loss'] > 0:
+                                print(f"\n[OPPORTUNITY] Profit: {result_depth['real_rate_percentage']:.2f}% | Gain: ${result_depth['profit_loss']:.4f}")
+                                print(f"Path: {result_dict['contract_1'][0]} -> {result_dict['contract_2'][0]} -> {result_dict['contract_3'][0]}")
+                                print(f"Start: ${result_dict['starting_amount']:.2f} -> End: ${result_dict['starting_amount'] + result_dict['profit_loss']:.2f}")
+                                print("-" * 30)
+                                print(f"Execution Path:\n{result_dict['trade_desc_1']}\n{result_dict['trade_desc_2']}\n{result_dict['trade_desc_3']}")
+                                print("-" * 30)
 
-                            # Send notification to Slack
-                            notif = slack.arb_notif("Binance", result_dict)
-                            if notif != b"ok":
-                                print("Error sending notification: " + str(notif))
+                                # Send notification to Slack
+                                notif = slack.arb_notif("Binance", result_dict)
+                                if notif != b"ok":
+                                    print("Error sending notification: " + str(notif))
 
-                            # Save opportunity to JSON file
-                            try:
-                                results_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../results'))
-                                if not os.path.exists(results_dir):
-                                    os.makedirs(results_dir)
-                                
-                                results_file = os.path.join(results_dir, self.session_file)
-                                
-                                existing_data = []
-                                if os.path.exists(results_file):
-                                    try:
-                                        with open(results_file, 'r') as f:
-                                            existing_data = json.load(f)
-                                    except json.JSONDecodeError:
-                                        pass # File might be empty or corrupted
-                                
-                                existing_data.append(result_dict)
-                                
-                                with open(results_file, 'w') as f:
-                                    json.dump(existing_data, f, indent=4)
+                                # Save opportunity to JSON file
+                                try:
+                                    results_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../results'))
+                                    if not os.path.exists(results_dir):
+                                        os.makedirs(results_dir)
                                     
-                                print(f"Saved opportunity to {results_file}")
-                            except Exception as e:
-                                print(f"Failed to save opportunity to JSON: {e}")
+                                    results_file = os.path.join(results_dir, self.session_file)
+                                    
+                                    existing_data = []
+                                    if os.path.exists(results_file):
+                                        try:
+                                            with open(results_file, 'r') as f:
+                                                existing_data = json.load(f)
+                                        except json.JSONDecodeError:
+                                            pass # File might be empty or corrupted
+                                    
+                                    existing_data.append(result_dict)
+                                    
+                                    with open(results_file, 'w') as f:
+                                        json.dump(existing_data, f, indent=4)
+                                        
+                                    print(f"Saved opportunity to {results_file}")
+                                except Exception as e:
+                                    print(f"Failed to save opportunity to JSON: {e}")
 
-                            goal_arb.append(result_dict)
+                                goal_arb.append(result_dict)
+                            else:
+                                # Save loss to JSON file
+                                try:
+                                    loss_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../results/loss'))
+                                    if not os.path.exists(loss_dir):
+                                        os.makedirs(loss_dir)
+                                    
+                                    loss_file = os.path.join(loss_dir, self.loss_session_file)
+                                    
+                                    existing_data = []
+                                    if os.path.exists(loss_file):
+                                        try:
+                                            with open(loss_file, 'r') as f:
+                                                existing_data = json.load(f)
+                                        except json.JSONDecodeError:
+                                            pass
+                                    
+                                    existing_data.append(result_dict)
+                                    
+                                    with open(loss_file, 'w') as f:
+                                        json.dump(existing_data, f, indent=4)
+                                        
+                                except Exception as e:
+                                    print(f"Failed to save loss to JSON: {e}")
 
                 # Sleep to avoid spamming if loop is fast, or just wait for next cycle
                 time.sleep(5) 

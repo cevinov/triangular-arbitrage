@@ -183,28 +183,27 @@ def get_depth_from_orderbook(pair, fee=0):
     ideal_surface_balance = pair.get("acquired_coin_t3", 0)
     net_surface_balance = ideal_surface_balance * ((1 - fee) ** 3)
 
-    # Take +x% profit
-    if profit_loss > 0 and real_rate_percentage > 0:
-        return_dict = {
-            "acquired_coin_t1": acquired_coin_t1,
-            "acquired_coin_t2": acquired_coin_t2,
-            "acquired_coin_t3": acquired_coin_t3,
-            "profit_loss": profit_loss,
-            "real_rate_percentage": real_rate_percentage,
-            "contract_1": contract_1,
-            "contract_2": contract_2,
-            "contract_3": contract_3,
-            "contract_direction_1": direction_trade_1,
-            "contract_direction_2": direction_trade_2,
-            "contract_direction_3": direction_trade_3,
-            "gross_depth_balance": gross_depth_balance,
-            "ideal_surface_balance": ideal_surface_balance,
-            "net_surface_balance": net_surface_balance,
-        }
-        return return_dict
-    else:
+    return_dict = {
+        "acquired_coin_t1": acquired_coin_t1,
+        "acquired_coin_t2": acquired_coin_t2,
+        "acquired_coin_t3": acquired_coin_t3,
+        "profit_loss": profit_loss,
+        "real_rate_percentage": real_rate_percentage,
+        "contract_1": contract_1,
+        "contract_2": contract_2,
+        "contract_3": contract_3,
+        "contract_direction_1": direction_trade_1,
+        "contract_direction_2": direction_trade_2,
+        "contract_direction_3": direction_trade_3,
+        "gross_depth_balance": gross_depth_balance,
+        "ideal_surface_balance": ideal_surface_balance,
+        "net_surface_balance": net_surface_balance,
+    }
+
+    if profit_loss <= 0 or real_rate_percentage <= 0:
         print(f"Loss: {profit_loss} {real_rate_percentage}")
-        return {}
+
+    return return_dict
 
 
 # get_depth_from_orderbook()
