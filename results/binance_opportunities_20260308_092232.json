@@ -1,0 +1,72 @@
+[
+    {
+        "contract_1": [
+            "ETH",
+            "BTC"
+        ],
+        "contract_direction_1": "base_to_quote",
+        "acquired_coin_t1": 4.547727930040398e-05,
+        "contract_2": [
+            "CYBER",
+            "BTC"
+        ],
+        "contract_direction_2": "quote_to_base",
+        "acquired_coin_t2": 6.1119262866228405,
+        "contract_3": [
+            "CYBER",
+            "ETH"
+        ],
+        "contract_direction_3": "base_to_quote",
+        "acquired_coin_t3": 0.0015583853489685156,
+        "trade_desc_1": "1. Start with ETH of 0.0015549342729282833. Swap at rate 0.02925000 (Avg Bid = 0.02925000) for BTC acquiring 4.548182748315229e-05 (0.0015549342729282833 * 0.02925000 = 4.548182748315229e-05) -- Base To Quote.",
+        "trade_desc_2": "2. Start with BTC of 4.548182748315229e-05. Swap at rate 134408.60215054 (1 / Avg Ask = 0.00000744) for CYBER acquiring 6.113148855262405 (4.548182748315229e-05 * 134408.60215054 = 6.113148855262405) -- Quote To Base.",
+        "trade_desc_3": "3. Start with CYBER of 6.113148855262405. Swap at rate 0.00025500 (Avg Bid = 0.00025500) for ETH acquiring 0.0015588529580919132 (6.113148855262405 * 0.00025500 = 0.0015588529580919132) -- Base To Quote.",
+        "starting_amount": 0.0015549342729282833,
+        "investment_amount_usd": 5.0,
+        "profit_loss": 3.451076040232289e-06,
+        "real_rate_percentage": 0.0022194353165379483,
+        "gross_depth_balance": 0.0015588529580919132,
+        "ideal_surface_balance": 0.0015588529580919132,
+        "net_surface_balance": 0.0015583853489685156,
+        "gross_depth_profit": 3.918685163629932e-06,
+        "ideal_surface_profit": 3.918685163629932e-06,
+        "net_surface_profit": 3.451076040232289e-06,
+        "foundAt": "2026-03-08 09:24:11",
+        "fee": 0.0001
+    },
+    {
+        "contract_1": [
+            "ETH",
+            "BTC"
+        ],
+        "contract_direction_1": "base_to_quote",
+        "acquired_coin_t1": 4.547727930040398e-05,
+        "contract_2": [
+            "CYBER",
+            "BTC"
+        ],
+        "contract_direction_2": "quote_to_base",
+        "acquired_coin_t2": 6.1119262866228405,
+        "contract_3": [
+            "CYBER",
+            "ETH"
+        ],
+        "contract_direction_3": "base_to_quote",
+        "acquired_coin_t3": 0.0015583853489685156,
+        "trade_desc_1": "1. Start with ETH of 0.0015549342729282833. Swap at rate 0.02925000 (Avg Bid = 0.02925000) for BTC acquiring 4.548182748315229e-05 (0.0015549342729282833 * 0.02925000 = 4.548182748315229e-05) -- Base To Quote.",
+        "trade_desc_2": "2. Start with BTC of 4.548182748315229e-05. Swap at rate 134408.60215054 (1 / Avg Ask = 0.00000744) for CYBER acquiring 6.113148855262405 (4.548182748315229e-05 * 134408.60215054 = 6.113148855262405) -- Quote To Base.",
+        "trade_desc_3": "3. Start with CYBER of 6.113148855262405. Swap at rate 0.00025500 (Avg Bid = 0.00025500) for ETH acquiring 0.0015588529580919132 (6.113148855262405 * 0.00025500 = 0.0015588529580919132) -- Base To Quote.",
+        "starting_amount": 0.0015549342729282833,
+        "investment_amount_usd": 5.0,
+        "profit_loss": 3.451076040232289e-06,
+        "real_rate_percentage": 0.0022194353165379483,
+        "gross_depth_balance": 0.0015588529580919132,
+        "ideal_surface_balance": 0.0015588529580919132,
+        "net_surface_balance": 0.0015583853489685156,
+        "gross_depth_profit": 3.918685163629932e-06,
+        "ideal_surface_profit": 3.918685163629932e-06,
+        "net_surface_profit": 3.451076040232289e-06,
+        "foundAt": "2026-03-08 09:24:15",
+        "fee": 0.0001
+    }
+]

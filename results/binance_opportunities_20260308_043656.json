@@ -1,0 +1,352 @@
+[
+    {
+        "contract_1": [
+            "BNB",
+            "USDC"
+        ],
+        "contract_direction_1": "base_to_quote",
+        "acquired_coin_t1": 1.8273387787642573e-05,
+        "contract_2": [
+            "ERA",
+            "USDC"
+        ],
+        "contract_direction_2": "quote_to_base",
+        "acquired_coin_t2": 2.5781171793346836e-06,
+        "contract_3": [
+            "ERA",
+            "BNB"
+        ],
+        "contract_direction_3": "base_to_quote",
+        "acquired_coin_t3": 0.011315830593989508,
+        "trade_desc_1": "1. Start with BNB of 0.005723181173023214. Swap at rate 620.95000000 (Avg Bid = 620.95000000) for USDC acquiring 3.553809349388765 (0.005723181173023214 * 620.95000000 = 3.553809349388765) -- Base To Quote.",
+        "trade_desc_2": "2. Start with USDC of 3.553809349388765. Swap at rate 7.08215297 (1 / Avg Ask = 0.14120000) for ERA acquiring 25.168621454594653 (3.553809349388765 * 7.08215297 = 25.168621454594653) -- Quote To Base.",
+        "trade_desc_3": "3. Start with ERA of 25.168621454594653. Swap at rate 0.00022760 (Avg Bid = 0.00022760) for BNB acquiring 0.005728378243065743 (25.168621454594653 * 0.00022760 = 0.005728378243065743) -- Base To Quote.",
+        "starting_amount": 0.005723181173023214,
+        "investment_amount_usd": 5.0,
+        "profit_loss": 0.005592649420966294,
+        "real_rate_percentage": 0.9771924480265985,
+        "gross_depth_balance": 0.011319226022230714,
+        "ideal_surface_balance": 0.005728378243065743,
+        "net_surface_balance": 0.005726659901438442,
+        "gross_depth_profit": 0.0055960448492075,
+        "ideal_surface_profit": 5.197070042529256e-06,
+        "net_surface_profit": 3.4787284152286435e-06,
+        "foundAt": "2026-03-08 05:07:35",
+        "fee": 0.0001
+    },
+    {
+        "contract_1": [
+            "BNB",
+            "USDC"
+        ],
+        "contract_direction_1": "base_to_quote",
+        "acquired_coin_t1": 1.8273387787642573e-05,
+        "contract_2": [
+            "ERA",
+            "USDC"
+        ],
+        "contract_direction_2": "quote_to_base",
+        "acquired_coin_t2": 2.5781171793346836e-06,
+        "contract_3": [
+            "ERA",
+            "BNB"
+        ],
+        "contract_direction_3": "base_to_quote",
+        "acquired_coin_t3": 0.011315333893498158,
+        "trade_desc_1": "1. Start with BNB of 0.005723181173023214. Swap at rate 620.95000000 (Avg Bid = 620.95000000) for USDC acquiring 3.553809349388765 (0.005723181173023214 * 620.95000000 = 3.553809349388765) -- Base To Quote.",
+        "trade_desc_2": "2. Start with USDC of 3.553809349388765. Swap at rate 7.08215297 (1 / Avg Ask = 0.14120000) for ERA acquiring 25.168621454594653 (3.553809349388765 * 7.08215297 = 25.168621454594653) -- Quote To Base.",
+        "trade_desc_3": "3. Start with ERA of 25.168621454594653. Swap at rate 0.00022760 (Avg Bid = 0.00022760) for BNB acquiring 0.005728378243065743 (25.168621454594653 * 0.00022760 = 0.005728378243065743) -- Base To Quote.",
+        "starting_amount": 0.005723181173023214,
+        "investment_amount_usd": 5.0,
+        "profit_loss": 0.005592152720474944,
+        "real_rate_percentage": 0.977105660543146,
+        "gross_depth_balance": 0.011318729172699408,
+        "ideal_surface_balance": 0.005728378243065743,
+        "net_surface_balance": 0.005726659901438442,
+        "gross_depth_profit": 0.0055955479996761944,
+        "ideal_surface_profit": 5.197070042529256e-06,
+        "net_surface_profit": 3.4787284152286435e-06,
+        "foundAt": "2026-03-08 05:07:38",
+        "fee": 0.0001
+    },
+    {
+        "contract_1": [
+            "ETH",
+            "USDC"
+        ],
+        "contract_direction_1": "quote_to_base",
+        "acquired_coin_t1": 9850.920381114334,
+        "contract_2": [
+            "TRX",
+            "ETH"
+        ],
+        "contract_direction_2": "quote_to_base",
+        "acquired_coin_t2": 1.5172640571068645,
+        "contract_3": [
+            "TRX",
+            "USDC"
+        ],
+        "contract_direction_3": "base_to_quote",
+        "acquired_coin_t3": 5.287948172538006,
+        "trade_desc_1": "1. Start with USDC of 5.00150045013504. Swap at rate 0.00050775 (1 / Avg Ask = 1969.49000000) for ETH acquiring 0.0025394901472640327 (5.00150045013504 * 0.00050775 = 0.0025394901472640327) -- Quote To Base.",
+        "trade_desc_2": "2. Start with ETH of 0.0025394901472640327. Swap at rate 6867.18857300 (1 / Avg Ask = 0.00014562) for TRX acquiring 17.439157720533117 (0.0025394901472640327 * 6867.18857300 = 17.439157720533117) -- Quote To Base.",
+        "trade_desc_3": "3. Start with TRX of 17.439157720533117. Swap at rate 0.28680000 (Avg Bid = 0.28680000) for USDC acquiring 5.001550434248898 (17.439157720533117 * 0.28680000 = 5.001550434248898) -- Base To Quote.",
+        "starting_amount": 5.00150045013504,
+        "investment_amount_usd": 5.0,
+        "profit_loss": 0.2864477224029658,
+        "real_rate_percentage": 0.057272357617248984,
+        "gross_depth_balance": 5.289505796013036,
+        "ideal_surface_balance": 5.001550434248898,
+        "net_surface_balance": 5.000050119160135,
+        "gross_depth_profit": 0.28800534587799564,
+        "ideal_surface_profit": 4.998411385770396e-05,
+        "net_surface_profit": -0.0014503309749054338,
+        "foundAt": "2026-03-08 05:12:34",
+        "fee": 0.0001
+    },
+    {
+        "contract_1": [
+            "DOGE",
+            "USDC"
+        ],
+        "contract_direction_1": "base_to_quote",
+        "acquired_coin_t1": 55.75443292070926,
+        "contract_2": [
+            "FDUSD",
+            "USDC"
+        ],
+        "contract_direction_2": "quote_to_base",
+        "acquired_coin_t2": 55.70425839143526,
+        "contract_3": [
+            "DOGE",
+            "FDUSD"
+        ],
+        "contract_direction_3": "quote_to_base",
+        "acquired_coin_t3": 8.299217102001073,
+        "trade_desc_1": "1. Start with DOGE of 5.0. Swap at rate 0.08967000 (Avg Bid = 0.08967000) for USDC acquiring 0.44835 (5.0 * 0.08967000 = 0.44835) -- Base To Quote.",
+        "trade_desc_2": "2. Start with USDC of 0.44835. Swap at rate 1.00070049 (1 / Avg Ask = 0.99930000) for FDUSD acquiring 0.44866406484539184 (0.44835 * 1.00070049 = 0.44866406484539184) -- Quote To Base.",
+        "trade_desc_3": "3. Start with FDUSD of 0.44866406484539184. Swap at rate 11.14454475 (1 / Avg Ask = 0.08973000) for DOGE acquiring 5.0001567462988055 (0.44866406484539184 * 11.14454475 = 5.0001567462988055) -- Quote To Base.",
+        "starting_amount": 5.0,
+        "investment_amount_usd": 5.0,
+        "profit_loss": 3.299217102001073,
+        "real_rate_percentage": 0.6598434204002146,
+        "gross_depth_balance": 8.301046591027433,
+        "ideal_surface_balance": 5.0001567462988055,
+        "net_surface_balance": 4.998656849274618,
+        "gross_depth_profit": 3.3010465910274327,
+        "ideal_surface_profit": 0.00015674629880546576,
+        "net_surface_profit": -0.0013431507253818253,
+        "foundAt": "2026-03-08 05:35:24",
+        "fee": 0.0001
+    },
+    {
+        "contract_1": [
+            "USDT",
+            "TRY"
+        ],
+        "contract_direction_1": "quote_to_base",
+        "acquired_coin_t1": 220.67793,
+        "contract_2": [
+            "JTO",
+            "USDT"
+        ],
+        "contract_direction_2": "quote_to_base",
+        "acquired_coin_t2": 66.5805987592515,
+        "contract_3": [
+            "JTO",
+            "TRY"
+        ],
+        "contract_direction_3": "base_to_quote",
+        "acquired_coin_t3": 5.912428126054669,
+        "trade_desc_1": "1. Start with TRY of 5.0. Swap at rate 0.02265006 (1 / Avg Ask = 44.15000000) for USDT acquiring 0.11325028312570783 (5.0 * 0.02265006 = 0.11325028312570783) -- Quote To Base.",
+        "trade_desc_2": "2. Start with USDT of 0.11325028312570783. Swap at rate 3.92464678 (1 / Avg Ask = 0.25480000) for JTO acquiring 0.4444673592060746 (0.11325028312570783 * 3.92464678 = 0.4444673592060746) -- Quote To Base.",
+        "trade_desc_3": "3. Start with JTO of 0.4444673592060746. Swap at rate 11.25000000 (Avg Bid = 11.25000000) for TRY acquiring 5.000257791068339 (0.4444673592060746 * 11.25000000 = 5.000257791068339) -- Base To Quote.",
+        "starting_amount": 5.0,
+        "investment_amount_usd": 5.0,
+        "profit_loss": 0.9124281260546692,
+        "real_rate_percentage": 0.18248562521093384,
+        "gross_depth_balance": 5.914109618117228,
+        "ideal_surface_balance": 5.000257791068339,
+        "net_surface_balance": 4.998757863733752,
+        "gross_depth_profit": 0.9141096181172284,
+        "ideal_surface_profit": 0.0002577910683392304,
+        "net_surface_profit": -0.0012421362662475843,
+        "foundAt": "2026-03-08 05:53:05",
+        "fee": 0.0001
+    },
+    {
+        "contract_1": [
+            "USDT",
+            "TRY"
+        ],
+        "contract_direction_1": "quote_to_base",
+        "acquired_coin_t1": 220.67793,
+        "contract_2": [
+            "JTO",
+            "USDT"
+        ],
+        "contract_direction_2": "quote_to_base",
+        "acquired_coin_t2": 66.5805987592515,
+        "contract_3": [
+            "JTO",
+            "TRY"
+        ],
+        "contract_direction_3": "base_to_quote",
+        "acquired_coin_t3": 5.912428126054669,
+        "trade_desc_1": "1. Start with TRY of 5.0. Swap at rate 0.02265006 (1 / Avg Ask = 44.15000000) for USDT acquiring 0.11325028312570783 (5.0 * 0.02265006 = 0.11325028312570783) -- Quote To Base.",
+        "trade_desc_2": "2. Start with USDT of 0.11325028312570783. Swap at rate 3.92464678 (1 / Avg Ask = 0.25480000) for JTO acquiring 0.4444673592060746 (0.11325028312570783 * 3.92464678 = 0.4444673592060746) -- Quote To Base.",
+        "trade_desc_3": "3. Start with JTO of 0.4444673592060746. Swap at rate 11.25000000 (Avg Bid = 11.25000000) for TRY acquiring 5.000257791068339 (0.4444673592060746 * 11.25000000 = 5.000257791068339) -- Base To Quote.",
+        "starting_amount": 5.0,
+        "investment_amount_usd": 5.0,
+        "profit_loss": 0.9124281260546692,
+        "real_rate_percentage": 0.18248562521093384,
+        "gross_depth_balance": 5.914109618117228,
+        "ideal_surface_balance": 5.000257791068339,
+        "net_surface_balance": 4.998757863733752,
+        "gross_depth_profit": 0.9141096181172284,
+        "ideal_surface_profit": 0.0002577910683392304,
+        "net_surface_profit": -0.0012421362662475843,
+        "foundAt": "2026-03-08 05:53:09",
+        "fee": 0.0001
+    },
+    {
+        "contract_1": [
+            "USDT",
+            "TRY"
+        ],
+        "contract_direction_1": "quote_to_base",
+        "acquired_coin_t1": 220.67793,
+        "contract_2": [
+            "SOMI",
+            "USDT"
+        ],
+        "contract_direction_2": "quote_to_base",
+        "acquired_coin_t2": 54.5234521854924,
+        "contract_3": [
+            "SOMI",
+            "TRY"
+        ],
+        "contract_direction_3": "base_to_quote",
+        "acquired_coin_t3": 6.640438470191699,
+        "trade_desc_1": "1. Start with TRY of 5.0. Swap at rate 0.02265006 (1 / Avg Ask = 44.15000000) for USDT acquiring 0.11325028312570783 (5.0 * 0.02265006 = 0.11325028312570783) -- Quote To Base.",
+        "trade_desc_2": "2. Start with USDT of 0.11325028312570783. Swap at rate 5.39083558 (1 / Avg Ask = 0.18550000) for SOMI acquiring 0.6105136556641931 (0.11325028312570783 * 5.39083558 = 0.6105136556641931) -- Quote To Base.",
+        "trade_desc_3": "3. Start with SOMI of 0.6105136556641931. Swap at rate 8.19000000 (Avg Bid = 8.19000000) for TRY acquiring 5.0001068398897415 (0.6105136556641931 * 8.19000000 = 5.0001068398897415) -- Base To Quote.",
+        "starting_amount": 5.0,
+        "investment_amount_usd": 5.0,
+        "profit_loss": 1.6404384701916994,
+        "real_rate_percentage": 0.32808769403833987,
+        "gross_depth_balance": 6.642264609013398,
+        "ideal_surface_balance": 5.0001068398897415,
+        "net_surface_balance": 4.99860695783598,
+        "gross_depth_profit": 1.6422646090133979,
+        "ideal_surface_profit": 0.0001068398897414724,
+        "net_surface_profit": -0.0013930421640200308,
+        "foundAt": "2026-03-08 05:58:46",
+        "fee": 0.0001
+    },
+    {
+        "contract_1": [
+            "ETH",
+            "FDUSD"
+        ],
+        "contract_direction_1": "base_to_quote",
+        "acquired_coin_t1": 8.738940152658372e-07,
+        "contract_2": [
+            "FDUSD",
+            "TRY"
+        ],
+        "contract_direction_2": "base_to_quote",
+        "acquired_coin_t2": 1.9805227240804863e-08,
+        "contract_3": [
+            "ETH",
+            "TRY"
+        ],
+        "contract_direction_3": "quote_to_base",
+        "acquired_coin_t3": 0.0017229220709664643,
+        "trade_desc_1": "1. Start with ETH of 0.0015549342729282833. Swap at rate 1972.79000000 (Avg Bid = 1972.79000000) for FDUSD acquiring 3.067558784290188 (0.0015549342729282833 * 1972.79000000 = 3.067558784290188) -- Base To Quote.",
+        "trade_desc_2": "2. Start with FDUSD of 3.067558784290188. Swap at rate 44.11000000 (Avg Bid = 44.11000000) for TRY acquiring 135.31001797504018 (3.067558784290188 * 44.11000000 = 135.31001797504018) -- Base To Quote.",
+        "trade_desc_3": "3. Start with TRY of 135.31001797504018. Swap at rate 0.00001149 (1 / Avg Ask = 87010.00000000) for ETH acquiring 0.001555108814791865 (135.31001797504018 * 0.00001149 = 0.001555108814791865) -- Quote To Base.",
+        "starting_amount": 0.0015549342729282833,
+        "investment_amount_usd": 5.0,
+        "profit_loss": 0.00016798779803818098,
+        "real_rate_percentage": 0.10803530474752672,
+        "gross_depth_balance": 0.0017234390509803105,
+        "ideal_surface_balance": 0.001555108814791865,
+        "net_surface_balance": 0.0015546423287991367,
+        "gross_depth_profit": 0.0001685047780520272,
+        "ideal_surface_profit": 1.7454186358170296e-07,
+        "net_surface_profit": -2.919441291465274e-07,
+        "foundAt": "2026-03-08 07:00:56",
+        "fee": 0.0001
+    },
+    {
+        "contract_1": [
+            "1000SATS",
+            "USDC"
+        ],
+        "contract_direction_1": "base_to_quote",
+        "acquired_coin_t1": 468556.7010309279,
+        "contract_2": [
+            "USDC",
+            "USDT"
+        ],
+        "contract_direction_2": "base_to_quote",
+        "acquired_coin_t2": 468462.9990609187,
+        "contract_3": [
+            "1000SATS",
+            "USDT"
+        ],
+        "contract_direction_3": "quote_to_base",
+        "acquired_coin_t3": 6.326157740891279,
+        "trade_desc_1": "1. Start with 1000SATS of 5.0. Swap at rate 0.00001062 (Avg Bid = 0.00001062) for USDC acquiring 5.31e-05 (5.0 * 0.00001062 = 5.31e-05) -- Base To Quote.",
+        "trade_desc_2": "2. Start with USDC of 5.31e-05. Swap at rate 1.00000000 (Avg Bid = 1.00000000) for USDT acquiring 5.31e-05 (5.31e-05 * 1.00000000 = 5.31e-05) -- Base To Quote.",
+        "trade_desc_3": "3. Start with USDT of 5.31e-05. Swap at rate 94161.95856874 (1 / Avg Ask = 0.00001062) for 1000SATS acquiring 5.000000000000001 (5.31e-05 * 94161.95856874 = 5.000000000000001) -- Quote To Base.",
+        "starting_amount": 5.0,
+        "investment_amount_usd": 5.0,
+        "profit_loss": 1.3261577408912792,
+        "real_rate_percentage": 0.26523154817825584,
+        "gross_depth_balance": 6.327783710482381,
+        "ideal_surface_balance": 5.000000000000001,
+        "net_surface_balance": 4.998500149995,
+        "gross_depth_profit": 1.3277837104823806,
+        "ideal_surface_profit": 8.881784197001252e-16,
+        "net_surface_profit": -0.0014998500049996366,
+        "foundAt": "2026-03-08 07:53:15",
+        "fee": 0.0001
+    },
+    {
+        "contract_1": [
+            "1000SATS",
+            "USDC"
+        ],
+        "contract_direction_1": "base_to_quote",
+        "acquired_coin_t1": 468556.7010309279,
+        "contract_2": [
+            "USDC",
+            "USDT"
+        ],
+        "contract_direction_2": "base_to_quote",
+        "acquired_coin_t2": 468462.9990609187,
+        "contract_3": [
+            "1000SATS",
+            "USDT"
+        ],
+        "contract_direction_3": "quote_to_base",
+        "acquired_coin_t3": 6.326157740891279,
+        "trade_desc_1": "1. Start with 1000SATS of 5.0. Swap at rate 0.00001062 (Avg Bid = 0.00001062) for USDC acquiring 5.31e-05 (5.0 * 0.00001062 = 5.31e-05) -- Base To Quote.",
+        "trade_desc_2": "2. Start with USDC of 5.31e-05. Swap at rate 1.00000000 (Avg Bid = 1.00000000) for USDT acquiring 5.31e-05 (5.31e-05 * 1.00000000 = 5.31e-05) -- Base To Quote.",
+        "trade_desc_3": "3. Start with USDT of 5.31e-05. Swap at rate 94161.95856874 (1 / Avg Ask = 0.00001062) for 1000SATS acquiring 5.000000000000001 (5.31e-05 * 94161.95856874 = 5.000000000000001) -- Quote To Base.",
+        "starting_amount": 5.0,
+        "investment_amount_usd": 5.0,
+        "profit_loss": 1.3261577408912792,
+        "real_rate_percentage": 0.26523154817825584,
+        "gross_depth_balance": 6.327783710482381,
+        "ideal_surface_balance": 5.000000000000001,
+        "net_surface_balance": 4.998500149995,
+        "gross_depth_profit": 1.3277837104823806,
+        "ideal_surface_profit": 8.881784197001252e-16,
+        "net_surface_profit": -0.0014998500049996366,
+        "foundAt": "2026-03-08 07:53:19",
+        "fee": 0.0001
+    }
+]

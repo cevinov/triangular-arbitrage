@@ -26,31 +26,26 @@ def find_depth(sym):
 def reformat_depth_orderbook(ask, bid, direction):
     price_list_main = []
     if direction == "base_to_quote":
-        # print("\n-------Base to Quote-------")
-        for i in range(len(ask)):
-            ask_price = float(ask[i][0])
-            ask_amount = float(ask[i][1])
-
-            # Calculate the coin price (adjusted price) to buy and the quantity of coins we get (adjusted quantity).
-            adj_price = 1 / ask_price if ask_price != 0 else 0
-            adj_quantity = adj_price * ask_amount
-
-            # print(f"\nAsk: {ask_price}, Amount: {ask_amount}")
-            # print(f"Adj Price: {adj_price}, Adj Quantity: {adj_quantity}")
-            price_list_main.append([adj_price, adj_quantity])
-
-    if direction == "quote_to_base":
-        # print("\n-------Quote to Base-------")
+        # We hold Base. We want Quote. We sell Base to BIDS.
         for i in range(len(bid)):
             bid_price = float(bid[i][0])
             bid_amount = float(bid[i][1])
 
             adj_price = bid_price if bid_price != 0 else 0
-            adj_quantity = bid_amount
+            adj_quantity = bid_amount  # Capacity in Base
 
-            # print(
-            #     f"\nBid: {bid_price}, Amount: {bid_amount}, Adj Quantity: {adj_quantity}"
-            # )
+            price_list_main.append([adj_price, adj_quantity])
+
+    if direction == "quote_to_base":
+        # We hold Quote. We want Base. We buy Base from ASKS.
+        for i in range(len(ask)):
+            ask_price = float(ask[i][0])
+            ask_amount = float(ask[i][1])
+
+            adj_price = 1 / ask_price if ask_price != 0 else 0
+            # Capacity in Quote = price * amount
+            adj_quantity = ask_price * ask_amount
+
             price_list_main.append([adj_price, adj_quantity])
 
     return price_list_main
@@ -78,36 +73,15 @@ def calculate_acquired_coin(pair, amount_in, orderbook, fee=0):
         # If amount in <= level quantity, then we buy the coin with all balance amount
         try:
             if trading_balance <= level_quantity:
-                quantity_bought = trading_balance  # Amount of base coin we bought, if the direction is base to quote
+                quantity_bought = trading_balance
                 trading_balance = 0
-
-                # No need divided by 1, because we already get the adjusted price and quantity
-                amount_bought = (
-                    quantity_bought * level_price
-                ) * (1 - fee)  # Amount of quote coin that we get, if the direction is quote to base
-
-                # print(
-                #     "less",
-                #     trading_balance,
-                #     quantity_bought,
-                #     amount_bought,
-                #     level_price,
-                #     level_quantity,
-                # )
-
-            # If amount in > a given level quantity, then we buy the coin with the level quantity until the balance is 0
-            if trading_balance > level_quantity:
-                quantity_bought = level_quantity
-                trading_balance -= level_price
                 amount_bought = (quantity_bought * level_price) * (1 - fee)
-                # print(
-                #     "greater",
-                #     trading_balance,
-                #     quantity_bought,
-                #     amount_bought,
-                #     level_price,
-                #     level_quantity,
-                # )
+                
+            # If amount in > a given level quantity, then we buy the coin with the level quantity until the balance is 0
+            else:
+                quantity_bought = level_quantity
+                trading_balance -= level_quantity
+                amount_bought = (quantity_bought * level_price) * (1 - fee)
 
             # Stop if already at the last level of order book, to avoid an error
             counts += 1
@@ -163,8 +137,8 @@ def get_depth_from_orderbook(pair, fee=0):
     # Limit the API call using time.sleep()
     time.sleep(0.5)  # 5 weight * 3 calls = 15 weight
 
-    for i, pair in enumerate(list_contract):
-        symbol = "".join(pair)
+    for i, c_pair in enumerate(list_contract):
+        symbol = "".join(c_pair)
         # Get depth price for each pair
         result = find_depth(symbol)
 
