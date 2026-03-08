@@ -43,7 +43,7 @@ def amount_in_usd(symbol, base, amount):
 
 
 # 3. Get all coins that are ready for trade, and do the conversion (if quote is USDT).
-def convert_to_usdt(amount=10):
+def convert_to_usdt(amount=1):
     list_tradeable_coins = get.get_coins()
     dict_usdt = {}
 

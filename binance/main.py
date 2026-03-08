@@ -8,7 +8,7 @@ import calc_depth_rate as depth
 import func_slack_notif as slack
 
 # Dot in float number means the decimal point, not the thousands separator.
-INVESTMENT_AMOUNT_USD = 5
+initial_amount = 5
 
 # RUN Step 1 for coin update / testing
 # Step 1: Structuring triangular pairs.
@@ -67,7 +67,7 @@ if __name__ == "__main__":
             # }
 
             # IP Weight = 2 * 3 calls = 6 weight
-            result_surface = surf_rate.find_arb_opportunity_surf(pair, INVESTMENT_AMOUNT_USD)
+            result_surface = surf_rate.find_arb_opportunity_surf(pair, initial_amount)
 
             if len(result_surface) > 0:
                 # IP Weight = 5 * 3 calls = 15 weight
@@ -90,7 +90,7 @@ if __name__ == "__main__":
                         "trade_desc_2": result_surface["trade_desc_2"],
                         "trade_desc_3": result_surface["trade_desc_3"],
                         "starting_amount": result_surface["starting_amount"],
-                        "investment_amount_usd": result_surface["investment_amount_usd"],
+                        "initial_amount": result_surface["initial_amount"],
                         "profit_loss": result_depth["profit_loss"],
                         "real_rate_percentage": result_depth["real_rate_percentage"],
                         "foundAt": foundAt.strftime("%Y-%m-%d %H:%M:%S"),

@@ -129,7 +129,7 @@ t_pair = [
 
 
 # Function to calculate arbitrage opportunity based on ask/bid price from the bookTicker API (Surface rate)
-def find_arb_opportunity_surf(pair, investment_amount_usd=10):
+def find_arb_opportunity_surf(pair, initial_amount):
     # Helper to format description
     def get_desc(step, in_c, in_a, rate, info, out_c, out_a, d):
         price = 1 / rate if "1/Ask" in info and rate != 0 else rate
@@ -226,17 +226,9 @@ def find_arb_opportunity_surf(pair, investment_amount_usd=10):
             swap_1 = a_base
             swap_2 = a_quote
 
-            # Determine the total coin that we have (initial capital) based on the convert_usdt.json file with an amount of 10 USD.
-            json_path = os.path.join(os.path.dirname(__file__), "convert_usdt.json")
-            with open(json_path, "r") as fp:
-                data = json.load(fp)
-
-                if a_base in data:
-                    starting_amount = data[a_base] * (investment_amount_usd / 10.0)
-                    print(f"\n\n------Amount------: {starting_amount}")
-                else:
-                    starting_amount = investment_amount_usd
-                    print(f"\n\n------Amount------: {starting_amount}")
+            # Directly use initial_amount without conversion, as requested by the user.
+            starting_amount = initial_amount
+            print(f"\n\n------Amount------: {starting_amount}")
 
             print(f"\n\nFirst Trade (FORWARD): swap {a_base}/{a_quote}")
             direction_trade_1 = "base_to_quote"
@@ -460,7 +452,7 @@ def find_arb_opportunity_surf(pair, investment_amount_usd=10):
             if profit_surface > min_surface_rate:
                 surface_dict = {
                     "starting_amount": starting_amount,
-                    "investment_amount_usd": investment_amount_usd,
+                    "initial_amount": initial_amount,
                     "direction": direction,
                     "swap_1": swap_1,
                     "swap_2": swap_2,
@@ -493,17 +485,9 @@ def find_arb_opportunity_surf(pair, investment_amount_usd=10):
         """
         # Assume starting capital with Quote coin of pair A
         if direction == "reverse" and calculated == 0:
-            # Determine the total coin that we have (initial capital) based on the convert_usdt.json file with an amount of 10 USD.
-            json_path = os.path.join(os.path.dirname(__file__), "convert_usdt.json")
-            with open(json_path, "r") as fp:
-                data = json.load(fp)
-
-                if a_quote in data:
-                    starting_amount = data[a_quote] * (investment_amount_usd / 10.0)
-                    print(f"\n\n------Amount------: {starting_amount}")
-                else:
-                    starting_amount = investment_amount_usd
-                    print(f"\n\n------Amount------: {starting_amount}")
+            # Directly use initial_amount without conversion, as requested by the user.
+            starting_amount = initial_amount
+            print(f"\n\n------Amount------: {starting_amount}")
 
             print(f"\n\nFirst Trade (REVERSE): swap {a_quote}/{a_base}")
             direction_trade_1 = "quote_to_base"
@@ -717,7 +701,7 @@ def find_arb_opportunity_surf(pair, investment_amount_usd=10):
             if profit_surface > min_surface_rate:
                 surface_dict = {
                     "starting_amount": starting_amount,
-                    "investment_amount_usd": investment_amount_usd,
+                    "initial_amount": initial_amount,
                     "direction": direction,
                     "swap_1": swap_1,
                     "swap_2": swap_2,

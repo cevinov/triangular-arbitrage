@@ -45,18 +45,12 @@ function updateCard(exchange, data) {
     msgEl.innerText = data.message;
 
     // Only update input if not focused (to avoid overwriting user typing)
-    if (document.activeElement !== amountEl) {
-        if (exchange === 'binance') {
-            amountEl.value = data.initial_amount;
-            if (feeEl && document.activeElement !== feeEl) {
-                feeEl.value = data.fee * 100; // Convert to percentage
-            }
-        } else {
-            amountEl.value = data.initial_amount;
-            if (feeEl && document.activeElement !== feeEl && data.fee !== null) {
-                feeEl.value = data.fee * 100; // Convert to percentage if available
-            }
-        }
+    if (exchange === 'binance') {
+        if (amountEl && document.activeElement !== amountEl) amountEl.value = data.initial_amount;
+        if (feeEl && document.activeElement !== feeEl) feeEl.value = data.fee * 100;
+    } else {
+        if (amountEl && document.activeElement !== amountEl) amountEl.value = data.initial_amount;
+        if (feeEl && document.activeElement !== feeEl && data.fee !== null) feeEl.value = data.fee * 100;
     }
 }
 
@@ -75,9 +69,9 @@ let pendingConfig = null;
 
 async function updateConfig(exchange) {
     const amountEl = document.getElementById(`${exchange}-amount`);
-    const amount = parseFloat(amountEl.value);
+    const amount = amountEl ? parseFloat(amountEl.value) : null;
 
-    let fee = 0;
+    let fee = undefined;
     const feeEl = document.getElementById(`${exchange}-fee`);
     if (feeEl) {
         fee = parseFloat(feeEl.value) / 100;
@@ -93,13 +87,21 @@ function showConfirmModal(exchange, amount, fee) {
     const feeDisplay = document.getElementById('modal-fee');
     const confirmBtn = document.getElementById('modal-confirm-btn');
 
-    if (exchange === 'binance') {
-        amountDisplay.innerText = `$${amount}`;
+    if (amount !== null && !isNaN(amount)) {
+        if (exchange === 'binance') {
+            amountDisplay.innerText = `$${amount}`;
+        } else {
+            amountDisplay.innerText = `${amount.toLocaleString()} IDR`;
+        }
     } else {
-        amountDisplay.innerText = `${amount.toLocaleString()} IDR`;
+        amountDisplay.innerText = 'Unchanged';
     }
 
-    feeDisplay.innerText = `${(fee * 100).toFixed(2)}%`;
+    if (fee !== undefined && !isNaN(fee)) {
+        feeDisplay.innerText = `${(fee * 100).toFixed(4)}%`;
+    } else {
+        feeDisplay.innerText = 'Unchanged';
+    }
 
     // Store config for execution
     pendingConfig = { exchange, amount, fee };
@@ -121,10 +123,9 @@ function closeModal() {
 }
 
 async function executeSave(exchange, amount, fee) {
-    let body = { amount: amount };
-    if (fee !== undefined) {
-        body.fee = fee;
-    }
+    let body = {};
+    if (amount !== null && !isNaN(amount)) body.amount = amount;
+    if (fee !== undefined && !isNaN(fee)) body.fee = fee;
 
     try {
         const res = await fetch(`${API_BASE}/${exchange}/config`, {

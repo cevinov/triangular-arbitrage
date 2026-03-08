@@ -21,7 +21,7 @@ def arb_notif(exchange, result):
                     "fields": [
                         {"type": "mrkdwn", "text": f"*Exchange:*\n{exchange}"},
                         {"type": "mrkdwn", "text": f"*Found At:*\n{result['foundAt']}"},
-                        {"type": "mrkdwn", "text": f"*Starting Amount (USD):*\n${result.get('investment_amount_usd', 'N/A')}"},
+                        {"type": "mrkdwn", "text": f"*Starting Amount (USD):*\n${result.get('initial_amount', 'N/A')}"},
                         {"type": "mrkdwn", "text": f"*Starting Amount (Coin):*\n{result.get('starting_amount', 'N/A')}"},
                         {"type": "mrkdwn", "text": f"*Final Amount:*\n{result['acquired_coin_t3']}"},
                         {"type": "mrkdwn", "text": f"*Profit/Loss:*\n{result['profit_loss']}"},

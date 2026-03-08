@@ -15,7 +15,7 @@ result_dict = {
     "contract_direction_3": "quote_to_base",
     "acquired_coin_t3": 5.15,
     "starting_amount": 5.0,
-    "investment_amount_usd": 5.0,
+    "initial_amount": 5.0,
     "profit_loss": 0.15,
     "real_rate_percentage": 0.06,
     "trade_desc_1": "1. Start with ETH of 5.0. Swap at rate 1.05 for BTC acquiring 5.251.",

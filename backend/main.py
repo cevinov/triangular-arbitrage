@@ -68,10 +68,6 @@ ALLOWED_FILES = {
         "path": os.path.abspath(os.path.join(os.path.dirname(__file__), "../binance/triangular_groups.json")),
         "name": "Binance Triangular Groups"
     },
-    "binance_convert": {
-        "path": os.path.abspath(os.path.join(os.path.dirname(__file__), "../binance/convert_usdt.json")),
-        "name": "Binance USDT Conversion Rates"
-    },
     "indodax_triangles": {
         "path": os.path.abspath(os.path.join(os.path.dirname(__file__), "../indodax/triangles.json")),
         "name": "Indodax Triangles"
@@ -250,7 +246,7 @@ from backend.bots.binance_bot import bot as binance_bot
 from backend.bots.indodax_bot import bot as indodax_bot
 
 class ConfigRequest(BaseModel):
-    amount: float
+    amount: Optional[float] = None
     fee: Optional[float] = None
 
 @app.get("/")
@@ -284,15 +280,17 @@ def stop_bot(exchange: str):
 @app.post("/api/bot/{exchange}/config")
 def config_bot(exchange: str, config: ConfigRequest):
     if exchange.lower() == "binance":
-        binance_bot.investment_amount_usd = config.amount
+        if config.amount is not None:
+            binance_bot.initial_amount = config.amount
         if config.fee is not None:
             binance_bot.fee = config.fee
-        return {"message": f"Binance investment amount set to ${config.amount}, Fee set to {binance_bot.fee}"}
+        return {"message": f"Binance config updated."}
     elif exchange.lower() == "indodax":
-        indodax_bot.initial_amount = config.amount
+        if config.amount is not None:
+            indodax_bot.initial_amount = config.amount
         if config.fee is not None:
             indodax_bot.fee = config.fee
-        return {"message": f"Indodax initial amount set to {config.amount} IDR, Fee set to {indodax_bot.fee}"}
+        return {"message": f"Indodax config updated."}
     return {"error": "Invalid exchange"}
 
 # Global shutdown flag
