@@ -3,3 +3,7 @@ binance/.venv/
 NOTE.md
 docs/
 venv/
+binance/__pycache__/
+backend/__pycache__/
+indodax/__pycache__/
+backend/bots/__pycache__/
