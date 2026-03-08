@@ -93,25 +93,33 @@ def get_data_files():
     
     # Add dynamic session files from results directory
     results_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../results"))
-    if os.path.exists(results_dir):
+    loss_dir = os.path.join(results_dir, "loss")
+    
+    def process_dir(directory, prefix):
+        if not os.path.exists(directory):
+            return
         try:
-            for filename in os.listdir(results_dir):
+            for filename in os.listdir(directory):
                 if filename.endswith(".json"):
-                    file_path = os.path.join(results_dir, filename)
+                    file_path = os.path.join(directory, filename)
                     mtime = os.path.getmtime(file_path)
                     import datetime
                     dt = datetime.datetime.fromtimestamp(mtime)
                     
                     # Create a readable name from filename
                     name = filename.replace(".json", "").replace("_", " ").title()
+                    display_name = f"[Loss] {name}" if prefix == "loss" else name
                     
                     files.append({
-                        "id": f"result:{filename}", # Prefix to distinguish from static files
-                        "name": name,
+                        "id": f"{prefix}:{filename}",
+                        "name": display_name,
                         "last_modified": dt.strftime("%Y-%m-%d %H:%M:%S")
                     })
         except Exception as e:
-            print(f"Error listing results files: {e}")
+            print(f"Error listing files in {directory}: {e}")
+
+    process_dir(results_dir, "result")
+    process_dir(loss_dir, "loss")
             
     # Sort files by last modified (newest first)
     files.sort(key=lambda x: x["last_modified"], reverse=True)
@@ -122,15 +130,17 @@ def get_data_files():
 def get_data_content(file_id: str):
     file_path = None
     
-    if file_id.startswith("result:"):
-        # Handle dynamic result files
-        filename = file_id.split(":", 1)[1]
+    if file_id.startswith("result:") or file_id.startswith("loss:"):
+        prefix, filename = file_id.split(":", 1)
         # Security check: ensure no directory traversal
         if "/" in filename or "\\" in filename or ".." in filename:
              return {"error": "Invalid filename"}
              
         results_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../results"))
-        file_path = os.path.join(results_dir, filename)
+        if prefix == "loss":
+            file_path = os.path.join(results_dir, "loss", filename)
+        else:
+            file_path = os.path.join(results_dir, filename)
     elif file_id in ALLOWED_FILES:
         # Handle static allowed files
         file_path = ALLOWED_FILES[file_id]["path"]
@@ -166,72 +176,89 @@ def get_analysis(files: Optional[List[str]] = Query(None)):
         }
     }
     
-    if not os.path.exists(results_dir):
-        return stats
+    # Clean up the `files` list from prefixes if provided
+    selected_filenames = []
+    if files:
+        for f in files:
+            if ":" in f:
+                selected_filenames.append(f.split(":", 1)[1])
+            else:
+                selected_filenames.append(f)
+                
+    def analyze_dir(directory):
+        if not os.path.exists(directory):
+            return
         
-    try:
-        for filename in os.listdir(results_dir):
-            if not filename.endswith(".json"):
-                continue
-            
-            # Filter by selected files if provided
-            if files and filename not in files:
-                continue
+        try:
+            for filename in os.listdir(directory):
+                if not filename.endswith(".json"):
+                    continue
                 
-            file_path = os.path.join(results_dir, filename)
-            try:
-                with open(file_path, "r") as f:
-                    data = json.load(f)
+                # Filter by selected files if provided
+                if selected_filenames and filename not in selected_filenames:
+                    continue
                     
-                # Handle list of opportunities (standard format)
-                if isinstance(data, list):
-                    items = data
-                else:
-                    items = [data] # Handle single object if any
-                    
-                for item in items:
-                    # Determine exchange based on filename or content
-                    is_binance = "binance" in filename.lower()
-                    is_indodax = "indodax" in filename.lower()
-                    
-                    if is_binance:
-                        profit = float(item.get("profit_loss", 0))
-                        stats["binance"]["total_profit_usd"] += profit
-                        stats["binance"]["trade_count"] += 1
+                file_path = os.path.join(directory, filename)
+                try:
+                    with open(file_path, "r") as f:
+                        data = json.load(f)
                         
-                        # Extract date
-                        found_at = item.get("foundAt", "")
-                        if found_at:
-                            stats["binance"]["profit_history"].append({"date": found_at, "profit": profit})
+                    # Handle list of opportunities (standard format)
+                    if isinstance(data, list):
+                        items = data
+                    else:
+                        items = [data] # Handle single object if any
+                        
+                    for item in items:
+                        # Determine exchange based on filename or content
+                        is_binance = "binance" in filename.lower()
+                        is_indodax = "indodax" in filename.lower()
+                        
+                        if is_binance:
+                            profit = float(item.get("profit_loss", 0))
+                            stats["binance"]["total_profit_usd"] += profit
+                            stats["binance"]["trade_count"] += 1
                             
-                        # Extract pair path
-                        path = f"{item.get('contract_1', ['',''])[0]}->{item.get('contract_2', ['',''])[0]}->{item.get('contract_3', ['',''])[0]}"
-                        stats["binance"]["top_pairs"][path] = stats["binance"]["top_pairs"].get(path, 0) + 1
-                        
-                    elif is_indodax:
-                        profit = float(item.get("profit_loss", 0))
-                        stats["indodax"]["total_profit_idr"] += profit
-                        stats["indodax"]["trade_count"] += 1
-                        
-                        found_at = item.get("foundAt", "")
-                        if found_at:
-                            stats["indodax"]["profit_history"].append({"date": found_at, "profit": profit})
+                            # Extract date
+                            found_at = item.get("foundAt", "")
+                            if found_at:
+                                stats["binance"]["profit_history"].append({"date": found_at, "profit": profit})
+                                
+                            # Extract pair path
+                            path = f"{item.get('contract_1', ['',''])[0]}->{item.get('contract_2', ['',''])[0]}->{item.get('contract_3', ['',''])[0]}"
+                            stats["binance"]["top_pairs"][path] = stats["binance"]["top_pairs"].get(path, 0) + 1
                             
-                        # Extract pair path (Indodax format might vary slightly in JSON)
-                        # Trying to reconstruct from contracts if available, or use a generic key
-                        c1 = item.get('contract_1', ['',''])
-                        c2 = item.get('contract_2', ['',''])
-                        c3 = item.get('contract_3', ['',''])
-                        if isinstance(c1, list) and len(c1) > 0:
-                             path = f"{c1[0]}->{c2[0]}->{c3[0]}"
-                        else:
-                             path = "Unknown Path"
-                        stats["indodax"]["top_pairs"][path] = stats["indodax"]["top_pairs"].get(path, 0) + 1
+                        elif is_indodax:
+                            profit = float(item.get("profit_loss", 0))
+                            stats["indodax"]["total_profit_idr"] += profit
+                            stats["indodax"]["trade_count"] += 1
+                            
+                            found_at = item.get("foundAt", "")
+                            if found_at:
+                                stats["indodax"]["profit_history"].append({"date": found_at, "profit": profit})
+                                
+                            # Extract pair path (Indodax format might vary slightly in JSON)
+                            # Trying to reconstruct from contracts if available, or use a generic key
+                            c1 = item.get('contract_1', ['',''])
+                            c2 = item.get('contract_2', ['',''])
+                            c3 = item.get('contract_3', ['',''])
+                            if isinstance(c1, list) and len(c1) > 0:
+                                 path = f"{c1[0]}->{c2[0]}->{c3[0]}"
+                            else:
+                                 path = "Unknown Path"
+                            stats["indodax"]["top_pairs"][path] = stats["indodax"]["top_pairs"].get(path, 0) + 1
 
-            except Exception as e:
-                print(f"Error processing file {filename}: {e}")
-                continue
+                except Exception as e:
+                    print(f"Error processing file {filename}: {e}")
+                    continue
+        except Exception as e:
+            print(f"Error listing directory {directory}: {e}")
                 
+    analyze_dir(results_dir)
+    loss_dir = os.path.join(results_dir, "loss")
+    analyze_dir(loss_dir)
+                
+    try:
         # Sort history by date
         stats["binance"]["profit_history"].sort(key=lambda x: x["date"])
         stats["indodax"]["profit_history"].sort(key=lambda x: x["date"])

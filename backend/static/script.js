@@ -276,15 +276,14 @@ async function loadAnalysisFileList() {
         const response = await fetch(`${API_BASE.replace('/api/bot', '/api/data/files')}`); // Use correct endpoint
         const files = await response.json();
 
-        // Filter for result files only
-        const resultFiles = files.filter(f => f.id.startsWith('result:'));
+        // Filter for result and loss files
+        const analysisFiles = files.filter(f => f.id.startsWith('result:') || f.id.startsWith('loss:'));
 
         select.innerHTML = '<option value="">All Files</option>';
 
-        resultFiles.forEach(file => {
-            const filename = file.id.replace('result:', '');
+        analysisFiles.forEach(file => {
             const option = document.createElement('option');
-            option.value = filename;
+            option.value = file.id;
             option.textContent = `${file.name} (${file.last_modified})`;
             select.appendChild(option);
         });
@@ -323,7 +322,7 @@ async function loadAnalysis() {
 
         if (selectedFile) {
             // If a specific file is selected, fetch its content to show detailed cards
-            const fileContentRes = await fetch(`${API_URL}/data/content?file_id=result:${selectedFile}`);
+            const fileContentRes = await fetch(`${API_URL}/data/content?file_id=${selectedFile}`);
             const fileContent = await fileContentRes.json();
 
             // Ensure it's an array
@@ -355,8 +354,8 @@ function renderStats(data, totalCount) {
 
     const stats = [
         { label: 'Total Found', value: totalCount, color: 'text-white' },
-        { label: 'Indodax Profit', value: `${fmt(totalProfitIDR)} <span class="text-sm font-normal text-slate-500">IDR</span>`, color: 'text-emerald-400', icon: 'trending-up' },
-        { label: 'Binance Profit', value: `${fmt(totalProfitUSD)} <span class="text-sm font-normal text-slate-500">USD</span>`, color: 'text-blue-400', icon: 'trending-up' },
+        { label: 'Indodax Profit', value: `${fmt(totalProfitIDR)} <span class="text-sm font-normal text-slate-500"></span>`, color: 'text-emerald-400', icon: 'trending-up' },
+        { label: 'Binance Profit', value: `${fmt(totalProfitUSD)} <span class="text-sm font-normal text-slate-500"></span>`, color: 'text-blue-400', icon: 'trending-up' },
         // { label: 'Avg. ROI', value: `${fmt(avgRoi, 4)}%`, color: 'text-white' } // Removed as we don't have this in agg stats yet
     ];
 
