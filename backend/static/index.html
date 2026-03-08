@@ -136,18 +136,18 @@
 
                     <div class="space-y-4">
                         <div>
-                            <label class="block text-sm font-medium text-gray-400 mb-1">Investment Amount (USD)</label>
+                            <label class="block text-sm font-medium text-gray-400 mb-1">Trading Fee (%)</label>
                             <div class="flex gap-2">
-                                <input type="number" id="binance-amount" value="5"
+                                <input type="number" id="binance-fee" value="0.001" step="0.0001"
                                     class="bg-gray-900 border border-gray-700 rounded-lg px-3 py-2 text-white w-full focus:outline-none focus:border-blue-500">
                                 <button onclick="updateConfig('binance')"
                                     class="px-3 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg text-sm">Save</button>
                             </div>
                         </div>
                         <div>
-                            <label class="block text-sm font-medium text-gray-400 mb-1">Trading Fee (%)</label>
+                            <label class="block text-sm font-medium text-gray-400 mb-1">Initial Amount</label>
                             <div class="flex gap-2">
-                                <input type="number" id="binance-fee" value="0" step="0.01"
+                                <input type="number" id="binance-amount"
                                     class="bg-gray-900 border border-gray-700 rounded-lg px-3 py-2 text-white w-full focus:outline-none focus:border-blue-500">
                                 <button onclick="updateConfig('binance')"
                                     class="px-3 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg text-sm">Save</button>
@@ -184,15 +184,6 @@
 
                     <div class="space-y-4">
                         <div>
-                            <label class="block text-sm font-medium text-gray-400 mb-1">Initial Amount (IDR)</label>
-                            <div class="flex gap-2">
-                                <input type="number" id="indodax-amount" value="50000"
-                                    class="bg-gray-900 border border-gray-700 rounded-lg px-3 py-2 text-white w-full focus:outline-none focus:border-blue-500">
-                                <button onclick="updateConfig('indodax')"
-                                    class="px-3 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg text-sm">Save</button>
-                            </div>
-                        </div>
-                        <div>
                             <label class="block text-sm font-medium text-gray-400 mb-1">Trading Fee (%)</label>
                             <div class="flex gap-2">
                                 <input type="number" id="indodax-fee" value="0.3" step="0.01"
@@ -201,6 +192,17 @@
                                     class="px-3 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg text-sm">Save</button>
                             </div>
                         </div>
+
+                        <div>
+                            <label class="block text-sm font-medium text-gray-400 mb-1">Initial Amount</label>
+                            <div class="flex gap-2">
+                                <input type="number" id="indodax-amount"
+                                    class="bg-gray-900 border border-gray-700 rounded-lg px-3 py-2 text-white w-full focus:outline-none focus:border-blue-500">
+                                <button onclick="updateConfig('indodax')"
+                                    class="px-3 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg text-sm">Save</button>
+                            </div>
+                        </div>
+
                         <div class="bg-gray-900 rounded-lg p-3 border border-gray-700">
                             <p class="text-xs text-gray-500 uppercase mb-1">Last Message</p>
                             <p id="indodax-msg" class="text-sm text-gray-300 font-mono truncate">Waiting for status...
@@ -287,7 +289,7 @@
             <h3 class="text-xl font-bold text-white mb-4">Confirm Configuration</h3>
             <div class="space-y-4 mb-6">
                 <div class="bg-gray-900/50 p-4 rounded-lg border border-gray-700/50">
-                    <p class="text-sm text-gray-400 mb-1">Investment Amount</p>
+                    <p class="text-sm text-gray-400 mb-1">Initial Amount</p>
                     <p id="modal-amount" class="text-lg font-mono text-white font-bold">--</p>
                 </div>
                 <div class="bg-gray-900/50 p-4 rounded-lg border border-gray-700/50">

@@ -19,8 +19,8 @@ class BinanceBot:
     def __init__(self):
         self.is_running = False
         self.thread = None
-        self.investment_amount_usd = 5 # Default
-        self.fee = 0.001 # Default 0.1%
+        self.initial_amount = 10000000000 # Default 10M
+        self.fee = 0.00001 # Default 0.001%
         self.status_message = "Stopped"
         self.session_file = None
 
@@ -52,7 +52,7 @@ class BinanceBot:
         return {
             "running": self.is_running,
             "message": self.status_message,
-            "investment_amount": self.investment_amount_usd,
+            "initial_amount": self.initial_amount,
             "fee": self.fee
         }
 
@@ -76,7 +76,7 @@ class BinanceBot:
                     if not self.is_running:
                         break
 
-                    result_surface = surf_rate.find_arb_opportunity_surf(pair, self.investment_amount_usd)
+                    result_surface = surf_rate.find_arb_opportunity_surf(pair, self.initial_amount)
 
                     if len(result_surface) > 0:
                         foundAt = datetime.datetime.now()
@@ -97,7 +97,7 @@ class BinanceBot:
                                 "trade_desc_2": result_surface["trade_desc_2"],
                                 "trade_desc_3": result_surface["trade_desc_3"],
                                 "starting_amount": result_surface["starting_amount"],
-                                "investment_amount_usd": result_surface["investment_amount_usd"],
+                                "initial_amount": result_surface["initial_amount"],
                                 "profit_loss": result_depth["profit_loss"],
                                 "real_rate_percentage": result_depth["real_rate_percentage"],
                                 "gross_depth_balance": result_depth.get("gross_depth_balance", 0),

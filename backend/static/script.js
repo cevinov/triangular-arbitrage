@@ -47,7 +47,7 @@ function updateCard(exchange, data) {
     // Only update input if not focused (to avoid overwriting user typing)
     if (document.activeElement !== amountEl) {
         if (exchange === 'binance') {
-            amountEl.value = data.investment_amount;
+            amountEl.value = data.initial_amount;
             if (feeEl && document.activeElement !== feeEl) {
                 feeEl.value = data.fee * 100; // Convert to percentage
             }
