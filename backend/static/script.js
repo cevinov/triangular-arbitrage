@@ -91,7 +91,7 @@ function showConfirmModal(exchange, amount, fee) {
         if (exchange === 'binance') {
             amountDisplay.innerText = `$${amount}`;
         } else {
-            amountDisplay.innerText = `${amount.toLocaleString()} IDR`;
+            amountDisplay.innerText = `${amount.toLocaleString()} Coin`;
         }
     } else {
         amountDisplay.innerText = 'Unchanged';
