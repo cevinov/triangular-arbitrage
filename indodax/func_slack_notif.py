@@ -25,7 +25,7 @@ def arb_notif(exchange, result):
     acq3 = result["acquired_coin_t3"]
     acq_unit3 = c3[0] if d3 == "buy" else c3[1]
 
-    start_amt = result["starting_amount"]
+    initial_amt = result["initial_amount"]
     final_bal = result["final_balance"]
     profit = result["profit_loss"]
     rate_pct = result["real_rate_percentage"]
@@ -67,7 +67,7 @@ def arb_notif(exchange, result):
                     "type": "section",
                     "text": {
                         "type": "mrkdwn",
-                        "text": f"*📊 Summary*\n• *Starting Amount:* `{start_amt:,.0f}` IDR\n• *Final Balance:* `{final_bal:,.0f}` IDR\n• *Profit:* `+{profit:,.0f}` IDR\n• *Rate:* `{rate_pct:.2f}%`\n• *Fee:* `{result.get('fee', 'N/A')}`\n• *Found At:* {timestamp}"
+                        "text": f"*📊 Summary*\n• *Initial Amount:* `{initial_amt:,.0f}`\n• *Final Balance:* `{final_bal:,.0f}` IDR\n• *Profit:* `+{profit:,.0f}` IDR\n• *Rate:* `{rate_pct:.2f}%`\n• *Fee:* `{result.get('fee', 'N/A')}`\n• *Found At:* {timestamp}"
                     }
                 },
                 {
