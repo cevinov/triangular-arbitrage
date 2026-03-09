@@ -21,7 +21,7 @@ def arb_notif(exchange, result):
                     "fields": [
                         {"type": "mrkdwn", "text": f"*Exchange:*\n{exchange}"},
                         {"type": "mrkdwn", "text": f"*Found At:*\n{result['foundAt']}"},
-                        {"type": "mrkdwn", "text": f"*Initial Amount (Coin):*\n${result.get('initial_amount', 'N/A')}"},
+                        {"type": "mrkdwn", "text": f"*Initial Amount (Coin):*\n{result.get('initial_amount', 'N/A')}"},
                         {"type": "mrkdwn", "text": f"*Final Amount:*\n{result['acquired_coin_t3']}"},
                         {"type": "mrkdwn", "text": f"*Profit/Loss:*\n{result['profit_loss']}"},
                         {"type": "mrkdwn", "text": f"*Real Rate %:*\n{result['real_rate_percentage']}%"},
@@ -80,9 +80,9 @@ def arb_notif(exchange, result):
                     "fields": [
                         {"type": "mrkdwn", "text": f"*Exchange:*\n{exchange}"},
                         {"type": "mrkdwn", "text": f"*Found At:*\n{result.get('foundAt', 'N/A')}"},
-                        {"type": "mrkdwn", "text": f"*Starting Amount:*\n{result.get('starting_amount', 'N/A')} IDR"},
-                        {"type": "mrkdwn", "text": f"*Final Amount:*\n{result.get('final_balance', 'N/A')} IDR"},
-                        {"type": "mrkdwn", "text": f"*Profit:*\n{result.get('profit_loss', 'N/A')} IDR ({result.get('real_rate_percentage', 'N/A')}%)"},
+                        {"type": "mrkdwn", "text": f"*Initial Amount:*\n{result.get('initial_amount', 'N/A')}"},
+                        {"type": "mrkdwn", "text": f"*Final Amount:*\n{result.get('final_balance', 'N/A')}"},
+                        {"type": "mrkdwn", "text": f"*Profit:*\n{result.get('profit_loss', 'N/A')} ({result.get('real_rate_percentage', 'N/A')}%)"},
                     ]
                 },
                 {"type": "divider"},
